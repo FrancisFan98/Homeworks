@@ -1,0 +1,20 @@
+Molab Export Data 10.vi		Video path	C:\LabData\FFRI1035.mov	MoLab State	1010 Prompt done	14	Rotation	1	Contrast	1.000E+0
+Calibration Data									
+x0	y0	x1	y1	Sin q	Cos q	Cal factor	t0	EU#	EU text
+439.228E+0	1.182E+3	439.228E+0	1.182E+3	1.000E+0	0.000E+0	1.294E-3	0.000E+0	1	m
+Prediction/Fit Data	Equation Text	Eq#	A	B	C	D	E	F					
+x vs t Prediction Equation	f(z) = A + B z	0	0.000E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0
+y vs t Prediction Equation	f(z) = A + B z	0	0.000E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0
+Vx vs t Prediction Equation	f(z) = A + B z	0	0.000E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0
+Vy vs t Prediction Equation	f(z) = A + B z	0	0.000E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0
+x vs t Fit Equation	f(z) = A + B z	0	0.000E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0
+y vs t Fit Equation	f(z) = A + B z + C z^2	1	6.959E+0	-11.741E+0	3.333E+0	0.000E+0	0.000E+0	0.000E+0
+Vx vs t Fit Equation	f(z) = A + B z	0	0.000E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0
+Vy vs t Fit Equation	f(z) = A + B z	0	-12.300E+0	7.600E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0
+Aquired Data													
+t Seconds	x position	y position	x pixels	y pixels	tV seconds	x velocity	y velocity						
+616.667E-3	-188.983E-3	975.940E-3	293.143E+0	427.236E+0	633.333E-3	-74.387E-3	-7.527E+0	
+650.000E-3	-191.462E-3	725.050E-3	291.226E+0	621.176E+0	666.667E-3	-123.978E-3	-7.255E+0	
+683.333E-3	-195.595E-3	483.223E-3	288.032E+0	808.110E+0	700.000E-3	-49.591E-3	-7.107E+0	
+716.667E-3	-197.248E-3	246.339E-3	286.754E+0	991.223E+0	733.333E-3	-49.591E-3	-6.612E+0	
+750.000E-3	-198.901E-3	25.935E-3	285.476E+0	1.162E+3				

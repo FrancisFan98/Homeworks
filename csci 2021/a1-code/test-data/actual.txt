@@ -1,0 +1,12 @@
+BST Demo
+Commands:
+  print:          shows contents of the tree in sorted order
+  show:           shows contents in pre-order indicating its structure
+  clear:          eliminates all elements from the tree
+  quit:           exit the program
+  add <name>:     inserts the given string into the tree, duplicates ignored
+  find <name>:    prints FOUND if the name is in the tree, NOT FOUND otherwise
+  save <file>:    writes the contents of the tree in post order to the given file
+  load <file>:    clears the current tree and loads the one in the given file
+BST> print 
+BST> quit 

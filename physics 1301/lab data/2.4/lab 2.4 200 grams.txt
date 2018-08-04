@@ -1,0 +1,26 @@
+Molab Export Data 10.vi		Video path	\\Files.umn.edu\cse\UmSaveDocs\fanxx495\Desktop\UCPG2239.mov	MoLab State	1010 Prompt done	14	Rotation	0	Contrast	1.000E+0
+Calibration Data									
+x0	y0	x1	y1	Sin q	Cos q	Cal factor	t0	EU#	EU text
+229.053E+0	452.135E+0	1.270E+3	468.315E+0	999.879E-3	15.540E-3	93.343E-3	141.667E-3	2	cm
+Prediction/Fit Data	Equation Text	Eq#	A	B	C	D	E	F					
+x vs t Prediction Equation	f(z) = A + B z	0	0.000E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0
+y vs t Prediction Equation	f(z) = A + B z	0	0.000E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0
+Vx vs t Prediction Equation	f(z) = A + B z	0	0.000E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0
+Vy vs t Prediction Equation	f(z) = A + B z	0	0.000E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0
+x vs t Fit Equation	f(z) = A + B z + C z^2	1	-5.000E+0	-9.000E+0	99.000E+0	0.000E+0	0.000E+0	0.000E+0
+y vs t Fit Equation	f(z) = A + B z	0	0.000E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0
+Vx vs t Fit Equation	f(z) = A + B z	0	-27.000E+0	243.000E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0
+Vy vs t Fit Equation	f(z) = A + B z	0	0.000E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0	0.000E+0
+Aquired Data													
+t Seconds	x position	y position	x pixels	y pixels	tV seconds	x velocity	y velocity						
+158.333E-3	-3.919E+0	2.265E+0	187.451E+0	427.220E+0	204.167E-3	24.158E+0	-544.728E-3	
+250.000E-3	-1.704E+0	2.215E+0	211.163E+0	428.123E+0	295.833E-3	45.894E+0	-1.211E+0	
+341.667E-3	2.503E+0	2.104E+0	256.209E+0	430.013E+0	387.500E-3	68.278E+0	-528.249E-3	
+433.333E-3	8.761E+0	2.056E+0	323.245E+0	431.573E+0	479.167E-3	89.475E+0	1.307E+0	
+525.000E-3	16.963E+0	2.175E+0	411.122E+0	431.655E+0	570.833E-3	113.832E+0	32.826E-3	
+616.667E-3	27.398E+0	2.179E+0	522.896E+0	433.360E+0	662.500E-3	133.434E+0	-578.527E-3	
+708.333E-3	39.629E+0	2.125E+0	653.908E+0	435.965E+0	754.167E-3	157.723E+0	457.735E-3	
+800.000E-3	54.087E+0	2.167E+0	808.785E+0	437.922E+0	845.833E-3	166.430E+0	-1.511E+0	
+891.667E-3	69.343E+0	2.029E+0	972.182E+0	441.945E+0	937.500E-3	165.054E+0	-222.708E-3	
+983.333E-3	84.473E+0	2.009E+0	1.134E+3	444.683E+0	1.029E+0	141.569E+0	1.405E+0	
+1.075E+0	97.450E+0	2.137E+0	1.273E+3	445.463E+0				
