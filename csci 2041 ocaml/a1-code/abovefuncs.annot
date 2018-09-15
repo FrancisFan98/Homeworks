@@ -1,0 +1,365 @@
+"abovefuncs.ml" 1 0 4 "abovefuncs.ml" 1 0 15
+type(
+  'a -> 'a array -> 'a array ref
+)
+ident(
+  def array_above "abovefuncs.ml" 11 188 188 "abovefuncs.ml" 1 0 -1
+)
+"abovefuncs.ml" 1 0 16 "abovefuncs.ml" 1 0 22
+type(
+  'a
+)
+ident(
+  def thresh "abovefuncs.ml" 1 0 23 "abovefuncs.ml" 7 177 182
+)
+"abovefuncs.ml" 1 0 23 "abovefuncs.ml" 1 0 26
+type(
+  'a array
+)
+ident(
+  def arr "abovefuncs.ml" 2 30 32 "abovefuncs.ml" 7 177 182
+)
+"abovefuncs.ml" 2 30 36 "abovefuncs.ml" 2 30 38
+type(
+  'a array ref
+)
+ident(
+  def rs "abovefuncs.ml" 3 54 56 "abovefuncs.ml" 7 177 182
+)
+"abovefuncs.ml" 2 30 41 "abovefuncs.ml" 2 30 44
+type(
+  'a array -> 'a array ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1067 41215 41215 "stdlib.mli" 1067 41215 41259
+)
+"abovefuncs.ml" 2 30 45 "abovefuncs.ml" 2 30 49
+type(
+  'a array
+)
+"abovefuncs.ml" 2 30 41 "abovefuncs.ml" 2 30 49
+type(
+  'a array ref
+)
+"abovefuncs.ml" 3 54 64 "abovefuncs.ml" 3 54 65
+type(
+  int
+)
+"abovefuncs.ml" 3 54 69 "abovefuncs.ml" 3 54 81
+type(
+  'a array -> int
+)
+ident(
+  int_ref Stdlib.Array.length "array.mli" 18 1105 1105 "array.mli" 18 1105 1156
+)
+"abovefuncs.ml" 3 54 82 "abovefuncs.ml" 3 54 85
+type(
+  'a array
+)
+ident(
+  int_ref arr "abovefuncs.ml" 1 0 23 "abovefuncs.ml" 1 0 26
+)
+"abovefuncs.ml" 3 54 69 "abovefuncs.ml" 3 54 85
+type(
+  int
+)
+"abovefuncs.ml" 3 54 86 "abovefuncs.ml" 3 54 87
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 271 10513 10513 "stdlib.mli" 271 10513 10559
+)
+"abovefuncs.ml" 3 54 88 "abovefuncs.ml" 3 54 89
+type(
+  int
+)
+"abovefuncs.ml" 3 54 69 "abovefuncs.ml" 3 54 89
+type(
+  int
+)
+"abovefuncs.ml" 4 94 101 "abovefuncs.ml" 4 94 104
+type(
+  'a array
+)
+ident(
+  int_ref arr "abovefuncs.ml" 1 0 23 "abovefuncs.ml" 1 0 26
+)
+"abovefuncs.ml" 4 94 106 "abovefuncs.ml" 4 94 107
+type(
+  int
+)
+ident(
+  int_ref i "abovefuncs.ml" 3 54 56 "abovefuncs.ml" 6 166 175
+)
+"abovefuncs.ml" 4 94 101 "abovefuncs.ml" 4 94 108
+type(
+  'a
+)
+"abovefuncs.ml" 4 94 109 "abovefuncs.ml" 4 94 110
+type(
+  'a -> 'a -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 74 2992 2992 "stdlib.mli" 74 2992 3042
+)
+"abovefuncs.ml" 4 94 111 "abovefuncs.ml" 4 94 117
+type(
+  'a
+)
+ident(
+  int_ref thresh "abovefuncs.ml" 1 0 16 "abovefuncs.ml" 1 0 22
+)
+"abovefuncs.ml" 4 94 101 "abovefuncs.ml" 4 94 117
+type(
+  bool
+)
+"abovefuncs.ml" 5 123 129 "abovefuncs.ml" 5 123 131
+type(
+  'a array ref
+)
+ident(
+  int_ref rs "abovefuncs.ml" 2 30 36 "abovefuncs.ml" 2 30 38
+)
+"abovefuncs.ml" 5 123 132 "abovefuncs.ml" 5 123 134
+type(
+  'a array ref -> 'a array -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1075 41507 41507 "stdlib.mli" 1075 41507 41560
+)
+"abovefuncs.ml" 5 123 136 "abovefuncs.ml" 5 123 148
+type(
+  'a array -> 'a array -> 'a array
+)
+ident(
+  int_ref Stdlib.Array.append "array.mli" 91 4328 4328 "array.mli" 91 4328 4373
+)
+"abovefuncs.ml" 5 123 149 "abovefuncs.ml" 5 123 150
+type(
+  'a array ref -> 'a array
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1070 41321 41321 "stdlib.mli" 1070 41321 41362
+)
+"abovefuncs.ml" 5 123 150 "abovefuncs.ml" 5 123 152
+type(
+  'a array ref
+)
+ident(
+  int_ref rs "abovefuncs.ml" 2 30 36 "abovefuncs.ml" 2 30 38
+)
+"abovefuncs.ml" 5 123 149 "abovefuncs.ml" 5 123 152
+type(
+  'a array
+)
+"abovefuncs.ml" 5 123 155 "abovefuncs.ml" 5 123 158
+type(
+  'a array
+)
+ident(
+  int_ref arr "abovefuncs.ml" 1 0 23 "abovefuncs.ml" 1 0 26
+)
+"abovefuncs.ml" 5 123 160 "abovefuncs.ml" 5 123 161
+type(
+  int
+)
+ident(
+  int_ref i "abovefuncs.ml" 3 54 56 "abovefuncs.ml" 6 166 175
+)
+"abovefuncs.ml" 5 123 155 "abovefuncs.ml" 5 123 162
+type(
+  'a
+)
+"abovefuncs.ml" 5 123 153 "abovefuncs.ml" 5 123 164
+type(
+  'a array
+)
+"abovefuncs.ml" 5 123 135 "abovefuncs.ml" 5 123 165
+call(
+  stack
+)
+type(
+  'a array
+)
+"abovefuncs.ml" 5 123 129 "abovefuncs.ml" 5 123 165
+type(
+  unit
+)
+"abovefuncs.ml" 4 94 98 "abovefuncs.ml" 5 123 165
+type(
+  unit
+)
+"abovefuncs.ml" 3 54 56 "abovefuncs.ml" 6 166 175
+type(
+  unit
+)
+"abovefuncs.ml" 7 177 180 "abovefuncs.ml" 7 177 182
+type(
+  'a array ref
+)
+ident(
+  int_ref rs "abovefuncs.ml" 2 30 36 "abovefuncs.ml" 2 30 38
+)
+"abovefuncs.ml" 3 54 56 "abovefuncs.ml" 7 177 182
+type(
+  'a array ref
+)
+"abovefuncs.ml" 2 30 32 "abovefuncs.ml" 7 177 182
+type(
+  'a array ref
+)
+"abovefuncs.ml" 11 188 196 "abovefuncs.ml" 11 188 206
+type(
+  'a -> 'a list -> 'a list
+)
+ident(
+  def list_above "abovefuncs.ml" 11 188 188 "abovefuncs.ml" 1 0 -1
+)
+"abovefuncs.ml" 11 188 207 "abovefuncs.ml" 11 188 213
+type(
+  'a
+)
+ident(
+  def thresh "abovefuncs.ml" 11 188 214 "abovefuncs.ml" 14 254 335
+)
+"abovefuncs.ml" 11 188 214 "abovefuncs.ml" 11 188 217
+type(
+  'a list
+)
+ident(
+  def lst "abovefuncs.ml" 12 221 224 "abovefuncs.ml" 14 254 335
+)
+"abovefuncs.ml" 12 221 230 "abovefuncs.ml" 12 221 233
+type(
+  'a list
+)
+ident(
+  int_ref lst "abovefuncs.ml" 11 188 214 "abovefuncs.ml" 11 188 217
+)
+"abovefuncs.ml" 13 240 245 "abovefuncs.ml" 13 240 247
+type(
+  'a list
+)
+"abovefuncs.ml" 13 240 251 "abovefuncs.ml" 13 240 253
+type(
+  'a list
+)
+"abovefuncs.ml" 14 254 259 "abovefuncs.ml" 14 254 260
+type(
+  'a
+)
+ident(
+  def h "abovefuncs.ml" 14 254 267 "abovefuncs.ml" 14 254 335
+)
+"abovefuncs.ml" 14 254 262 "abovefuncs.ml" 14 254 263
+type(
+  'a list
+)
+ident(
+  def t "abovefuncs.ml" 14 254 267 "abovefuncs.ml" 14 254 335
+)
+"abovefuncs.ml" 14 254 259 "abovefuncs.ml" 14 254 263
+type(
+  'a list
+)
+"abovefuncs.ml" 14 254 270 "abovefuncs.ml" 14 254 271
+type(
+  'a
+)
+ident(
+  int_ref h "abovefuncs.ml" 14 254 259 "abovefuncs.ml" 14 254 260
+)
+"abovefuncs.ml" 14 254 272 "abovefuncs.ml" 14 254 273
+type(
+  'a -> 'a -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 74 2992 2992 "stdlib.mli" 74 2992 3042
+)
+"abovefuncs.ml" 14 254 274 "abovefuncs.ml" 14 254 280
+type(
+  'a
+)
+ident(
+  int_ref thresh "abovefuncs.ml" 11 188 207 "abovefuncs.ml" 11 188 213
+)
+"abovefuncs.ml" 14 254 270 "abovefuncs.ml" 14 254 280
+type(
+  bool
+)
+"abovefuncs.ml" 14 254 286 "abovefuncs.ml" 14 254 287
+type(
+  'a
+)
+ident(
+  int_ref h "abovefuncs.ml" 14 254 259 "abovefuncs.ml" 14 254 260
+)
+"abovefuncs.ml" 14 254 290 "abovefuncs.ml" 14 254 300
+type(
+  'a -> 'a list -> 'a list
+)
+ident(
+  int_ref list_above "abovefuncs.ml" 11 188 196 "abovefuncs.ml" 11 188 206
+)
+"abovefuncs.ml" 14 254 301 "abovefuncs.ml" 14 254 307
+type(
+  'a
+)
+ident(
+  int_ref thresh "abovefuncs.ml" 11 188 207 "abovefuncs.ml" 11 188 213
+)
+"abovefuncs.ml" 14 254 308 "abovefuncs.ml" 14 254 309
+type(
+  'a list
+)
+ident(
+  int_ref t "abovefuncs.ml" 14 254 262 "abovefuncs.ml" 14 254 263
+)
+"abovefuncs.ml" 14 254 289 "abovefuncs.ml" 14 254 310
+call(
+  stack
+)
+type(
+  'a list
+)
+"abovefuncs.ml" 14 254 286 "abovefuncs.ml" 14 254 310
+type(
+  'a list
+)
+"abovefuncs.ml" 14 254 316 "abovefuncs.ml" 14 254 326
+type(
+  'a -> 'a list -> 'a list
+)
+ident(
+  int_ref list_above "abovefuncs.ml" 11 188 196 "abovefuncs.ml" 11 188 206
+)
+"abovefuncs.ml" 14 254 327 "abovefuncs.ml" 14 254 333
+type(
+  'a
+)
+ident(
+  int_ref thresh "abovefuncs.ml" 11 188 207 "abovefuncs.ml" 11 188 213
+)
+"abovefuncs.ml" 14 254 334 "abovefuncs.ml" 14 254 335
+type(
+  'a list
+)
+ident(
+  int_ref t "abovefuncs.ml" 14 254 262 "abovefuncs.ml" 14 254 263
+)
+"abovefuncs.ml" 14 254 316 "abovefuncs.ml" 14 254 335
+call(
+  tail
+)
+type(
+  'a list
+)
+"abovefuncs.ml" 14 254 267 "abovefuncs.ml" 14 254 335
+type(
+  'a list
+)
+"abovefuncs.ml" 12 221 224 "abovefuncs.ml" 14 254 335
+type(
+  'a list
+)

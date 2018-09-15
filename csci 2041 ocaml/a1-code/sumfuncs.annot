@@ -1,0 +1,251 @@
+"sumfuncs.ml" 1 0 4 "sumfuncs.ml" 1 0 13
+type(
+  int array -> int
+)
+ident(
+  def array_sum "sumfuncs.ml" 11 130 130 "sumfuncs.ml" 1 0 -1
+)
+"sumfuncs.ml" 1 0 14 "sumfuncs.ml" 1 0 17
+type(
+  int array
+)
+ident(
+  def arr "sumfuncs.ml" 2 21 23 "sumfuncs.ml" 6 110 123
+)
+"sumfuncs.ml" 2 21 27 "sumfuncs.ml" 2 21 29
+type(
+  int ref
+)
+ident(
+  def rs "sumfuncs.ml" 3 41 43 "sumfuncs.ml" 6 110 123
+)
+"sumfuncs.ml" 2 21 32 "sumfuncs.ml" 2 21 35
+type(
+  int -> int ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1067 41215 41215 "stdlib.mli" 1067 41215 41259
+)
+"sumfuncs.ml" 2 21 36 "sumfuncs.ml" 2 21 37
+type(
+  int
+)
+"sumfuncs.ml" 2 21 32 "sumfuncs.ml" 2 21 37
+type(
+  int ref
+)
+"sumfuncs.ml" 3 41 49 "sumfuncs.ml" 3 41 50
+type(
+  int
+)
+"sumfuncs.ml" 3 41 54 "sumfuncs.ml" 3 41 66
+type(
+  int array -> int
+)
+ident(
+  int_ref Stdlib.Array.length "array.mli" 18 1105 1105 "array.mli" 18 1105 1156
+)
+"sumfuncs.ml" 3 41 67 "sumfuncs.ml" 3 41 70
+type(
+  int array
+)
+ident(
+  int_ref arr "sumfuncs.ml" 1 0 14 "sumfuncs.ml" 1 0 17
+)
+"sumfuncs.ml" 3 41 54 "sumfuncs.ml" 3 41 70
+type(
+  int
+)
+"sumfuncs.ml" 3 41 71 "sumfuncs.ml" 3 41 72
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 271 10513 10513 "stdlib.mli" 271 10513 10559
+)
+"sumfuncs.ml" 3 41 72 "sumfuncs.ml" 3 41 73
+type(
+  int
+)
+"sumfuncs.ml" 3 41 54 "sumfuncs.ml" 3 41 73
+type(
+  int
+)
+"sumfuncs.ml" 4 78 82 "sumfuncs.ml" 4 78 84
+type(
+  int ref
+)
+ident(
+  int_ref rs "sumfuncs.ml" 2 21 27 "sumfuncs.ml" 2 21 29
+)
+"sumfuncs.ml" 4 78 85 "sumfuncs.ml" 4 78 87
+type(
+  int ref -> int -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1075 41507 41507 "stdlib.mli" 1075 41507 41560
+)
+"sumfuncs.ml" 4 78 88 "sumfuncs.ml" 4 78 89
+type(
+  int ref -> int
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1070 41321 41321 "stdlib.mli" 1070 41321 41362
+)
+"sumfuncs.ml" 4 78 89 "sumfuncs.ml" 4 78 91
+type(
+  int ref
+)
+ident(
+  int_ref rs "sumfuncs.ml" 2 21 27 "sumfuncs.ml" 2 21 29
+)
+"sumfuncs.ml" 4 78 88 "sumfuncs.ml" 4 78 91
+type(
+  int
+)
+"sumfuncs.ml" 4 78 92 "sumfuncs.ml" 4 78 93
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 267 10384 10384 "stdlib.mli" 267 10384 10430
+)
+"sumfuncs.ml" 4 78 94 "sumfuncs.ml" 4 78 97
+type(
+  int array
+)
+ident(
+  int_ref arr "sumfuncs.ml" 1 0 14 "sumfuncs.ml" 1 0 17
+)
+"sumfuncs.ml" 4 78 99 "sumfuncs.ml" 4 78 100
+type(
+  int
+)
+ident(
+  int_ref i "sumfuncs.ml" 3 41 43 "sumfuncs.ml" 5 102 108
+)
+"sumfuncs.ml" 4 78 94 "sumfuncs.ml" 4 78 101
+type(
+  int
+)
+"sumfuncs.ml" 4 78 88 "sumfuncs.ml" 4 78 101
+type(
+  int
+)
+"sumfuncs.ml" 4 78 82 "sumfuncs.ml" 4 78 101
+type(
+  unit
+)
+"sumfuncs.ml" 3 41 43 "sumfuncs.ml" 5 102 108
+type(
+  unit
+)
+"sumfuncs.ml" 6 110 112 "sumfuncs.ml" 6 110 114
+type(
+  int ref
+)
+ident(
+  int_ref rs "sumfuncs.ml" 2 21 27 "sumfuncs.ml" 2 21 29
+)
+"sumfuncs.ml" 6 110 112 "sumfuncs.ml" 6 110 123
+type(
+  int
+)
+"sumfuncs.ml" 3 41 43 "sumfuncs.ml" 6 110 123
+type(
+  int
+)
+"sumfuncs.ml" 2 21 23 "sumfuncs.ml" 6 110 123
+type(
+  int
+)
+"sumfuncs.ml" 11 130 138 "sumfuncs.ml" 11 130 146
+type(
+  int list -> int
+)
+ident(
+  def list_sum "sumfuncs.ml" 11 130 130 "sumfuncs.ml" 1 0 -1
+)
+"sumfuncs.ml" 11 130 147 "sumfuncs.ml" 11 130 150
+type(
+  int list
+)
+ident(
+  def lst "sumfuncs.ml" 12 154 157 "sumfuncs.ml" 14 186 213
+)
+"sumfuncs.ml" 12 154 163 "sumfuncs.ml" 12 154 166
+type(
+  int list
+)
+ident(
+  int_ref lst "sumfuncs.ml" 11 130 147 "sumfuncs.ml" 11 130 150
+)
+"sumfuncs.ml" 13 173 178 "sumfuncs.ml" 13 173 180
+type(
+  int list
+)
+"sumfuncs.ml" 13 173 184 "sumfuncs.ml" 13 173 185
+type(
+  int
+)
+"sumfuncs.ml" 14 186 191 "sumfuncs.ml" 14 186 192
+type(
+  int
+)
+ident(
+  def h "sumfuncs.ml" 14 186 199 "sumfuncs.ml" 14 186 213
+)
+"sumfuncs.ml" 14 186 194 "sumfuncs.ml" 14 186 195
+type(
+  int list
+)
+ident(
+  def t "sumfuncs.ml" 14 186 199 "sumfuncs.ml" 14 186 213
+)
+"sumfuncs.ml" 14 186 191 "sumfuncs.ml" 14 186 195
+type(
+  int list
+)
+"sumfuncs.ml" 14 186 199 "sumfuncs.ml" 14 186 200
+type(
+  int
+)
+ident(
+  int_ref h "sumfuncs.ml" 14 186 191 "sumfuncs.ml" 14 186 192
+)
+"sumfuncs.ml" 14 186 201 "sumfuncs.ml" 14 186 202
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 267 10384 10384 "stdlib.mli" 267 10384 10430
+)
+"sumfuncs.ml" 14 186 203 "sumfuncs.ml" 14 186 211
+type(
+  int list -> int
+)
+ident(
+  int_ref list_sum "sumfuncs.ml" 11 130 138 "sumfuncs.ml" 11 130 146
+)
+"sumfuncs.ml" 14 186 212 "sumfuncs.ml" 14 186 213
+type(
+  int list
+)
+ident(
+  int_ref t "sumfuncs.ml" 14 186 194 "sumfuncs.ml" 14 186 195
+)
+"sumfuncs.ml" 14 186 203 "sumfuncs.ml" 14 186 213
+call(
+  stack
+)
+type(
+  int
+)
+"sumfuncs.ml" 14 186 199 "sumfuncs.ml" 14 186 213
+type(
+  int
+)
+"sumfuncs.ml" 12 154 157 "sumfuncs.ml" 14 186 213
+type(
+  int
+)
