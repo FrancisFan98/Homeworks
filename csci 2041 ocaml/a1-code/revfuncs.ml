@@ -3,7 +3,9 @@ let array_rev arr =
   for i = 0 to Array.length arr - 1 do
     rs := Array.append [|arr.(i)|] !rs 
   done;
-  rs
+  for i = 0 to Array.length arr - 1 do
+    arr.(i) <- !rs.(i)
+  done;
 ;;
 
 
