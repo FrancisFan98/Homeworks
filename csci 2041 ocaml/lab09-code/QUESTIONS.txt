@@ -1,0 +1,132 @@
+                           __________________
+
+                            LAB 09 QUESTIONS
+                           __________________
+
+
+- Name: (Zhenyu Fan)
+- NetID: (fanxx495)
+
+Answer the questions below according to the lab specification. Write
+your answers directly in this text file and submit it to complete the
+lab.
+
+
+PROBLEM 1: Memfunc1 Module
+==========================
+
+(A)
+~~~
+
+  Examine `memfunc1.ml' and answer the following questions.
+  1. What is the name of the functor defined in the module?
+  2. Like all functors, this one takes a parameter module. What bindings
+     must the parameter module have according to its signature?
+  3. The module that is created by the functor has several internal
+     bindings but only one of them is publicly visible. What is it and
+     how is this visibility control enforced?
+
+	Memoize
+	It has a function that takes in a arg_t and return a ret_t
+	only call function because it is the only one defined in the signature.
+	
+
+
+(B)
+~~~
+
+  As in any other place a module is being defined, functors can
+  establish nested modules.  The functor in `Memfunc1' creates two
+  nested modules within its body.  Describe these two modules providing
+  their names and what their purpose appears to be. Describe how
+  bindings of the parameter module are used in these nested modules.
+
+	the first layer is memoize and the second level is Map.make
+	It appears that in this way, we can both establish our own type and their related functions and uses the library functions of Map.
+	
+	it creates a new MapInterface module within the Memoize module and passes it as a parameter module into Map.make.  
+
+
+(C)
+~~~
+
+  Analyze the bindings for `arg_ret_map' and the function `call'.
+  Describe how these are used in conjunction the a function carried by
+  the parameter module.
+
+	ret_opt is found by the function defined in Map.find_opt.
+	Then we match ret_opt, if it is None, we generate a new value by FuncMod.func and add it to the map and return it. 	
+
+
+PROBLEM 2: fib Program
+======================
+
+(A)
+~~~
+
+  Examine the first section of the provided `fib.ml' file. Describe how
+  the functor in `memfunc1.ml' is used at the top of `fib.ml'. Include a
+  description of how the parameter module to the functor is created.
+
+	It is used by first creating a FibFunc interface and pass it into Memfunc1.Memoize. The parameter function has arg_t and ret_T both as integer and 2 functions fib and compare_arg as -
+
+
+(B)
+~~~
+
+  The main intent of the program in `fib.ml' is to compare the amount of
+  time it takes to make repeated calls to the `fib' function versus a
+  memoized version of it in `MemoFib.call'.  Analyze the main code for
+  the program.
+  1. Identify where calls to `fib' and `MemoFib.func' are made.
+  2. Identify where the results of these calls are stored.
+  3. Describe what function is used to gather timing information on how
+     long the repeated function calls take.
+
+	line 43 and 52
+	farr and map
+	sys.time() 
+
+(C)
+~~~
+
+  Use `ocamlc' to Compile and run the `fib.ml' program together with its
+  dependency `memfunc1.ml'. Run the resulting program with and paste in
+  the output in the space below.
+
+
+  Note that the program requires command line argument, an integer. Use
+  30 as the parameter.
+
+	Running loops on fib/mem functions
+	fib time: 0.1134 secs
+	mem time: 0.1114 secs
+
+	Re-running loops on fib/mem again
+	fib time: 0.1177 secs
+	mem time: 0.0000 secs
+
+
+(D)
+~~~
+
+  Describe why the time to run `fib' and `MemoFib.call' are very similar
+  in the first timing loop but drastically different in the second
+  timing loop. Relate your answer to the internal workings of the
+  `Memofunc1.Memoize' functor.
+
+	Because at first, there is no calculations stored in the Map so the do the same thing. The second time for the Map is much faster because it just fetch the data from Map instead of recalculating it. 
+
+
+Optional Enrichment Problems
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  1. We have seen that `MemoFib.call 30' will take some time on the
+     first call but a subsequent call runs in almost no time.  Does this
+     mean that the speed of `MemoFib.call 31' will be shorter as well?
+     Why or why not?
+  2. The functor established in `Memofunc1' works for functions of 1
+     parameter.  How would one go about handling functions of two,
+     three, or four arguments? If one is writing functions to be
+     compatible with memoization, how could one write the functions of
+     multiple arguments so as to avoid the need write more functors?

@@ -1,0 +1,1108 @@
+"undolist.ml" 10 337 341 "undolist.ml" 10 337 350
+type(
+  string list ref
+)
+ident(
+  def curr_list "undolist.ml" 13 417 417 "undolist.ml" 1 0 -1
+)
+"undolist.ml" 10 337 371 "undolist.ml" 10 337 374
+type(
+  string list -> string list ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1067 41215 41215 "stdlib.mli" 1067 41215 41259
+)
+"undolist.ml" 10 337 375 "undolist.ml" 10 337 377
+type(
+  string list
+)
+"undolist.ml" 10 337 371 "undolist.ml" 10 337 377
+type(
+  string list ref
+)
+type(
+  string list ref
+)
+"undolist.ml" 13 417 421 "undolist.ml" 13 417 431
+type(
+  string list list ref
+)
+ident(
+  def undo_stack "undolist.ml" 16 518 518 "undolist.ml" 1 0 -1
+)
+"undolist.ml" 13 417 457 "undolist.ml" 13 417 460
+type(
+  string list list -> string list list ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1067 41215 41215 "stdlib.mli" 1067 41215 41259
+)
+"undolist.ml" 13 417 461 "undolist.ml" 13 417 463
+type(
+  string list list
+)
+"undolist.ml" 13 417 457 "undolist.ml" 13 417 463
+type(
+  string list list ref
+)
+type(
+  string list list ref
+)
+"undolist.ml" 16 518 522 "undolist.ml" 16 518 532
+type(
+  string list list ref
+)
+ident(
+  def redo_stack "undolist.ml" 19 617 617 "undolist.ml" 1 0 -1
+)
+"undolist.ml" 16 518 558 "undolist.ml" 16 518 561
+type(
+  string list list -> string list list ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1067 41215 41215 "stdlib.mli" 1067 41215 41259
+)
+"undolist.ml" 16 518 562 "undolist.ml" 16 518 564
+type(
+  string list list
+)
+"undolist.ml" 16 518 558 "undolist.ml" 16 518 564
+type(
+  string list list ref
+)
+type(
+  string list list ref
+)
+"undolist.ml" 19 617 621 "undolist.ml" 19 617 630
+type(
+  unit -> unit
+)
+ident(
+  def reset_all "undolist.ml" 27 818 818 "undolist.ml" 1 0 -1
+)
+"undolist.ml" 19 617 631 "undolist.ml" 19 617 633
+type(
+  unit
+)
+"undolist.ml" 20 637 640 "undolist.ml" 20 637 649
+type(
+  string list ref
+)
+ident(
+  int_ref curr_list "undolist.ml" 10 337 341 "undolist.ml" 10 337 350
+)
+"undolist.ml" 20 637 650 "undolist.ml" 20 637 652
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1075 41507 41507 "stdlib.mli" 1075 41507 41560
+)
+"undolist.ml" 20 637 653 "undolist.ml" 20 637 655
+type(
+  string list
+)
+"undolist.ml" 20 637 640 "undolist.ml" 20 637 655
+type(
+  unit
+)
+"undolist.ml" 21 657 660 "undolist.ml" 21 657 670
+type(
+  string list list ref
+)
+ident(
+  int_ref undo_stack "undolist.ml" 13 417 421 "undolist.ml" 13 417 431
+)
+"undolist.ml" 21 657 671 "undolist.ml" 21 657 673
+type(
+  string list list ref -> string list list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1075 41507 41507 "stdlib.mli" 1075 41507 41560
+)
+"undolist.ml" 21 657 674 "undolist.ml" 21 657 676
+type(
+  string list list
+)
+"undolist.ml" 21 657 660 "undolist.ml" 21 657 676
+type(
+  unit
+)
+"undolist.ml" 22 678 681 "undolist.ml" 22 678 691
+type(
+  string list list ref
+)
+ident(
+  int_ref redo_stack "undolist.ml" 16 518 522 "undolist.ml" 16 518 532
+)
+"undolist.ml" 22 678 692 "undolist.ml" 22 678 694
+type(
+  string list list ref -> string list list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1075 41507 41507 "stdlib.mli" 1075 41507 41560
+)
+"undolist.ml" 22 678 695 "undolist.ml" 22 678 697
+type(
+  string list list
+)
+"undolist.ml" 22 678 681 "undolist.ml" 22 678 697
+type(
+  unit
+)
+"undolist.ml" 21 657 660 "undolist.ml" 22 678 697
+type(
+  unit
+)
+"undolist.ml" 20 637 640 "undolist.ml" 22 678 697
+type(
+  unit
+)
+"undolist.ml" 27 818 822 "undolist.ml" 27 818 833
+type(
+  string list -> unit
+)
+ident(
+  def set_to_list "undolist.ml" 34 1176 1176 "undolist.ml" 1 0 -1
+)
+"undolist.ml" 27 818 834 "undolist.ml" 27 818 842
+type(
+  string list
+)
+ident(
+  def new_list "undolist.ml" 28 846 849 "undolist.ml" 29 964 988
+)
+"undolist.ml" 28 846 849 "undolist.ml" 28 846 859
+type(
+  string list list ref
+)
+ident(
+  int_ref undo_stack "undolist.ml" 13 417 421 "undolist.ml" 13 417 431
+)
+"undolist.ml" 28 846 860 "undolist.ml" 28 846 862
+type(
+  string list list ref -> string list list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1075 41507 41507 "stdlib.mli" 1075 41507 41560
+)
+"undolist.ml" 28 846 864 "undolist.ml" 28 846 865
+type(
+  string list ref -> string list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1070 41321 41321 "stdlib.mli" 1070 41321 41362
+)
+"undolist.ml" 28 846 865 "undolist.ml" 28 846 874
+type(
+  string list ref
+)
+ident(
+  int_ref curr_list "undolist.ml" 10 337 341 "undolist.ml" 10 337 350
+)
+"undolist.ml" 28 846 864 "undolist.ml" 28 846 874
+type(
+  string list
+)
+"undolist.ml" 28 846 863 "undolist.ml" 28 846 875
+type(
+  string list list
+)
+"undolist.ml" 28 846 875 "undolist.ml" 28 846 876
+type(
+  string list list -> string list list -> string list list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 691 26062 26062 "stdlib.mli" 691 26062 26103
+)
+"undolist.ml" 28 846 877 "undolist.ml" 28 846 878
+type(
+  string list list ref -> string list list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1070 41321 41321 "stdlib.mli" 1070 41321 41362
+)
+"undolist.ml" 28 846 878 "undolist.ml" 28 846 888
+type(
+  string list list ref
+)
+ident(
+  int_ref undo_stack "undolist.ml" 13 417 421 "undolist.ml" 13 417 431
+)
+"undolist.ml" 28 846 876 "undolist.ml" 28 846 889
+type(
+  string list list
+)
+"undolist.ml" 28 846 863 "undolist.ml" 28 846 889
+call(
+  stack
+)
+type(
+  string list list
+)
+"undolist.ml" 28 846 849 "undolist.ml" 28 846 889
+type(
+  unit
+)
+"undolist.ml" 29 964 967 "undolist.ml" 29 964 976
+type(
+  string list ref
+)
+ident(
+  int_ref curr_list "undolist.ml" 10 337 341 "undolist.ml" 10 337 350
+)
+"undolist.ml" 29 964 977 "undolist.ml" 29 964 979
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1075 41507 41507 "stdlib.mli" 1075 41507 41560
+)
+"undolist.ml" 29 964 980 "undolist.ml" 29 964 988
+type(
+  string list
+)
+ident(
+  int_ref new_list "undolist.ml" 27 818 834 "undolist.ml" 27 818 842
+)
+"undolist.ml" 29 964 967 "undolist.ml" 29 964 988
+type(
+  unit
+)
+"undolist.ml" 28 846 849 "undolist.ml" 29 964 988
+type(
+  unit
+)
+"undolist.ml" 34 1176 1180 "undolist.ml" 34 1176 1188
+type(
+  string -> unit
+)
+ident(
+  def add_elem "undolist.ml" 41 1426 1426 "undolist.ml" 1 0 -1
+)
+"undolist.ml" 34 1176 1189 "undolist.ml" 34 1176 1193
+type(
+  string
+)
+ident(
+  def elem "undolist.ml" 35 1197 1200 "undolist.ml" 36 1291 1310
+)
+"undolist.ml" 35 1197 1200 "undolist.ml" 35 1197 1211
+type(
+  string list -> unit
+)
+ident(
+  int_ref set_to_list "undolist.ml" 27 818 822 "undolist.ml" 27 818 833
+)
+"undolist.ml" 35 1197 1213 "undolist.ml" 35 1197 1230
+type(
+  string list -> string -> string list
+)
+ident(
+  int_ref Sortedlist.insert "sortedlist.ml" 1 0 8 "sortedlist.ml" 1 0 14
+)
+"undolist.ml" 35 1197 1231 "undolist.ml" 35 1197 1232
+type(
+  string list ref -> string list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1070 41321 41321 "stdlib.mli" 1070 41321 41362
+)
+"undolist.ml" 35 1197 1232 "undolist.ml" 35 1197 1241
+type(
+  string list ref
+)
+ident(
+  int_ref curr_list "undolist.ml" 10 337 341 "undolist.ml" 10 337 350
+)
+"undolist.ml" 35 1197 1231 "undolist.ml" 35 1197 1241
+type(
+  string list
+)
+"undolist.ml" 35 1197 1242 "undolist.ml" 35 1197 1246
+type(
+  string
+)
+ident(
+  int_ref elem "undolist.ml" 34 1176 1189 "undolist.ml" 34 1176 1193
+)
+"undolist.ml" 35 1197 1212 "undolist.ml" 35 1197 1247
+call(
+  stack
+)
+type(
+  string list
+)
+"undolist.ml" 35 1197 1200 "undolist.ml" 35 1197 1247
+call(
+  stack
+)
+type(
+  unit
+)
+"undolist.ml" 36 1291 1294 "undolist.ml" 36 1291 1304
+type(
+  string list list ref
+)
+ident(
+  int_ref redo_stack "undolist.ml" 16 518 522 "undolist.ml" 16 518 532
+)
+"undolist.ml" 36 1291 1305 "undolist.ml" 36 1291 1307
+type(
+  string list list ref -> string list list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1075 41507 41507 "stdlib.mli" 1075 41507 41560
+)
+"undolist.ml" 36 1291 1308 "undolist.ml" 36 1291 1310
+type(
+  string list list
+)
+"undolist.ml" 36 1291 1294 "undolist.ml" 36 1291 1310
+type(
+  unit
+)
+"undolist.ml" 35 1197 1200 "undolist.ml" 36 1291 1310
+type(
+  unit
+)
+"undolist.ml" 41 1426 1430 "undolist.ml" 41 1426 1441
+type(
+  string -> unit
+)
+ident(
+  def remove_elem "undolist.ml" 56 1875 1875 "undolist.ml" 1 0 -1
+)
+"undolist.ml" 41 1426 1442 "undolist.ml" 41 1426 1446
+type(
+  string
+)
+ident(
+  def elem "undolist.ml" 42 1450 1453 "undolist.ml" 43 1541 1560
+)
+"undolist.ml" 42 1450 1453 "undolist.ml" 42 1450 1464
+type(
+  string list -> unit
+)
+ident(
+  int_ref set_to_list "undolist.ml" 27 818 822 "undolist.ml" 27 818 833
+)
+"undolist.ml" 42 1450 1466 "undolist.ml" 42 1450 1483
+type(
+  string list -> string -> string list
+)
+ident(
+  int_ref Sortedlist.remove "sortedlist.ml" 11 492 500 "sortedlist.ml" 11 492 506
+)
+"undolist.ml" 42 1450 1484 "undolist.ml" 42 1450 1485
+type(
+  string list ref -> string list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1070 41321 41321 "stdlib.mli" 1070 41321 41362
+)
+"undolist.ml" 42 1450 1485 "undolist.ml" 42 1450 1494
+type(
+  string list ref
+)
+ident(
+  int_ref curr_list "undolist.ml" 10 337 341 "undolist.ml" 10 337 350
+)
+"undolist.ml" 42 1450 1484 "undolist.ml" 42 1450 1494
+type(
+  string list
+)
+"undolist.ml" 42 1450 1495 "undolist.ml" 42 1450 1499
+type(
+  string
+)
+ident(
+  int_ref elem "undolist.ml" 41 1426 1442 "undolist.ml" 41 1426 1446
+)
+"undolist.ml" 42 1450 1465 "undolist.ml" 42 1450 1500
+call(
+  stack
+)
+type(
+  string list
+)
+"undolist.ml" 42 1450 1453 "undolist.ml" 42 1450 1500
+call(
+  stack
+)
+type(
+  unit
+)
+"undolist.ml" 43 1541 1544 "undolist.ml" 43 1541 1554
+type(
+  string list list ref
+)
+ident(
+  int_ref redo_stack "undolist.ml" 16 518 522 "undolist.ml" 16 518 532
+)
+"undolist.ml" 43 1541 1555 "undolist.ml" 43 1541 1557
+type(
+  string list list ref -> string list list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1075 41507 41507 "stdlib.mli" 1075 41507 41560
+)
+"undolist.ml" 43 1541 1558 "undolist.ml" 43 1541 1560
+type(
+  string list list
+)
+"undolist.ml" 43 1541 1544 "undolist.ml" 43 1541 1560
+type(
+  unit
+)
+"undolist.ml" 42 1450 1453 "undolist.ml" 43 1541 1560
+type(
+  unit
+)
+"undolist.ml" 56 1875 1879 "undolist.ml" 56 1875 1894
+type(
+  string list -> unit
+)
+ident(
+  def merge_with_list "undolist.ml" 63 2124 2124 "undolist.ml" 1 0 -1
+)
+"undolist.ml" 56 1875 1895 "undolist.ml" 56 1875 1899
+type(
+  string list
+)
+ident(
+  def list "undolist.ml" 57 1903 1906 "undolist.ml" 58 1996 2015
+)
+"undolist.ml" 57 1903 1906 "undolist.ml" 57 1903 1917
+type(
+  string list -> unit
+)
+ident(
+  int_ref set_to_list "undolist.ml" 27 818 822 "undolist.ml" 27 818 833
+)
+"undolist.ml" 57 1903 1919 "undolist.ml" 57 1903 1935
+type(
+  string list -> string list -> string list
+)
+ident(
+  int_ref Sortedlist.merge "sortedlist.ml" 25 855 863 "sortedlist.ml" 25 855 868
+)
+"undolist.ml" 57 1903 1936 "undolist.ml" 57 1903 1940
+type(
+  string list
+)
+ident(
+  int_ref list "undolist.ml" 56 1875 1895 "undolist.ml" 56 1875 1899
+)
+"undolist.ml" 57 1903 1941 "undolist.ml" 57 1903 1942
+type(
+  string list ref -> string list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1070 41321 41321 "stdlib.mli" 1070 41321 41362
+)
+"undolist.ml" 57 1903 1942 "undolist.ml" 57 1903 1951
+type(
+  string list ref
+)
+ident(
+  int_ref curr_list "undolist.ml" 10 337 341 "undolist.ml" 10 337 350
+)
+"undolist.ml" 57 1903 1941 "undolist.ml" 57 1903 1951
+type(
+  string list
+)
+"undolist.ml" 57 1903 1918 "undolist.ml" 57 1903 1952
+call(
+  stack
+)
+type(
+  string list
+)
+"undolist.ml" 57 1903 1906 "undolist.ml" 57 1903 1952
+call(
+  stack
+)
+type(
+  unit
+)
+"undolist.ml" 58 1996 1999 "undolist.ml" 58 1996 2009
+type(
+  string list list ref
+)
+ident(
+  int_ref redo_stack "undolist.ml" 16 518 522 "undolist.ml" 16 518 532
+)
+"undolist.ml" 58 1996 2010 "undolist.ml" 58 1996 2012
+type(
+  string list list ref -> string list list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1075 41507 41507 "stdlib.mli" 1075 41507 41560
+)
+"undolist.ml" 58 1996 2013 "undolist.ml" 58 1996 2015
+type(
+  string list list
+)
+"undolist.ml" 58 1996 1999 "undolist.ml" 58 1996 2015
+type(
+  unit
+)
+"undolist.ml" 57 1903 1906 "undolist.ml" 58 1996 2015
+type(
+  unit
+)
+"undolist.ml" 63 2124 2128 "undolist.ml" 63 2124 2132
+type(
+  unit -> bool
+)
+ident(
+  def undo "undolist.ml" 87 2980 2980 "undolist.ml" 1 0 -1
+)
+"undolist.ml" 63 2124 2133 "undolist.ml" 63 2124 2135
+type(
+  unit
+)
+"undolist.ml" 64 2139 2150 "undolist.ml" 64 2139 2156
+type(
+  string list list -> string list list
+)
+ident(
+  def helper "undolist.ml" 64 2139 2142 "undolist.ml" 79 2672 2676
+)
+"undolist.ml" 64 2139 2157 "undolist.ml" 64 2139 2161
+type(
+  string list list
+)
+ident(
+  def list "undolist.ml" 65 2164 2170 "undolist.ml" 69 2370 2380
+)
+"undolist.ml" 65 2164 2176 "undolist.ml" 65 2164 2180
+type(
+  string list list
+)
+ident(
+  int_ref list "undolist.ml" 64 2139 2157 "undolist.ml" 64 2139 2161
+)
+"undolist.ml" 66 2312 2319 "undolist.ml" 66 2312 2321
+type(
+  string list list
+)
+"undolist.ml" 66 2312 2325 "undolist.ml" 66 2312 2327
+type(
+  string list list
+)
+"undolist.ml" 67 2328 2336 "undolist.ml" 67 2328 2337
+type(
+  string list
+)
+ident(
+  def h "undolist.ml" 68 2345 2354 "undolist.ml" 69 2370 2380
+)
+"undolist.ml" 67 2328 2339 "undolist.ml" 67 2328 2340
+type(
+  string list list
+)
+ident(
+  def t "undolist.ml" 68 2345 2354 "undolist.ml" 69 2370 2380
+)
+"undolist.ml" 67 2328 2336 "undolist.ml" 67 2328 2340
+type(
+  string list list
+)
+"undolist.ml" 68 2345 2354 "undolist.ml" 68 2345 2363
+type(
+  string list ref
+)
+ident(
+  int_ref curr_list "undolist.ml" 10 337 341 "undolist.ml" 10 337 350
+)
+"undolist.ml" 68 2345 2364 "undolist.ml" 68 2345 2366
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1075 41507 41507 "stdlib.mli" 1075 41507 41560
+)
+"undolist.ml" 68 2345 2367 "undolist.ml" 68 2345 2368
+type(
+  string list
+)
+ident(
+  int_ref h "undolist.ml" 67 2328 2336 "undolist.ml" 67 2328 2337
+)
+"undolist.ml" 68 2345 2354 "undolist.ml" 68 2345 2368
+type(
+  unit
+)
+"undolist.ml" 69 2370 2379 "undolist.ml" 69 2370 2380
+type(
+  string list list
+)
+ident(
+  int_ref t "undolist.ml" 67 2328 2339 "undolist.ml" 67 2328 2340
+)
+"undolist.ml" 68 2345 2354 "undolist.ml" 69 2370 2380
+type(
+  string list list
+)
+"undolist.ml" 65 2164 2170 "undolist.ml" 69 2370 2380
+type(
+  string list list
+)
+"undolist.ml" 72 2399 2405 "undolist.ml" 72 2399 2406
+type(
+  string list list ref -> string list list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1070 41321 41321 "stdlib.mli" 1070 41321 41362
+)
+"undolist.ml" 72 2399 2406 "undolist.ml" 72 2399 2416
+type(
+  string list list ref
+)
+ident(
+  int_ref undo_stack "undolist.ml" 13 417 421 "undolist.ml" 13 417 431
+)
+"undolist.ml" 72 2399 2405 "undolist.ml" 72 2399 2416
+type(
+  string list list
+)
+"undolist.ml" 72 2399 2417 "undolist.ml" 72 2399 2419
+type(
+  string list list -> string list list -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 66 2708 2708 "stdlib.mli" 66 2708 2756
+)
+"undolist.ml" 72 2399 2420 "undolist.ml" 72 2399 2422
+type(
+  string list list
+)
+"undolist.ml" 72 2399 2405 "undolist.ml" 72 2399 2422
+type(
+  bool
+)
+"undolist.ml" 73 2430 2436 "undolist.ml" 73 2430 2446
+type(
+  string list list ref
+)
+ident(
+  int_ref redo_stack "undolist.ml" 16 518 522 "undolist.ml" 16 518 532
+)
+"undolist.ml" 73 2430 2447 "undolist.ml" 73 2430 2449
+type(
+  string list list ref -> string list list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1075 41507 41507 "stdlib.mli" 1075 41507 41560
+)
+"undolist.ml" 73 2430 2451 "undolist.ml" 73 2430 2452
+type(
+  string list ref -> string list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1070 41321 41321 "stdlib.mli" 1070 41321 41362
+)
+"undolist.ml" 73 2430 2452 "undolist.ml" 73 2430 2461
+type(
+  string list ref
+)
+ident(
+  int_ref curr_list "undolist.ml" 10 337 341 "undolist.ml" 10 337 350
+)
+"undolist.ml" 73 2430 2451 "undolist.ml" 73 2430 2461
+type(
+  string list
+)
+"undolist.ml" 73 2430 2450 "undolist.ml" 73 2430 2462
+type(
+  string list list
+)
+"undolist.ml" 73 2430 2462 "undolist.ml" 73 2430 2463
+type(
+  string list list -> string list list -> string list list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 691 26062 26062 "stdlib.mli" 691 26062 26103
+)
+"undolist.ml" 73 2430 2464 "undolist.ml" 73 2430 2465
+type(
+  string list list ref -> string list list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1070 41321 41321 "stdlib.mli" 1070 41321 41362
+)
+"undolist.ml" 73 2430 2465 "undolist.ml" 73 2430 2475
+type(
+  string list list ref
+)
+ident(
+  int_ref redo_stack "undolist.ml" 16 518 522 "undolist.ml" 16 518 532
+)
+"undolist.ml" 73 2430 2463 "undolist.ml" 73 2430 2476
+type(
+  string list list
+)
+"undolist.ml" 73 2430 2450 "undolist.ml" 73 2430 2476
+call(
+  stack
+)
+type(
+  string list list
+)
+"undolist.ml" 73 2430 2436 "undolist.ml" 73 2430 2476
+type(
+  unit
+)
+"undolist.ml" 74 2523 2529 "undolist.ml" 74 2523 2539
+type(
+  string list list ref
+)
+ident(
+  int_ref undo_stack "undolist.ml" 13 417 421 "undolist.ml" 13 417 431
+)
+"undolist.ml" 74 2523 2540 "undolist.ml" 74 2523 2542
+type(
+  string list list ref -> string list list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1075 41507 41507 "stdlib.mli" 1075 41507 41560
+)
+"undolist.ml" 74 2523 2543 "undolist.ml" 74 2523 2549
+type(
+  string list list -> string list list
+)
+ident(
+  int_ref helper "undolist.ml" 64 2139 2150 "undolist.ml" 64 2139 2156
+)
+"undolist.ml" 74 2523 2550 "undolist.ml" 74 2523 2551
+type(
+  string list list ref -> string list list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1070 41321 41321 "stdlib.mli" 1070 41321 41362
+)
+"undolist.ml" 74 2523 2551 "undolist.ml" 74 2523 2561
+type(
+  string list list ref
+)
+ident(
+  int_ref undo_stack "undolist.ml" 13 417 421 "undolist.ml" 13 417 431
+)
+"undolist.ml" 74 2523 2550 "undolist.ml" 74 2523 2561
+type(
+  string list list
+)
+"undolist.ml" 74 2523 2543 "undolist.ml" 74 2523 2561
+call(
+  stack
+)
+type(
+  string list list
+)
+"undolist.ml" 74 2523 2529 "undolist.ml" 74 2523 2561
+type(
+  unit
+)
+"undolist.ml" 75 2635 2641 "undolist.ml" 75 2635 2645
+type(
+  bool
+)
+"undolist.ml" 74 2523 2529 "undolist.ml" 75 2635 2645
+type(
+  bool
+)
+"undolist.ml" 72 2399 2428 "undolist.ml" 76 2646 2650
+type(
+  bool
+)
+"undolist.ml" 77 2651 2658 "undolist.ml" 79 2672 2676
+type(
+  bool
+)
+"undolist.ml" 72 2399 2402 "undolist.ml" 79 2672 2676
+type(
+  bool
+)
+"undolist.ml" 64 2139 2142 "undolist.ml" 79 2672 2676
+type(
+  bool
+)
+"undolist.ml" 87 2980 2984 "undolist.ml" 87 2980 2988
+type(
+  unit -> bool
+)
+ident(
+  def redo "undolist.ml" 103 3500 3504 "undolist.ml" 1 0 -1
+)
+"undolist.ml" 87 2980 2989 "undolist.ml" 87 2980 2991
+type(
+  unit
+)
+"undolist.ml" 88 2995 3006 "undolist.ml" 88 2995 3012
+type(
+  string list list -> string list list
+)
+ident(
+  def helper "undolist.ml" 88 2995 2998 "undolist.ml" 103 3500 3504
+)
+"undolist.ml" 88 2995 3013 "undolist.ml" 88 2995 3017
+type(
+  string list list
+)
+ident(
+  def list "undolist.ml" 89 3134 3140 "undolist.ml" 93 3212 3219
+)
+"undolist.ml" 89 3134 3146 "undolist.ml" 89 3134 3150
+type(
+  string list list
+)
+ident(
+  int_ref list "undolist.ml" 88 2995 3013 "undolist.ml" 88 2995 3017
+)
+"undolist.ml" 90 3157 3164 "undolist.ml" 90 3157 3166
+type(
+  string list list
+)
+"undolist.ml" 90 3157 3170 "undolist.ml" 90 3157 3172
+type(
+  string list list
+)
+"undolist.ml" 91 3173 3181 "undolist.ml" 91 3173 3182
+type(
+  string list
+)
+ident(
+  def h "undolist.ml" 92 3190 3196 "undolist.ml" 93 3212 3219
+)
+"undolist.ml" 91 3173 3184 "undolist.ml" 91 3173 3185
+type(
+  string list list
+)
+ident(
+  def t "undolist.ml" 92 3190 3196 "undolist.ml" 93 3212 3219
+)
+"undolist.ml" 91 3173 3181 "undolist.ml" 91 3173 3185
+type(
+  string list list
+)
+"undolist.ml" 92 3190 3196 "undolist.ml" 92 3190 3205
+type(
+  string list ref
+)
+ident(
+  int_ref curr_list "undolist.ml" 10 337 341 "undolist.ml" 10 337 350
+)
+"undolist.ml" 92 3190 3206 "undolist.ml" 92 3190 3208
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1075 41507 41507 "stdlib.mli" 1075 41507 41560
+)
+"undolist.ml" 92 3190 3209 "undolist.ml" 92 3190 3210
+type(
+  string list
+)
+ident(
+  int_ref h "undolist.ml" 91 3173 3181 "undolist.ml" 91 3173 3182
+)
+"undolist.ml" 92 3190 3196 "undolist.ml" 92 3190 3210
+type(
+  unit
+)
+"undolist.ml" 93 3212 3218 "undolist.ml" 93 3212 3219
+type(
+  string list list
+)
+ident(
+  int_ref t "undolist.ml" 91 3173 3184 "undolist.ml" 91 3173 3185
+)
+"undolist.ml" 92 3190 3196 "undolist.ml" 93 3212 3219
+type(
+  string list list
+)
+"undolist.ml" 89 3134 3140 "undolist.ml" 93 3212 3219
+type(
+  string list list
+)
+"undolist.ml" 96 3227 3233 "undolist.ml" 96 3227 3234
+type(
+  string list list ref -> string list list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1070 41321 41321 "stdlib.mli" 1070 41321 41362
+)
+"undolist.ml" 96 3227 3234 "undolist.ml" 96 3227 3244
+type(
+  string list list ref
+)
+ident(
+  int_ref redo_stack "undolist.ml" 16 518 522 "undolist.ml" 16 518 532
+)
+"undolist.ml" 96 3227 3233 "undolist.ml" 96 3227 3244
+type(
+  string list list
+)
+"undolist.ml" 96 3227 3245 "undolist.ml" 96 3227 3247
+type(
+  string list list -> string list list -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 66 2708 2708 "stdlib.mli" 66 2708 2756
+)
+"undolist.ml" 96 3227 3248 "undolist.ml" 96 3227 3250
+type(
+  string list list
+)
+"undolist.ml" 96 3227 3233 "undolist.ml" 96 3227 3250
+type(
+  bool
+)
+"undolist.ml" 97 3258 3264 "undolist.ml" 97 3258 3274
+type(
+  string list list ref
+)
+ident(
+  int_ref undo_stack "undolist.ml" 13 417 421 "undolist.ml" 13 417 431
+)
+"undolist.ml" 97 3258 3275 "undolist.ml" 97 3258 3277
+type(
+  string list list ref -> string list list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1075 41507 41507 "stdlib.mli" 1075 41507 41560
+)
+"undolist.ml" 97 3258 3279 "undolist.ml" 97 3258 3280
+type(
+  string list ref -> string list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1070 41321 41321 "stdlib.mli" 1070 41321 41362
+)
+"undolist.ml" 97 3258 3280 "undolist.ml" 97 3258 3289
+type(
+  string list ref
+)
+ident(
+  int_ref curr_list "undolist.ml" 10 337 341 "undolist.ml" 10 337 350
+)
+"undolist.ml" 97 3258 3279 "undolist.ml" 97 3258 3289
+type(
+  string list
+)
+"undolist.ml" 97 3258 3278 "undolist.ml" 97 3258 3290
+type(
+  string list list
+)
+"undolist.ml" 97 3258 3290 "undolist.ml" 97 3258 3291
+type(
+  string list list -> string list list -> string list list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 691 26062 26062 "stdlib.mli" 691 26062 26103
+)
+"undolist.ml" 97 3258 3292 "undolist.ml" 97 3258 3293
+type(
+  string list list ref -> string list list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1070 41321 41321 "stdlib.mli" 1070 41321 41362
+)
+"undolist.ml" 97 3258 3293 "undolist.ml" 97 3258 3303
+type(
+  string list list ref
+)
+ident(
+  int_ref undo_stack "undolist.ml" 13 417 421 "undolist.ml" 13 417 431
+)
+"undolist.ml" 97 3258 3291 "undolist.ml" 97 3258 3304
+type(
+  string list list
+)
+"undolist.ml" 97 3258 3278 "undolist.ml" 97 3258 3304
+call(
+  stack
+)
+type(
+  string list list
+)
+"undolist.ml" 97 3258 3264 "undolist.ml" 97 3258 3304
+type(
+  unit
+)
+"undolist.ml" 98 3351 3357 "undolist.ml" 98 3351 3367
+type(
+  string list list ref
+)
+ident(
+  int_ref redo_stack "undolist.ml" 16 518 522 "undolist.ml" 16 518 532
+)
+"undolist.ml" 98 3351 3368 "undolist.ml" 98 3351 3370
+type(
+  string list list ref -> string list list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1075 41507 41507 "stdlib.mli" 1075 41507 41560
+)
+"undolist.ml" 98 3351 3372 "undolist.ml" 98 3351 3378
+type(
+  string list list -> string list list
+)
+ident(
+  int_ref helper "undolist.ml" 88 2995 3006 "undolist.ml" 88 2995 3012
+)
+"undolist.ml" 98 3351 3379 "undolist.ml" 98 3351 3380
+type(
+  string list list ref -> string list list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1070 41321 41321 "stdlib.mli" 1070 41321 41362
+)
+"undolist.ml" 98 3351 3380 "undolist.ml" 98 3351 3390
+type(
+  string list list ref
+)
+ident(
+  int_ref redo_stack "undolist.ml" 16 518 522 "undolist.ml" 16 518 532
+)
+"undolist.ml" 98 3351 3379 "undolist.ml" 98 3351 3390
+type(
+  string list list
+)
+"undolist.ml" 98 3351 3371 "undolist.ml" 98 3351 3391
+call(
+  stack
+)
+type(
+  string list list
+)
+"undolist.ml" 98 3351 3357 "undolist.ml" 98 3351 3391
+type(
+  unit
+)
+"undolist.ml" 99 3463 3469 "undolist.ml" 99 3463 3473
+type(
+  bool
+)
+"undolist.ml" 98 3351 3357 "undolist.ml" 99 3463 3473
+type(
+  bool
+)
+"undolist.ml" 96 3227 3256 "undolist.ml" 100 3474 3478
+type(
+  bool
+)
+"undolist.ml" 101 3479 3486 "undolist.ml" 103 3500 3504
+type(
+  bool
+)
+"undolist.ml" 96 3227 3230 "undolist.ml" 103 3500 3504
+type(
+  bool
+)
+"undolist.ml" 88 2995 2998 "undolist.ml" 103 3500 3504
+type(
+  bool
+)

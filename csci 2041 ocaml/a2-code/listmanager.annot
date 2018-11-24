@@ -1,0 +1,1417 @@
+"listmanager.ml" 8 213 217 "listmanager.ml" 8 213 222
+type(
+  bool ref
+)
+ident(
+  def debug "listmanager.ml" 11 303 303 "listmanager.ml" 1 0 -1
+)
+"listmanager.ml" 8 213 225 "listmanager.ml" 8 213 228
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1067 41215 41215 "stdlib.mli" 1067 41215 41259
+)
+"listmanager.ml" 8 213 229 "listmanager.ml" 8 213 234
+type(
+  bool
+)
+"listmanager.ml" 8 213 225 "listmanager.ml" 8 213 234
+type(
+  bool ref
+)
+"listmanager.ml" 11 303 307 "listmanager.ml" 11 303 318
+type(
+  string
+)
+ident(
+  def help_string "listmanager.ml" 34 1471 1471 "listmanager.ml" 1 0 -1
+)
+"listmanager.ml" 12 321 327 "listmanager.ml" 12 321 332
+type(
+  string list
+)
+ident(
+  def lines "listmanager.ml" 29 1306 1308 "listmanager.ml" 29 1306 1332
+)
+"listmanager.ml" 13 337 343 "listmanager.ml" 13 337 357
+type(
+  string
+)
+"listmanager.ml" 14 359 365 "listmanager.ml" 14 359 409
+type(
+  string
+)
+"listmanager.ml" 15 411 417 "listmanager.ml" 15 411 479
+type(
+  string
+)
+"listmanager.ml" 16 481 487 "listmanager.ml" 16 481 498
+type(
+  string
+)
+"listmanager.ml" 17 500 506 "listmanager.ml" 17 500 550
+type(
+  string
+)
+"listmanager.ml" 18 552 558 "listmanager.ml" 18 552 595
+type(
+  string
+)
+"listmanager.ml" 19 597 603 "listmanager.ml" 19 597 660
+type(
+  string
+)
+"listmanager.ml" 20 662 668 "listmanager.ml" 20 662 734
+type(
+  string
+)
+"listmanager.ml" 21 736 742 "listmanager.ml" 21 736 783
+type(
+  string
+)
+"listmanager.ml" 22 785 791 "listmanager.ml" 22 785 833
+type(
+  string
+)
+"listmanager.ml" 23 835 841 "listmanager.ml" 23 835 912
+type(
+  string
+)
+"listmanager.ml" 24 914 920 "listmanager.ml" 24 914 1008
+type(
+  string
+)
+"listmanager.ml" 25 1010 1016 "listmanager.ml" 25 1010 1114
+type(
+  string
+)
+"listmanager.ml" 26 1116 1122 "listmanager.ml" 26 1116 1201
+type(
+  string
+)
+"listmanager.ml" 27 1203 1209 "listmanager.ml" 27 1203 1295
+type(
+  string
+)
+"listmanager.ml" 12 321 335 "listmanager.ml" 28 1297 1302
+type(
+  string list
+)
+"listmanager.ml" 29 1306 1308 "listmanager.ml" 29 1306 1321
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref Stdlib.String.concat "string.mli" 123 5313 5313 "string.mli" 123 5313 5357
+)
+"listmanager.ml" 29 1306 1322 "listmanager.ml" 29 1306 1326
+type(
+  string
+)
+"listmanager.ml" 29 1306 1327 "listmanager.ml" 29 1306 1332
+type(
+  string list
+)
+ident(
+  int_ref lines "listmanager.ml" 12 321 327 "listmanager.ml" 12 321 332
+)
+"listmanager.ml" 29 1306 1308 "listmanager.ml" 29 1306 1332
+call(
+  stack
+)
+type(
+  string
+)
+"listmanager.ml" 12 321 323 "listmanager.ml" 29 1306 1332
+type(
+  string
+)
+"listmanager.ml" 34 1471 1475 "listmanager.ml" 34 1471 1483
+type(
+  bool ref
+)
+ident(
+  def quit_now "listmanager.ml" 45 1912 1912 "listmanager.ml" 1 0 -1
+)
+"listmanager.ml" 35 1486 1488 "listmanager.ml" 35 1486 1491
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1067 41215 41215 "stdlib.mli" 1067 41215 41259
+)
+"listmanager.ml" 35 1486 1492 "listmanager.ml" 35 1486 1497
+type(
+  bool
+)
+"listmanager.ml" 35 1486 1488 "listmanager.ml" 35 1486 1497
+type(
+  bool ref
+)
+"listmanager.ml" 45 1912 1916 "listmanager.ml" 45 1912 1931
+type(
+  string array -> unit
+)
+ident(
+  def execute_command "listmanager.ml" 69 2946 2946 "listmanager.ml" 1 0 -1
+)
+"listmanager.ml" 45 1912 1932 "listmanager.ml" 45 1912 1938
+type(
+  string array
+)
+ident(
+  def tokens "listmanager.ml" 46 1941 1943 "listmanager.ml" 60 2739 2750
+)
+"listmanager.ml" 46 1941 1949 "listmanager.ml" 46 1941 1955
+type(
+  string array
+)
+ident(
+  int_ref tokens "listmanager.ml" 45 1912 1932 "listmanager.ml" 45 1912 1938
+)
+"listmanager.ml" 46 1941 1957 "listmanager.ml" 46 1941 1958
+type(
+  int
+)
+"listmanager.ml" 46 1941 1949 "listmanager.ml" 46 1941 1959
+type(
+  string
+)
+"listmanager.ml" 47 1966 1970 "listmanager.ml" 47 1966 1976
+type(
+  string
+)
+"listmanager.ml" 47 1966 1981 "listmanager.ml" 47 1966 1987
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"listmanager.ml" 47 1966 1988 "listmanager.ml" 47 1966 1994
+type(
+  (string -> unit, out_channel, unit) format
+)
+"listmanager.ml" 47 1966 1995 "listmanager.ml" 47 1966 2006
+type(
+  string
+)
+ident(
+  int_ref help_string "listmanager.ml" 11 303 307 "listmanager.ml" 11 303 318
+)
+"listmanager.ml" 47 1966 1980 "listmanager.ml" 47 1966 2007
+call(
+  tail
+)
+type(
+  unit
+)
+"listmanager.ml" 48 2008 2012 "listmanager.ml" 48 2008 2018
+type(
+  string
+)
+"listmanager.ml" 48 2008 2022 "listmanager.ml" 48 2008 2030
+type(
+  bool ref
+)
+ident(
+  int_ref quit_now "listmanager.ml" 34 1471 1475 "listmanager.ml" 34 1471 1483
+)
+"listmanager.ml" 48 2008 2031 "listmanager.ml" 48 2008 2033
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1075 41507 41507 "stdlib.mli" 1075 41507 41560
+)
+"listmanager.ml" 48 2008 2034 "listmanager.ml" 48 2008 2038
+type(
+  bool
+)
+"listmanager.ml" 48 2008 2022 "listmanager.ml" 48 2008 2038
+type(
+  unit
+)
+"listmanager.ml" 49 2039 2043 "listmanager.ml" 49 2039 2049
+type(
+  string
+)
+"listmanager.ml" 49 2039 2053 "listmanager.ml" 49 2039 2059
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"listmanager.ml" 49 2039 2060 "listmanager.ml" 49 2039 2066
+type(
+  (string -> unit, out_channel, unit) format
+)
+"listmanager.ml" 49 2039 2067 "listmanager.ml" 49 2039 2081
+type(
+  string
+)
+"listmanager.ml" 49 2039 2053 "listmanager.ml" 49 2039 2081
+call(
+  stack
+)
+type(
+  unit
+)
+"listmanager.ml" 50 2083 2097 "listmanager.ml" 50 2083 2113
+type(
+  string list -> unit
+)
+ident(
+  int_ref Sortedlist.print "sortedlist.ml" 18 696 704 "sortedlist.ml" 18 696 709
+)
+"listmanager.ml" 50 2083 2114 "listmanager.ml" 50 2083 2115
+type(
+  string list ref -> string list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1070 41321 41321 "stdlib.mli" 1070 41321 41362
+)
+"listmanager.ml" 50 2083 2115 "listmanager.ml" 50 2083 2133
+type(
+  string list ref
+)
+ident(
+  int_ref Undolist.curr_list "undolist.ml" 10 337 341 "undolist.ml" 10 337 350
+)
+"listmanager.ml" 50 2083 2113 "listmanager.ml" 50 2083 2134
+type(
+  string list
+)
+"listmanager.ml" 50 2083 2097 "listmanager.ml" 50 2083 2134
+call(
+  stack
+)
+type(
+  unit
+)
+"listmanager.ml" 51 2136 2150 "listmanager.ml" 51 2136 2156
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"listmanager.ml" 51 2136 2157 "listmanager.ml" 51 2136 2163
+type(
+  (string -> unit, out_channel, unit) format
+)
+"listmanager.ml" 51 2136 2164 "listmanager.ml" 51 2136 2178
+type(
+  string
+)
+"listmanager.ml" 51 2136 2150 "listmanager.ml" 51 2136 2178
+call(
+  tail
+)
+type(
+  unit
+)
+"listmanager.ml" 50 2083 2097 "listmanager.ml" 51 2136 2178
+type(
+  unit
+)
+"listmanager.ml" 49 2039 2053 "listmanager.ml" 51 2136 2178
+type(
+  unit
+)
+"listmanager.ml" 52 2179 2183 "listmanager.ml" 52 2179 2188
+type(
+  string
+)
+"listmanager.ml" 52 2179 2192 "listmanager.ml" 52 2179 2209
+type(
+  string -> unit
+)
+ident(
+  int_ref Undolist.add_elem "undolist.ml" 34 1176 1180 "undolist.ml" 34 1176 1188
+)
+"listmanager.ml" 52 2179 2210 "listmanager.ml" 52 2179 2216
+type(
+  string array
+)
+ident(
+  int_ref tokens "listmanager.ml" 45 1912 1932 "listmanager.ml" 45 1912 1938
+)
+"listmanager.ml" 52 2179 2218 "listmanager.ml" 52 2179 2219
+type(
+  int
+)
+"listmanager.ml" 52 2179 2210 "listmanager.ml" 52 2179 2220
+type(
+  string
+)
+"listmanager.ml" 52 2179 2192 "listmanager.ml" 52 2179 2220
+call(
+  tail
+)
+type(
+  unit
+)
+"listmanager.ml" 53 2221 2225 "listmanager.ml" 53 2221 2233
+type(
+  string
+)
+"listmanager.ml" 53 2221 2237 "listmanager.ml" 53 2221 2257
+type(
+  string -> unit
+)
+ident(
+  int_ref Undolist.remove_elem "undolist.ml" 41 1426 1430 "undolist.ml" 41 1426 1441
+)
+"listmanager.ml" 53 2221 2258 "listmanager.ml" 53 2221 2264
+type(
+  string array
+)
+ident(
+  int_ref tokens "listmanager.ml" 45 1912 1932 "listmanager.ml" 45 1912 1938
+)
+"listmanager.ml" 53 2221 2266 "listmanager.ml" 53 2221 2267
+type(
+  int
+)
+"listmanager.ml" 53 2221 2258 "listmanager.ml" 53 2221 2268
+type(
+  string
+)
+"listmanager.ml" 53 2221 2237 "listmanager.ml" 53 2221 2268
+call(
+  tail
+)
+type(
+  unit
+)
+"listmanager.ml" 54 2269 2273 "listmanager.ml" 54 2269 2279
+type(
+  string
+)
+"listmanager.ml" 54 2269 2283 "listmanager.ml" 54 2269 2303
+type(
+  string list -> string -> unit
+)
+ident(
+  int_ref Util.strlist_to_file "util.ml" 22 594 598 "util.ml" 22 594 613
+)
+"listmanager.ml" 54 2269 2304 "listmanager.ml" 54 2269 2305
+type(
+  string list ref -> string list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1070 41321 41321 "stdlib.mli" 1070 41321 41362
+)
+"listmanager.ml" 54 2269 2305 "listmanager.ml" 54 2269 2323
+type(
+  string list ref
+)
+ident(
+  int_ref Undolist.curr_list "undolist.ml" 10 337 341 "undolist.ml" 10 337 350
+)
+"listmanager.ml" 54 2269 2304 "listmanager.ml" 54 2269 2323
+type(
+  string list
+)
+"listmanager.ml" 54 2269 2324 "listmanager.ml" 54 2269 2330
+type(
+  string array
+)
+ident(
+  int_ref tokens "listmanager.ml" 45 1912 1932 "listmanager.ml" 45 1912 1938
+)
+"listmanager.ml" 54 2269 2332 "listmanager.ml" 54 2269 2333
+type(
+  int
+)
+"listmanager.ml" 54 2269 2324 "listmanager.ml" 54 2269 2334
+type(
+  string
+)
+"listmanager.ml" 54 2269 2283 "listmanager.ml" 54 2269 2334
+call(
+  tail
+)
+type(
+  unit
+)
+"listmanager.ml" 55 2335 2339 "listmanager.ml" 55 2335 2346
+type(
+  string
+)
+"listmanager.ml" 55 2335 2350 "listmanager.ml" 55 2335 2370
+type(
+  string list -> unit
+)
+ident(
+  int_ref Undolist.set_to_list "undolist.ml" 27 818 822 "undolist.ml" 27 818 833
+)
+"listmanager.ml" 55 2335 2371 "listmanager.ml" 55 2335 2373
+type(
+  string list
+)
+"listmanager.ml" 55 2335 2350 "listmanager.ml" 55 2335 2373
+call(
+  tail
+)
+type(
+  unit
+)
+"listmanager.ml" 56 2374 2378 "listmanager.ml" 56 2374 2384
+type(
+  string
+)
+"listmanager.ml" 56 2374 2388 "listmanager.ml" 56 2374 2408
+type(
+  string list -> unit
+)
+ident(
+  int_ref Undolist.set_to_list "undolist.ml" 27 818 822 "undolist.ml" 27 818 833
+)
+"listmanager.ml" 56 2374 2410 "listmanager.ml" 56 2374 2432
+type(
+  string -> string list
+)
+ident(
+  int_ref Util.strlist_from_file "util.ml" 6 244 248 "util.ml" 6 244 265
+)
+"listmanager.ml" 56 2374 2433 "listmanager.ml" 56 2374 2439
+type(
+  string array
+)
+ident(
+  int_ref tokens "listmanager.ml" 45 1912 1932 "listmanager.ml" 45 1912 1938
+)
+"listmanager.ml" 56 2374 2441 "listmanager.ml" 56 2374 2442
+type(
+  int
+)
+"listmanager.ml" 56 2374 2433 "listmanager.ml" 56 2374 2443
+type(
+  string
+)
+"listmanager.ml" 56 2374 2409 "listmanager.ml" 56 2374 2444
+call(
+  stack
+)
+type(
+  string list
+)
+"listmanager.ml" 56 2374 2388 "listmanager.ml" 56 2374 2444
+call(
+  tail
+)
+type(
+  unit
+)
+"listmanager.ml" 57 2445 2449 "listmanager.ml" 57 2445 2458
+type(
+  string
+)
+"listmanager.ml" 57 2445 2462 "listmanager.ml" 57 2445 2486
+type(
+  string list -> unit
+)
+ident(
+  int_ref Undolist.merge_with_list "undolist.ml" 56 1875 1879 "undolist.ml" 56 1875 1894
+)
+"listmanager.ml" 57 2445 2488 "listmanager.ml" 57 2445 2510
+type(
+  string -> string list
+)
+ident(
+  int_ref Util.strlist_from_file "util.ml" 6 244 248 "util.ml" 6 244 265
+)
+"listmanager.ml" 57 2445 2511 "listmanager.ml" 57 2445 2517
+type(
+  string array
+)
+ident(
+  int_ref tokens "listmanager.ml" 45 1912 1932 "listmanager.ml" 45 1912 1938
+)
+"listmanager.ml" 57 2445 2519 "listmanager.ml" 57 2445 2520
+type(
+  int
+)
+"listmanager.ml" 57 2445 2511 "listmanager.ml" 57 2445 2521
+type(
+  string
+)
+"listmanager.ml" 57 2445 2487 "listmanager.ml" 57 2445 2522
+call(
+  stack
+)
+type(
+  string list
+)
+"listmanager.ml" 57 2445 2462 "listmanager.ml" 57 2445 2522
+call(
+  tail
+)
+type(
+  unit
+)
+"listmanager.ml" 58 2523 2527 "listmanager.ml" 58 2523 2533
+type(
+  string
+)
+"listmanager.ml" 58 2523 2541 "listmanager.ml" 58 2523 2554
+type(
+  unit -> bool
+)
+ident(
+  int_ref Undolist.redo "undolist.ml" 87 2980 2984 "undolist.ml" 87 2980 2988
+)
+"listmanager.ml" 58 2523 2555 "listmanager.ml" 58 2523 2557
+type(
+  unit
+)
+"listmanager.ml" 58 2523 2540 "listmanager.ml" 58 2523 2558
+call(
+  stack
+)
+type(
+  bool
+)
+"listmanager.ml" 58 2523 2559 "listmanager.ml" 58 2523 2560
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"listmanager.ml" 58 2523 2561 "listmanager.ml" 58 2523 2566
+type(
+  bool
+)
+"listmanager.ml" 58 2523 2540 "listmanager.ml" 58 2523 2566
+type(
+  bool
+)
+"listmanager.ml" 58 2523 2572 "listmanager.ml" 58 2523 2578
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"listmanager.ml" 58 2523 2579 "listmanager.ml" 58 2523 2585
+type(
+  (string -> unit, out_channel, unit) format
+)
+"listmanager.ml" 58 2523 2586 "listmanager.ml" 58 2523 2629
+type(
+  string
+)
+"listmanager.ml" 58 2523 2572 "listmanager.ml" 58 2523 2629
+call(
+  tail
+)
+type(
+  unit
+)
+"listmanager.ml" 58 2523 2537 "listmanager.ml" 58 2523 2629
+type(
+  unit
+)
+"listmanager.ml" 59 2631 2635 "listmanager.ml" 59 2631 2641
+type(
+  string
+)
+"listmanager.ml" 59 2631 2649 "listmanager.ml" 59 2631 2662
+type(
+  unit -> bool
+)
+ident(
+  int_ref Undolist.undo "undolist.ml" 63 2124 2128 "undolist.ml" 63 2124 2132
+)
+"listmanager.ml" 59 2631 2663 "listmanager.ml" 59 2631 2665
+type(
+  unit
+)
+"listmanager.ml" 59 2631 2648 "listmanager.ml" 59 2631 2666
+call(
+  stack
+)
+type(
+  bool
+)
+"listmanager.ml" 59 2631 2667 "listmanager.ml" 59 2631 2668
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"listmanager.ml" 59 2631 2669 "listmanager.ml" 59 2631 2674
+type(
+  bool
+)
+"listmanager.ml" 59 2631 2648 "listmanager.ml" 59 2631 2674
+type(
+  bool
+)
+"listmanager.ml" 59 2631 2680 "listmanager.ml" 59 2631 2686
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"listmanager.ml" 59 2631 2687 "listmanager.ml" 59 2631 2693
+type(
+  (string -> unit, out_channel, unit) format
+)
+"listmanager.ml" 59 2631 2694 "listmanager.ml" 59 2631 2737
+type(
+  string
+)
+"listmanager.ml" 59 2631 2680 "listmanager.ml" 59 2631 2737
+call(
+  tail
+)
+type(
+  unit
+)
+"listmanager.ml" 59 2631 2645 "listmanager.ml" 59 2631 2737
+type(
+  unit
+)
+"listmanager.ml" 60 2739 2743 "listmanager.ml" 60 2739 2744
+type(
+  string
+)
+"listmanager.ml" 60 2739 2748 "listmanager.ml" 60 2739 2750
+type(
+  unit
+)
+"listmanager.ml" 46 1941 1943 "listmanager.ml" 60 2739 2750
+type(
+  unit
+)
+"listmanager.ml" 69 2946 2950 "listmanager.ml" 69 2946 2954
+type(
+  bool ref
+)
+ident(
+  def echo "listmanager.ml" 70 3008 3008 "listmanager.ml" 1 0 -1
+)
+"listmanager.ml" 69 2946 2958 "listmanager.ml" 69 2946 2961
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1067 41215 41215 "stdlib.mli" 1067 41215 41259
+)
+"listmanager.ml" 69 2946 2962 "listmanager.ml" 69 2946 2967
+type(
+  bool
+)
+"listmanager.ml" 69 2946 2958 "listmanager.ml" 69 2946 2967
+type(
+  bool ref
+)
+"listmanager.ml" 70 3008 3012 "listmanager.ml" 70 3008 3018
+type(
+  string
+)
+ident(
+  def prompt "listmanager.ml" 73 3109 3109 "listmanager.ml" 1 0 -1
+)
+"listmanager.ml" 70 3008 3021 "listmanager.ml" 70 3008 3027
+type(
+  string
+)
+"listmanager.ml" 73 3109 3113 "listmanager.ml" 73 3109 3120
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  def options "listmanager.ml" 79 3328 3328 "listmanager.ml" 1 0 -1
+)
+"listmanager.ml" 74 3130 3133 "listmanager.ml" 74 3130 3140
+type(
+  string
+)
+"listmanager.ml" 74 3130 3146 "listmanager.ml" 74 3130 3152
+type(
+  bool ref
+)
+ident(
+  int_ref echo "listmanager.ml" 69 2946 2950 "listmanager.ml" 69 2946 2954
+)
+"listmanager.ml" 74 3130 3143 "listmanager.ml" 74 3130 3152
+type(
+  Arg.spec
+)
+"listmanager.ml" 74 3130 3155 "listmanager.ml" 74 3130 3195
+type(
+  string
+)
+"listmanager.ml" 74 3130 3132 "listmanager.ml" 74 3130 3196
+type(
+  string * Arg.spec * string
+)
+"listmanager.ml" 75 3201 3204 "listmanager.ml" 75 3201 3212
+type(
+  string
+)
+"listmanager.ml" 75 3201 3217 "listmanager.ml" 75 3201 3224
+type(
+  bool ref
+)
+ident(
+  int_ref debug "listmanager.ml" 8 213 217 "listmanager.ml" 8 213 222
+)
+"listmanager.ml" 75 3201 3214 "listmanager.ml" 75 3201 3224
+type(
+  Arg.spec
+)
+"listmanager.ml" 75 3201 3226 "listmanager.ml" 75 3201 3265
+type(
+  string
+)
+"listmanager.ml" 75 3201 3203 "listmanager.ml" 75 3201 3266
+type(
+  string * Arg.spec * string
+)
+"listmanager.ml" 73 3109 3128 "listmanager.ml" 76 3271 3272
+type(
+  (string * Arg.spec * string) list
+)
+"listmanager.ml" 79 3328 3332 "listmanager.ml" 79 3328 3349
+type(
+  'a -> unit
+)
+ident(
+  def handle_extra_args "listmanager.ml" 82 3403 3403 "listmanager.ml" 1 0 -1
+)
+"listmanager.ml" 79 3328 3350 "listmanager.ml" 79 3328 3353
+type(
+  'a
+)
+ident(
+  def arg "listmanager.ml" 79 3328 3356 "listmanager.ml" 79 3328 3358
+)
+"listmanager.ml" 79 3328 3356 "listmanager.ml" 79 3328 3358
+type(
+  unit
+)
+"listmanager.ml" 82 3403 3407 "listmanager.ml" 82 3403 3412
+type(
+  string
+)
+ident(
+  def usage "listmanager.ml" 85 3480 3480 "listmanager.ml" 1 0 -1
+)
+"listmanager.ml" 82 3403 3415 "listmanager.ml" 82 3403 3422
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"listmanager.ml" 82 3403 3423 "listmanager.ml" 82 3403 3444
+type(
+  (string -> string, unit, string) format
+)
+"listmanager.ml" 82 3403 3445 "listmanager.ml" 82 3403 3453
+type(
+  string array
+)
+ident(
+  int_ref Stdlib.Sys.argv "sys.mli" 23 1238 1238 "sys.mli" 23 1238 1261
+)
+"listmanager.ml" 82 3403 3455 "listmanager.ml" 82 3403 3456
+type(
+  int
+)
+"listmanager.ml" 82 3403 3445 "listmanager.ml" 82 3403 3457
+type(
+  string
+)
+"listmanager.ml" 82 3403 3415 "listmanager.ml" 82 3403 3457
+call(
+  stack
+)
+type(
+  string
+)
+"listmanager.ml" 85 3480 3484 "listmanager.ml" 85 3480 3485
+type(
+  unit
+)
+"listmanager.ml" 86 3488 3490 "listmanager.ml" 86 3488 3499
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  int_ref Stdlib.Arg.parse "arg.mli" 77 4335 4335 "arg.mli" 78 4347 4405
+)
+"listmanager.ml" 86 3488 3500 "listmanager.ml" 86 3488 3507
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref options "listmanager.ml" 73 3109 3113 "listmanager.ml" 73 3109 3120
+)
+"listmanager.ml" 86 3488 3508 "listmanager.ml" 86 3488 3525
+type(
+  Arg.anon_fun
+)
+ident(
+  int_ref handle_extra_args "listmanager.ml" 79 3328 3332 "listmanager.ml" 79 3328 3349
+)
+"listmanager.ml" 86 3488 3526 "listmanager.ml" 86 3488 3531
+type(
+  Arg.usage_msg
+)
+ident(
+  int_ref usage "listmanager.ml" 82 3403 3407 "listmanager.ml" 82 3403 3412
+)
+"listmanager.ml" 86 3488 3490 "listmanager.ml" 86 3488 3531
+call(
+  stack
+)
+type(
+  unit
+)
+"listmanager.ml" 88 3581 3593 "listmanager.ml" 88 3581 3594
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1070 41321 41321 "stdlib.mli" 1070 41321 41362
+)
+"listmanager.ml" 88 3581 3594 "listmanager.ml" 88 3581 3602
+type(
+  bool ref
+)
+ident(
+  int_ref quit_now "listmanager.ml" 34 1471 1475 "listmanager.ml" 34 1471 1483
+)
+"listmanager.ml" 88 3581 3593 "listmanager.ml" 88 3581 3602
+type(
+  bool
+)
+"listmanager.ml" 88 3581 3603 "listmanager.ml" 88 3581 3605
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( != ) "stdlib.mli" 133 5742 5742 "stdlib.mli" 133 5742 5787
+)
+"listmanager.ml" 88 3581 3606 "listmanager.ml" 88 3581 3610
+type(
+  bool
+)
+"listmanager.ml" 88 3581 3593 "listmanager.ml" 88 3581 3610
+type(
+  bool
+)
+"listmanager.ml" 89 3669 3677 "listmanager.ml" 89 3669 3683
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"listmanager.ml" 89 3669 3684 "listmanager.ml" 89 3669 3688
+type(
+  (string -> unit, out_channel, unit) format
+)
+"listmanager.ml" 89 3669 3689 "listmanager.ml" 89 3669 3695
+type(
+  string
+)
+ident(
+  int_ref prompt "listmanager.ml" 70 3008 3012 "listmanager.ml" 70 3008 3018
+)
+"listmanager.ml" 89 3669 3677 "listmanager.ml" 89 3669 3695
+call(
+  stack
+)
+type(
+  unit
+)
+"listmanager.ml" 90 3736 3748 "listmanager.ml" 90 3736 3752
+type(
+  string
+)
+ident(
+  def line "listmanager.ml" 91 3822 3830 "listmanager.ml" 107 4671 4729
+)
+"listmanager.ml" 90 3736 3755 "listmanager.ml" 90 3736 3764
+type(
+  unit -> string
+)
+ident(
+  int_ref Stdlib.read_line "stdlib.mli" 773 28286 28286 "stdlib.mli" 773 28286 28316
+)
+"listmanager.ml" 90 3736 3765 "listmanager.ml" 90 3736 3767
+type(
+  unit
+)
+"listmanager.ml" 90 3736 3755 "listmanager.ml" 90 3736 3767
+call(
+  stack
+)
+type(
+  string
+)
+"listmanager.ml" 91 3822 3833 "listmanager.ml" 91 3822 3834
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1070 41321 41321 "stdlib.mli" 1070 41321 41362
+)
+"listmanager.ml" 91 3822 3834 "listmanager.ml" 91 3822 3838
+type(
+  bool ref
+)
+ident(
+  int_ref echo "listmanager.ml" 69 2946 2950 "listmanager.ml" 69 2946 2954
+)
+"listmanager.ml" 91 3822 3833 "listmanager.ml" 91 3822 3838
+type(
+  bool
+)
+"listmanager.ml" 92 3909 3919 "listmanager.ml" 92 3909 3925
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"listmanager.ml" 92 3909 3926 "listmanager.ml" 92 3909 3932
+type(
+  (string -> unit, out_channel, unit) format
+)
+"listmanager.ml" 92 3909 3933 "listmanager.ml" 92 3909 3937
+type(
+  string
+)
+ident(
+  int_ref line "listmanager.ml" 90 3736 3748 "listmanager.ml" 90 3736 3752
+)
+"listmanager.ml" 92 3909 3919 "listmanager.ml" 92 3909 3937
+call(
+  stack
+)
+type(
+  unit
+)
+"listmanager.ml" 91 3822 3830 "listmanager.ml" 92 3909 3937
+type(
+  unit
+)
+"listmanager.ml" 93 3939 3951 "listmanager.ml" 93 3939 3957
+type(
+  string array
+)
+ident(
+  def tokens "listmanager.ml" 95 4088 4096 "listmanager.ml" 107 4671 4729
+)
+"listmanager.ml" 94 4026 4036 "listmanager.ml" 94 4026 4049
+type(
+  string list -> string array
+)
+ident(
+  int_ref Stdlib.Array.of_list "array.mli" 132 6010 6010 "array.mli" 132 6010 6043
+)
+"listmanager.ml" 94 4026 4051 "listmanager.ml" 94 4026 4060
+type(
+  Str.regexp -> string -> string list
+)
+ident(
+  int_ref Str.split "str.mli" 230 10340 10340 "str.mli" 230 10340 10383
+)
+"listmanager.ml" 94 4026 4062 "listmanager.ml" 94 4026 4072
+type(
+  string -> Str.regexp
+)
+ident(
+  int_ref Str.regexp "str.mli" 26 1237 1237 "str.mli" 26 1237 1266
+)
+"listmanager.ml" 94 4026 4073 "listmanager.ml" 94 4026 4077
+type(
+  string
+)
+"listmanager.ml" 94 4026 4061 "listmanager.ml" 94 4026 4078
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"listmanager.ml" 94 4026 4079 "listmanager.ml" 94 4026 4083
+type(
+  string
+)
+ident(
+  int_ref line "listmanager.ml" 90 3736 3748 "listmanager.ml" 90 3736 3752
+)
+"listmanager.ml" 94 4026 4050 "listmanager.ml" 94 4026 4084
+call(
+  stack
+)
+type(
+  string list
+)
+"listmanager.ml" 94 4026 4036 "listmanager.ml" 94 4026 4084
+call(
+  stack
+)
+type(
+  string array
+)
+"listmanager.ml" 95 4088 4100 "listmanager.ml" 95 4088 4104
+type(
+  int
+)
+ident(
+  def ntok "listmanager.ml" 96 4130 4138 "listmanager.ml" 107 4671 4729
+)
+"listmanager.ml" 95 4088 4107 "listmanager.ml" 95 4088 4119
+type(
+  string array -> int
+)
+ident(
+  int_ref Stdlib.Array.length "array.mli" 18 1105 1105 "array.mli" 18 1105 1156
+)
+"listmanager.ml" 95 4088 4120 "listmanager.ml" 95 4088 4126
+type(
+  string array
+)
+ident(
+  int_ref tokens "listmanager.ml" 93 3939 3951 "listmanager.ml" 93 3939 3957
+)
+"listmanager.ml" 95 4088 4107 "listmanager.ml" 95 4088 4126
+type(
+  int
+)
+"listmanager.ml" 96 4130 4141 "listmanager.ml" 96 4130 4142
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1070 41321 41321 "stdlib.mli" 1070 41321 41362
+)
+"listmanager.ml" 96 4130 4142 "listmanager.ml" 96 4130 4147
+type(
+  bool ref
+)
+ident(
+  int_ref debug "listmanager.ml" 8 213 217 "listmanager.ml" 8 213 222
+)
+"listmanager.ml" 96 4130 4141 "listmanager.ml" 96 4130 4147
+type(
+  bool
+)
+"listmanager.ml" 98 4239 4251 "listmanager.ml" 98 4239 4257
+type(
+  (string -> int -> unit, out_channel, unit) format -> string -> int -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"listmanager.ml" 98 4239 4258 "listmanager.ml" 98 4239 4280
+type(
+  (string -> int -> unit, out_channel, unit) format
+)
+"listmanager.ml" 98 4239 4281 "listmanager.ml" 98 4239 4285
+type(
+  string
+)
+ident(
+  int_ref line "listmanager.ml" 90 3736 3748 "listmanager.ml" 90 3736 3752
+)
+"listmanager.ml" 98 4239 4286 "listmanager.ml" 98 4239 4290
+type(
+  int
+)
+ident(
+  int_ref ntok "listmanager.ml" 95 4088 4100 "listmanager.ml" 95 4088 4104
+)
+"listmanager.ml" 98 4239 4251 "listmanager.ml" 98 4239 4290
+call(
+  stack
+)
+type(
+  unit
+)
+"listmanager.ml" 99 4292 4310 "listmanager.ml" 99 4292 4311
+type(
+  int
+)
+"listmanager.ml" 99 4292 4315 "listmanager.ml" 99 4292 4319
+type(
+  int
+)
+ident(
+  int_ref ntok "listmanager.ml" 95 4088 4100 "listmanager.ml" 95 4088 4104
+)
+"listmanager.ml" 99 4292 4319 "listmanager.ml" 99 4292 4320
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 271 10513 10513 "stdlib.mli" 271 10513 10559
+)
+"listmanager.ml" 99 4292 4320 "listmanager.ml" 99 4292 4321
+type(
+  int
+)
+"listmanager.ml" 99 4292 4315 "listmanager.ml" 99 4292 4321
+type(
+  int
+)
+"listmanager.ml" 100 4325 4339 "listmanager.ml" 100 4325 4345
+type(
+  (int -> string -> unit, out_channel, unit) format -> int -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"listmanager.ml" 100 4325 4346 "listmanager.ml" 100 4325 4357
+type(
+  (int -> string -> unit, out_channel, unit) format
+)
+"listmanager.ml" 100 4325 4358 "listmanager.ml" 100 4325 4359
+type(
+  int
+)
+ident(
+  int_ref i "listmanager.ml" 99 4292 4304 "listmanager.ml" 101 4372 4388
+)
+"listmanager.ml" 100 4325 4360 "listmanager.ml" 100 4325 4366
+type(
+  string array
+)
+ident(
+  int_ref tokens "listmanager.ml" 93 3939 3951 "listmanager.ml" 93 3939 3957
+)
+"listmanager.ml" 100 4325 4368 "listmanager.ml" 100 4325 4369
+type(
+  int
+)
+ident(
+  int_ref i "listmanager.ml" 99 4292 4304 "listmanager.ml" 101 4372 4388
+)
+"listmanager.ml" 100 4325 4360 "listmanager.ml" 100 4325 4370
+type(
+  string
+)
+"listmanager.ml" 100 4325 4339 "listmanager.ml" 100 4325 4370
+call(
+  stack
+)
+type(
+  unit
+)
+"listmanager.ml" 99 4292 4304 "listmanager.ml" 101 4372 4388
+type(
+  unit
+)
+"listmanager.ml" 97 4223 4233 "listmanager.ml" 102 4389 4402
+type(
+  unit
+)
+"listmanager.ml" 96 4130 4138 "listmanager.ml" 102 4389 4402
+type(
+  unit
+)
+"listmanager.ml" 103 4404 4415 "listmanager.ml" 103 4404 4419
+type(
+  int
+)
+ident(
+  int_ref ntok "listmanager.ml" 95 4088 4100 "listmanager.ml" 95 4088 4104
+)
+"listmanager.ml" 103 4404 4419 "listmanager.ml" 103 4404 4420
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 74 2992 2992 "stdlib.mli" 74 2992 3042
+)
+"listmanager.ml" 103 4404 4420 "listmanager.ml" 103 4404 4421
+type(
+  int
+)
+"listmanager.ml" 103 4404 4415 "listmanager.ml" 103 4404 4421
+type(
+  bool
+)
+"listmanager.ml" 104 4427 4442 "listmanager.ml" 104 4427 4457
+type(
+  string array -> unit
+)
+ident(
+  int_ref execute_command "listmanager.ml" 45 1912 1916 "listmanager.ml" 45 1912 1931
+)
+"listmanager.ml" 104 4427 4458 "listmanager.ml" 104 4427 4464
+type(
+  string array
+)
+ident(
+  int_ref tokens "listmanager.ml" 93 3939 3951 "listmanager.ml" 93 3939 3957
+)
+"listmanager.ml" 104 4427 4441 "listmanager.ml" 104 4427 4465
+call(
+  stack
+)
+type(
+  unit
+)
+"listmanager.ml" 105 4501 4516 "listmanager.ml" 105 4501 4517
+type(
+  exn
+)
+ident(
+  def e "listmanager.ml" 106 4619 4631 "listmanager.ml" 107 4671 4729
+)
+"listmanager.ml" 106 4619 4635 "listmanager.ml" 106 4619 4644
+type(
+  string
+)
+ident(
+  def excstring "listmanager.ml" 107 4671 4683 "listmanager.ml" 107 4671 4728
+)
+"listmanager.ml" 106 4619 4647 "listmanager.ml" 106 4619 4665
+type(
+  exn -> string
+)
+ident(
+  int_ref Stdlib.Printexc.to_string "printexc.mli" 18 1157 1157 "printexc.mli" 18 1157 1185
+)
+"listmanager.ml" 106 4619 4666 "listmanager.ml" 106 4619 4667
+type(
+  exn
+)
+ident(
+  int_ref e "listmanager.ml" 105 4501 4516 "listmanager.ml" 105 4501 4517
+)
+"listmanager.ml" 106 4619 4647 "listmanager.ml" 106 4619 4667
+call(
+  stack
+)
+type(
+  string
+)
+"listmanager.ml" 107 4671 4683 "listmanager.ml" 107 4671 4689
+type(
+  (string -> string -> unit, out_channel, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"listmanager.ml" 107 4671 4690 "listmanager.ml" 107 4671 4713
+type(
+  (string -> string -> unit, out_channel, unit) format
+)
+"listmanager.ml" 107 4671 4714 "listmanager.ml" 107 4671 4718
+type(
+  string
+)
+ident(
+  int_ref line "listmanager.ml" 90 3736 3748 "listmanager.ml" 90 3736 3752
+)
+"listmanager.ml" 107 4671 4719 "listmanager.ml" 107 4671 4728
+type(
+  string
+)
+ident(
+  int_ref excstring "listmanager.ml" 106 4619 4635 "listmanager.ml" 106 4619 4644
+)
+"listmanager.ml" 107 4671 4683 "listmanager.ml" 107 4671 4728
+call(
+  stack
+)
+type(
+  unit
+)
+"listmanager.ml" 106 4619 4631 "listmanager.ml" 107 4671 4729
+type(
+  unit
+)
+"listmanager.ml" 104 4427 4437 "listmanager.ml" 107 4671 4729
+type(
+  unit
+)
+"listmanager.ml" 103 4404 4412 "listmanager.ml" 107 4671 4729
+type(
+  unit
+)
+"listmanager.ml" 96 4130 4138 "listmanager.ml" 107 4671 4729
+type(
+  unit
+)
+"listmanager.ml" 95 4088 4096 "listmanager.ml" 107 4671 4729
+type(
+  unit
+)
+"listmanager.ml" 93 3939 3947 "listmanager.ml" 107 4671 4729
+type(
+  unit
+)
+"listmanager.ml" 91 3822 3830 "listmanager.ml" 107 4671 4729
+type(
+  unit
+)
+"listmanager.ml" 90 3736 3744 "listmanager.ml" 107 4671 4729
+type(
+  unit
+)
+"listmanager.ml" 89 3669 3677 "listmanager.ml" 107 4671 4729
+type(
+  unit
+)
+"listmanager.ml" 88 3581 3587 "listmanager.ml" 108 4730 4740
+type(
+  unit
+)
+"listmanager.ml" 110 4751 4757 "listmanager.ml" 110 4751 4768
+type(
+  exn
+)
+"listmanager.ml" 110 4751 4772 "listmanager.ml" 110 4751 4774
+type(
+  unit
+)
+"listmanager.ml" 87 3569 3571 "listmanager.ml" 111 4826 4831
+type(
+  unit
+)
+"listmanager.ml" 112 4833 4835 "listmanager.ml" 112 4833 4841
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"listmanager.ml" 112 4833 4842 "listmanager.ml" 112 4833 4861
+type(
+  (unit, out_channel, unit) format
+)
+"listmanager.ml" 112 4833 4835 "listmanager.ml" 112 4833 4861
+call(
+  stack
+)
+type(
+  unit
+)
+"listmanager.ml" 87 3569 3571 "listmanager.ml" 112 4833 4862
+type(
+  unit
+)
+"listmanager.ml" 86 3488 3490 "listmanager.ml" 112 4833 4862
+type(
+  unit
+)

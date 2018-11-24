@@ -1,0 +1,323 @@
+			   __________________
+
+			    LAB 05 QUESTIONS
+			   __________________
+
+
+- Name: (Zhenyu Fan)
+- NetID: (fanxx495)
+
+Answer the questions below according to the lab specification. Write
+your answers directly in this text file and submit it to complete the
+lab.
+
+
+PROBLEM 1: Mutable vs Immutable Stack Usage
+===========================================
+
+(A)
+~~~
+
+  Examine the code in `mut_stack.ml' which implements a mutable stack
+  data structure using a new record type `mut_stack'.
+
+  In a REPL, call the `make ()' function to create a `mut_stack' and
+  demonstrate some `push / pop / top / poptop' operations with integers.
+
+  What is the return value associated with each of the functions?
+
+	# make ();;
+	- : '_weak1 mut_stack = {size = 0; data = []}
+	# let stack = make ();;
+	val stack : '_weak2 mut_stack = {size = 0; data = []}
+	# stack;;
+	- : '_weak2 mut_stack = {size = 0; data = []}
+	# push stack 1;;
+	- : unit = ()
+	# stack;;
+	- : int mut_stack = {size = 1; data = [1]}
+	# push stack 2;;
+	- : unit = ()
+	# stack;;  
+	- : int mut_stack = {size = 2; data = [2; 1]}
+	# pop stack;;
+	- : unit = ()
+	# stack;;
+	- : int mut_stack = {size = 1; data = [1]}
+	# top stack;;
+	- : int = 1
+	# push stack 10;;
+	- : unit = ()
+	# poptop stack;;
+	- : int = 10
+	# 
+
+(B)
+~~~
+
+  In the type declaration for `mut_stack', explain the significance of
+  the `'a' notation: what effect does it have on the kinds of stacks
+  that can be created? Demonstrate the flexible nature of `mut_stack' in
+  a REPL showing several kinds of stacks.
+
+	‘a means that it is a a polymorphic record, Field
+	contents can be any type. 
+	
+	
+	# let istack = make ()
+	  ;;
+	val istack : '_weak3 mut_stack = {size = 0; data = []}   #int stack
+	# let sstack = make ();;
+	val sstack : '_weak4 mut_stack = {size = 0; data = []}	#str stack
+	# push istack 1;;
+	- : unit = ()
+	# push sstack "a";;
+	- : unit = ()
+	# istack;;
+	- : int mut_stack = {size = 1; data = [1]}
+	# sstack;;
+	- : string mut_stack = {size = 1; data = ["a"]}
+
+(C)
+~~~
+
+  Examine the code in `imu_stack.ml' which implements an immutable stack
+  data structure using a new record type `imu_stack'.
+
+  In a REPL, call the `make ()' function to create a `imu_stack' and
+  demonstrate some `push / pop / top / poptop' operations with integers.
+
+  What is the return value associated with each of the functions?
+
+  What is very different about making repeated `push' calls on
+  `imu_stack' compared to `mut_stack'?
+
+	# #use "imu_stack.ml";;
+	type 'a imu_stack = { size : int; data : 'a list; }
+	val make : unit -> 'a imu_stack = <fun>
+	val is_empty : 'a imu_stack -> bool = <fun>
+	val push : 'a imu_stack -> 'a -> 'a imu_stack = <fun>
+	val pop : 'a imu_stack -> 'a imu_stack = <fun>
+	val top : 'a imu_stack -> 'a = <fun>
+	val poptop : 'a imu_stack -> 'a imu_stack * 'a = <fun>
+	# let istack = make ();;
+	val istack : 'a imu_stack = {size = 0; data = []}
+	# push istack 5;;
+	- : int imu_stack = {size = 1; data = [5]}
+	# push istack 10;;
+	- : int imu_stack = {size = 1; data = [10]}
+	# push istack 100;;
+	- : int imu_stack = {size = 1; data = [100]}
+	# istack;;
+	- : 'a imu_stack = {size = 0; data = []}
+	# pop istack;;
+	Exception: Failure "empty stack".
+
+	make, push return a record. pop and pop top return a list
+	I does nothing but creating a new record with new values
+
+PROBLEM 2: Weak vs Polymorphic Types
+====================================
+
+(A)
+~~~
+
+  An astute observer will see the following apparent change of type for
+  `mut_stacks':
+  ,----
+  | # let int_stack = make ();;
+  | # int_stack;;
+  | - : '_weak1 mut_stack = {size = 0; data = []}
+  | (*  ^^^^^^^   *)
+  | (* what is '_weak1? *)
+  | 
+  | # push int_stack 5;;
+  | - : unit = ()
+  | 
+  | # int_stack;;
+  | - : int mut_stack = {size = 1; data = [5]}
+  | (*  ^^^ *)
+  | (* now its an int mut_stack ?? *)
+  `----
+
+  Read the first few paragraphs of the OCaml System Manual, Ch 5.1 to
+  learn about weak types.
+  [https://caml.inria.fr/pub/docs/manual-ocaml/polymorphism.html]
+
+  Explain below the peculiar `'_weak1' type associated with an empty
+  `mut_stack'. Is it the same as a polymorphic `'a' type?
+
+	A weak type variable is a placeholder for a single type that is currently unknown. No, ‘a means that it is a polymorphic variable that can take any type while ‘weak means that it is a placeholder that is waiting for the thing it points to to be assigned a value.
+
+
+(B)
+~~~
+
+  Consider the following sequence of operations starting with an `empty
+  imu_stack'.
+
+  ,----
+  | # #use "imu_stack.ml";;
+  | 
+  | # let empty = make ();;
+  | val empty : 'a imu_stack = {size = 0; data = []}
+  | 
+  | # let istack = push empty 5;;
+  | val istack : int imu_stack = {size = 1; data = [5]}
+  | 
+  | # let sstack = push empty "hello";;
+  | val sstack : string imu_stack = {size = 1; data = ["hello"]}
+  | 
+  | # empty;;
+  | - : 'a imu_stack = {size = 0; data = []}
+  `----
+
+  Answer the following questions about the above.
+  - What is the type of `empty' here?  Is it a weakly typed binding as
+    discussed in the previous section?
+  - Why is it possible to do both `push 5' and `push "hello"' into the
+    `empty'?
+  - Does pushing different types into `empty' change the type of
+    `empty'?
+
+	'a imu_stack
+	because it is not pushing into empty
+	No.
+	
+
+(C)
+~~~
+
+  Consider the following sequence of operations which are nearly
+  identical to the previous section except with the `mut_stack' type
+  used.
+
+  ,----
+  | # #use "mut_stack.ml";;
+  | 
+  | # let empty = make ();;
+  | val empty : '_weak2 mut_stack = {size = 0; data = []}
+  | 
+  | # push empty 5;;
+  | - : unit = ()
+  | 
+  | # empty;;
+  | - : int mut_stack = {size = 1; data = [5]}
+  | 
+  | # push empty "hello";;
+  | Characters 11-18:
+  |   push empty "hello";;
+  | 	     ^^^^^^^
+  | Error: This expression has type string but an expression was expected of type
+  | 	 int
+  | 
+  `----
+
+  Why does this sequence result in a type error?
+
+	Yes. because this is mutable record now and a list cannot take 2 types
+
+PROBLEM 3: Tracking Stack History
+=================================
+
+(A)
+~~~
+
+  Examine the file `history.ml'. It performs a series of push operations
+  on stacks and attempts to generate a history of the states the stack
+  is in.  This is done first on the `imu_stack' and then on the
+  `mut_stack'.
+
+  In this file, do the operations `push' and `make' actually work on
+  both `mut_stack' and `imu_stack' or is something else going on?
+  Relate your answer to the `open' directives present in `history.ml'.
+
+	Imu_stack worked Mut_stack didn’t
+	because in Mut_stack, It is relating every slots of the array to a record that is constantly changed by the program	
+
+(B)
+~~~
+
+  Load `history.ml' into a REPL. Before doing so, you will need to
+  ensure that the `Mut_stack' and `Imu_stack' modules are available by
+  using the REPL's `#mod_use' directive as follows.
+  ,----
+  | # #mod_use "mut_stack.ml";;
+  | ...
+  | # #mod_use "imu_stack.ml";;
+  | ...
+  | # #use "history.ml";;
+  | ...
+  `----
+
+  Show the output of running these three directives below.
+
+  We discuss the modules/signatures later but note that `#mod_use'
+  prints out information about the values and types present in a source
+  file.
+
+    # #mod_use "mut_stack.ml"
+      ;;
+    module Mut_stack :
+      sig
+        type 'a mut_stack = { mutable size : int; mutable data : 'a list; }
+        val make : unit -> 'a mut_stack
+        val is_empty : 'a mut_stack -> bool
+        val push : 'a mut_stack -> 'a -> unit
+        val pop : 'a mut_stack -> unit
+        val top : 'a mut_stack -> 'a
+        val poptop : 'a mut_stack -> 'a
+      end
+    # #mod_use "imu_stack.ml";;
+    module Imu_stack :
+      sig
+        type 'a imu_stack = { size : int; data : 'a list; }
+        val make : unit -> 'a imu_stack
+        val is_empty : 'a imu_stack -> bool
+        val push : 'a imu_stack -> 'a -> 'a imu_stack
+        val pop : 'a imu_stack -> 'a imu_stack
+        val top : 'a imu_stack -> 'a
+        val poptop : 'a imu_stack -> 'a imu_stack * 'a
+      end
+    # #use "history.ml";;
+    File "history.ml", line 1, characters 5-14:
+    Error: Syntax error
+    # #use "history.ml";;
+    val imu_history : int Imu_stack.imu_stack array =
+      [|{size = 0; data = []}; {size = 1; data = [1]}; {size = 2; data = [2; 1]};
+        {size = 3; data = [3; 2; 1]}; {size = 4; data = [4; 3; 2; 1]};
+        {size = 5; data = [5; 4; 3; 2; 1]};
+        {size = 6; data = [6; 5; 4; 3; 2; 1]};
+        {size = 7; data = [7; 6; 5; 4; 3; 2; 1]};
+        {size = 8; data = [8; 7; 6; 5; 4; 3; 2; 1]};
+        {size = 9; data = [9; 8; 7; 6; 5; 4; 3; 2; 1]};
+        {size = 10; data = [10; 9; 8; 7; 6; 5; 4; 3; 2; 1]}|]
+    val mut_history : int Mut_stack.mut_stack array =
+      [|{size = 10; data = [10; 9; 8; 7; 6; 5; 4; 3; 2; 1]};
+        {size = 10; data = [10; 9; 8; 7; 6; 5; 4; 3; 2; 1]};
+        {size = 10; data = [10; 9; 8; 7; 6; 5; 4; 3; 2; 1]};
+        {size = 10; data = [10; 9; 8; 7; 6; 5; 4; 3; 2; 1]};
+        {size = 10; data = [10; 9; 8; 7; 6; 5; 4; 3; 2; 1]};
+        {size = 10; data = [10; 9; 8; 7; 6; 5; 4; 3; 2; 1]};
+        {size = 10; data = [10; 9; 8; 7; 6; 5; 4; 3; 2; 1]};
+        {size = 10; data = [10; 9; 8; 7; 6; 5; 4; 3; 2; 1]};
+        {size = 10; data = [10; 9; 8; 7; 6; 5; 4; 3; 2; 1]};
+        {size = 10; data = [10; 9; 8; 7; 6; 5; 4; 3; 2; 1]};
+        {size = 10; data = [10; 9; 8; 7; 6; 5; 4; 3; 2; 1]}|]
+
+
+(C)
+~~~
+
+  Examine the two values established by `history.ml'
+  - `imu_history' associated with the history of an `imu_stack'
+  - `mut_history' associated with the history of a `mut_stack'
+
+  Determine if the histories accurately reflect the different states
+  that the stacks of undergone or not.  Describe anything strange/wrong
+  that you observe particularly about `mut_history' and determine as
+  best as you can WHY it is happening.
+
+	Imu_stack worked Mut_stack didn’t
+	because in Mut_stack, It is relating every slots of the array to a record 	that is constantly changed by the program
+	

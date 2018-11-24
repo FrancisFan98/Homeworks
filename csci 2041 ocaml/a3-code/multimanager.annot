@@ -1,0 +1,2780 @@
+"multimanager.ml" 7 182 186 "multimanager.ml" 7 182 197
+type(
+  string
+)
+ident(
+  def help_string "multimanager.ml" 51 2730 2730 "multimanager.ml" 1 0 -1
+)
+"multimanager.ml" 8 200 206 "multimanager.ml" 8 200 211
+type(
+  string list
+)
+ident(
+  def lines "multimanager.ml" 44 2441 2443 "multimanager.ml" 44 2441 2467
+)
+"multimanager.ml" 9 216 222 "multimanager.ml" 9 216 237
+type(
+  string
+)
+"multimanager.ml" 10 239 245 "multimanager.ml" 10 239 299
+type(
+  string
+)
+"multimanager.ml" 11 301 307 "multimanager.ml" 11 301 309
+type(
+  string
+)
+"multimanager.ml" 12 311 317 "multimanager.ml" 12 311 340
+type(
+  string
+)
+"multimanager.ml" 13 342 348 "multimanager.ml" 13 342 392
+type(
+  string
+)
+"multimanager.ml" 14 394 400 "multimanager.ml" 14 394 437
+type(
+  string
+)
+"multimanager.ml" 15 439 445 "multimanager.ml" 15 439 447
+type(
+  string
+)
+"multimanager.ml" 16 449 455 "multimanager.ml" 16 449 482
+type(
+  string
+)
+"multimanager.ml" 17 484 490 "multimanager.ml" 17 484 538
+type(
+  string
+)
+"multimanager.ml" 18 540 546 "multimanager.ml" 18 540 603
+type(
+  string
+)
+"multimanager.ml" 19 605 611 "multimanager.ml" 19 605 677
+type(
+  string
+)
+"multimanager.ml" 20 679 685 "multimanager.ml" 20 679 726
+type(
+  string
+)
+"multimanager.ml" 21 728 734 "multimanager.ml" 21 728 776
+type(
+  string
+)
+"multimanager.ml" 22 778 784 "multimanager.ml" 22 778 882
+type(
+  string
+)
+"multimanager.ml" 23 884 890 "multimanager.ml" 23 884 976
+type(
+  string
+)
+"multimanager.ml" 24 978 984 "multimanager.ml" 24 978 1079
+type(
+  string
+)
+"multimanager.ml" 25 1081 1087 "multimanager.ml" 25 1081 1166
+type(
+  string
+)
+"multimanager.ml" 26 1168 1174 "multimanager.ml" 26 1168 1260
+type(
+  string
+)
+"multimanager.ml" 27 1262 1268 "multimanager.ml" 27 1262 1270
+type(
+  string
+)
+"multimanager.ml" 28 1272 1278 "multimanager.ml" 28 1272 1308
+type(
+  string
+)
+"multimanager.ml" 29 1310 1316 "multimanager.ml" 29 1310 1427
+type(
+  string
+)
+"multimanager.ml" 30 1429 1435 "multimanager.ml" 30 1429 1496
+type(
+  string
+)
+"multimanager.ml" 31 1498 1504 "multimanager.ml" 31 1498 1563
+type(
+  string
+)
+"multimanager.ml" 32 1565 1571 "multimanager.ml" 32 1565 1632
+type(
+  string
+)
+"multimanager.ml" 33 1634 1640 "multimanager.ml" 33 1634 1765
+type(
+  string
+)
+"multimanager.ml" 34 1767 1773 "multimanager.ml" 34 1767 1893
+type(
+  string
+)
+"multimanager.ml" 35 1895 1901 "multimanager.ml" 35 1895 1973
+type(
+  string
+)
+"multimanager.ml" 36 1975 1981 "multimanager.ml" 36 1975 1983
+type(
+  string
+)
+"multimanager.ml" 37 1985 1991 "multimanager.ml" 37 1985 2012
+type(
+  string
+)
+"multimanager.ml" 38 2014 2020 "multimanager.ml" 38 2014 2068
+type(
+  string
+)
+"multimanager.ml" 39 2070 2076 "multimanager.ml" 39 2070 2142
+type(
+  string
+)
+"multimanager.ml" 40 2144 2150 "multimanager.ml" 40 2144 2245
+type(
+  string
+)
+"multimanager.ml" 41 2247 2253 "multimanager.ml" 41 2247 2338
+type(
+  string
+)
+"multimanager.ml" 42 2340 2346 "multimanager.ml" 42 2340 2430
+type(
+  string
+)
+"multimanager.ml" 8 200 214 "multimanager.ml" 43 2432 2437
+type(
+  string list
+)
+"multimanager.ml" 44 2441 2443 "multimanager.ml" 44 2441 2456
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref Stdlib.String.concat "string.mli" 123 5313 5313 "string.mli" 123 5313 5357
+)
+"multimanager.ml" 44 2441 2457 "multimanager.ml" 44 2441 2461
+type(
+  string
+)
+"multimanager.ml" 44 2441 2462 "multimanager.ml" 44 2441 2467
+type(
+  string list
+)
+ident(
+  int_ref lines "multimanager.ml" 8 200 206 "multimanager.ml" 8 200 211
+)
+"multimanager.ml" 44 2441 2443 "multimanager.ml" 44 2441 2467
+call(
+  stack
+)
+type(
+  string
+)
+"multimanager.ml" 8 200 202 "multimanager.ml" 44 2441 2467
+type(
+  string
+)
+"multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+type(
+  string list Doccol.doccol
+)
+ident(
+  def global "multimanager.ml" 58 2942 2942 "multimanager.ml" 1 0 -1
+)
+"multimanager.ml" 52 2771 2777 "multimanager.ml" 52 2771 2788
+type(
+  string list Document.document
+)
+ident(
+  def default_doc "multimanager.ml" 53 2811 2813 "multimanager.ml" 54 2849 2887
+)
+"multimanager.ml" 52 2771 2791 "multimanager.ml" 52 2771 2804
+type(
+  string list -> string list Document.document
+)
+ident(
+  int_ref Document.make "document.ml" 13 519 523 "document.ml" 13 519 527
+)
+"multimanager.ml" 52 2771 2805 "multimanager.ml" 52 2771 2807
+type(
+  string list
+)
+"multimanager.ml" 52 2771 2791 "multimanager.ml" 52 2771 2807
+call(
+  stack
+)
+type(
+  string list Document.document
+)
+"multimanager.ml" 53 2811 2817 "multimanager.ml" 53 2811 2829
+type(
+  string
+)
+ident(
+  def default_name "multimanager.ml" 54 2849 2851 "multimanager.ml" 54 2849 2887
+)
+"multimanager.ml" 53 2811 2832 "multimanager.ml" 53 2811 2845
+type(
+  string
+)
+"multimanager.ml" 54 2849 2851 "multimanager.ml" 54 2849 2862
+type(
+  string -> string list Document.document -> string list Doccol.doccol
+)
+ident(
+  int_ref Doccol.make "doccol.ml" 16 782 786 "doccol.ml" 16 782 790
+)
+"multimanager.ml" 54 2849 2863 "multimanager.ml" 54 2849 2875
+type(
+  string
+)
+ident(
+  int_ref default_name "multimanager.ml" 53 2811 2817 "multimanager.ml" 53 2811 2829
+)
+"multimanager.ml" 54 2849 2876 "multimanager.ml" 54 2849 2887
+type(
+  string list Document.document
+)
+ident(
+  int_ref default_doc "multimanager.ml" 52 2771 2777 "multimanager.ml" 52 2771 2788
+)
+"multimanager.ml" 54 2849 2851 "multimanager.ml" 54 2849 2887
+call(
+  stack
+)
+type(
+  string list Doccol.doccol
+)
+"multimanager.ml" 53 2811 2813 "multimanager.ml" 54 2849 2887
+type(
+  string list Doccol.doccol
+)
+"multimanager.ml" 52 2771 2773 "multimanager.ml" 54 2849 2887
+type(
+  string list Doccol.doccol
+)
+type(
+  string list Doccol.doccol
+)
+"multimanager.ml" 58 2942 2946 "multimanager.ml" 58 2942 2954
+type(
+  bool ref
+)
+ident(
+  def quit_now "multimanager.ml" 66 3304 3304 "multimanager.ml" 1 0 -1
+)
+"multimanager.ml" 58 2942 2957 "multimanager.ml" 58 2942 2960
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1067 41215 41215 "stdlib.mli" 1067 41215 41259
+)
+"multimanager.ml" 58 2942 2961 "multimanager.ml" 58 2942 2966
+type(
+  bool
+)
+"multimanager.ml" 58 2942 2957 "multimanager.ml" 58 2942 2966
+type(
+  bool ref
+)
+"multimanager.ml" 66 3304 3312 "multimanager.ml" 66 3304 3327
+type(
+  string array -> unit
+)
+ident(
+  def execute_command "multimanager.ml" 66 3304 3304 "multimanager.ml" 1 0 -1
+)
+"multimanager.ml" 66 3304 3328 "multimanager.ml" 66 3304 3334
+type(
+  string array
+)
+ident(
+  def tokens "multimanager.ml" 67 3337 3339 "multimanager.ml" 158 7776 7823
+)
+"multimanager.ml" 67 3337 3343 "multimanager.ml" 67 3337 3346
+type(
+  string
+)
+ident(
+  def cmd "multimanager.ml" 68 3398 3400 "multimanager.ml" 158 7776 7823
+)
+"multimanager.ml" 67 3337 3349 "multimanager.ml" 67 3337 3355
+type(
+  string array
+)
+ident(
+  int_ref tokens "multimanager.ml" 66 3304 3328 "multimanager.ml" 66 3304 3334
+)
+"multimanager.ml" 67 3337 3357 "multimanager.ml" 67 3337 3358
+type(
+  int
+)
+"multimanager.ml" 67 3337 3349 "multimanager.ml" 67 3337 3359
+type(
+  string
+)
+"multimanager.ml" 68 3398 3406 "multimanager.ml" 68 3398 3409
+type(
+  string
+)
+ident(
+  int_ref cmd "multimanager.ml" 67 3337 3343 "multimanager.ml" 67 3337 3346
+)
+"multimanager.ml" 70 3445 3449 "multimanager.ml" 70 3445 3455
+type(
+  string
+)
+"multimanager.ml" 71 3459 3464 "multimanager.ml" 71 3459 3470
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"multimanager.ml" 71 3459 3471 "multimanager.ml" 71 3459 3477
+type(
+  (string -> unit, out_channel, unit) format
+)
+"multimanager.ml" 71 3459 3478 "multimanager.ml" 71 3459 3489
+type(
+  string
+)
+ident(
+  int_ref help_string "multimanager.ml" 7 182 186 "multimanager.ml" 7 182 197
+)
+"multimanager.ml" 71 3459 3464 "multimanager.ml" 71 3459 3489
+call(
+  tail
+)
+type(
+  unit
+)
+"multimanager.ml" 72 3491 3495 "multimanager.ml" 72 3491 3501
+type(
+  string
+)
+"multimanager.ml" 73 3505 3510 "multimanager.ml" 73 3505 3518
+type(
+  bool ref
+)
+ident(
+  int_ref quit_now "multimanager.ml" 58 2942 2946 "multimanager.ml" 58 2942 2954
+)
+"multimanager.ml" 73 3505 3519 "multimanager.ml" 73 3505 3521
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1075 41507 41507 "stdlib.mli" 1075 41507 41560
+)
+"multimanager.ml" 73 3505 3522 "multimanager.ml" 73 3505 3526
+type(
+  bool
+)
+"multimanager.ml" 73 3505 3510 "multimanager.ml" 73 3505 3526
+type(
+  unit
+)
+"multimanager.ml" 76 3563 3567 "multimanager.ml" 76 3563 3573
+type(
+  string
+)
+"multimanager.ml" 77 3577 3582 "multimanager.ml" 77 3577 3588
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"multimanager.ml" 77 3577 3589 "multimanager.ml" 77 3577 3605
+type(
+  (unit, out_channel, unit) format
+)
+"multimanager.ml" 77 3577 3582 "multimanager.ml" 77 3577 3605
+call(
+  stack
+)
+type(
+  unit
+)
+"multimanager.ml" 78 3607 3612 "multimanager.ml" 78 3607 3628
+type(
+  string list -> unit
+)
+ident(
+  int_ref Sortedlist.print "sortedlist.ml" 18 696 704 "sortedlist.ml" 18 696 709
+)
+"multimanager.ml" 78 3607 3629 "multimanager.ml" 78 3607 3635
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 78 3607 3629 "multimanager.ml" 78 3607 3642
+type(
+  string list Document.document
+)
+"multimanager.ml" 78 3607 3629 "multimanager.ml" 78 3607 3650
+type(
+  string list
+)
+"multimanager.ml" 78 3607 3612 "multimanager.ml" 78 3607 3650
+call(
+  stack
+)
+type(
+  unit
+)
+"multimanager.ml" 79 3652 3657 "multimanager.ml" 79 3652 3663
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"multimanager.ml" 79 3652 3664 "multimanager.ml" 79 3652 3680
+type(
+  (unit, out_channel, unit) format
+)
+"multimanager.ml" 79 3652 3657 "multimanager.ml" 79 3652 3680
+call(
+  tail
+)
+type(
+  unit
+)
+"multimanager.ml" 78 3607 3612 "multimanager.ml" 79 3652 3681
+type(
+  unit
+)
+"multimanager.ml" 77 3577 3582 "multimanager.ml" 79 3652 3681
+type(
+  unit
+)
+"multimanager.ml" 80 3682 3686 "multimanager.ml" 80 3682 3693
+type(
+  string
+)
+"multimanager.ml" 81 3697 3702 "multimanager.ml" 81 3697 3714
+type(
+  string list Document.document -> string list -> unit
+)
+ident(
+  int_ref Document.set "document.ml" 24 777 781 "document.ml" 24 777 784
+)
+"multimanager.ml" 81 3697 3715 "multimanager.ml" 81 3697 3721
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 81 3697 3715 "multimanager.ml" 81 3697 3728
+type(
+  string list Document.document
+)
+"multimanager.ml" 81 3697 3729 "multimanager.ml" 81 3697 3731
+type(
+  string list
+)
+"multimanager.ml" 81 3697 3702 "multimanager.ml" 81 3697 3731
+call(
+  tail
+)
+type(
+  unit
+)
+"multimanager.ml" 82 3733 3737 "multimanager.ml" 82 3733 3742
+type(
+  string
+)
+"multimanager.ml" 83 3746 3755 "multimanager.ml" 83 3746 3759
+type(
+  string list
+)
+ident(
+  def newv "multimanager.ml" 84 3874 3879 "multimanager.ml" 84 3874 3910
+)
+"multimanager.ml" 83 3746 3762 "multimanager.ml" 83 3746 3779
+type(
+  string list -> string -> string list
+)
+ident(
+  int_ref Sortedlist.insert "sortedlist.ml" 1 0 8 "sortedlist.ml" 1 0 14
+)
+"multimanager.ml" 83 3746 3780 "multimanager.ml" 83 3746 3786
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 83 3746 3780 "multimanager.ml" 83 3746 3793
+type(
+  string list Document.document
+)
+"multimanager.ml" 83 3746 3780 "multimanager.ml" 83 3746 3801
+type(
+  string list
+)
+"multimanager.ml" 83 3746 3802 "multimanager.ml" 83 3746 3808
+type(
+  string array
+)
+ident(
+  int_ref tokens "multimanager.ml" 66 3304 3328 "multimanager.ml" 66 3304 3334
+)
+"multimanager.ml" 83 3746 3810 "multimanager.ml" 83 3746 3811
+type(
+  int
+)
+"multimanager.ml" 83 3746 3802 "multimanager.ml" 83 3746 3812
+type(
+  string
+)
+"multimanager.ml" 83 3746 3762 "multimanager.ml" 83 3746 3812
+call(
+  stack
+)
+type(
+  string list
+)
+"multimanager.ml" 84 3874 3879 "multimanager.ml" 84 3874 3891
+type(
+  string list Document.document -> string list -> unit
+)
+ident(
+  int_ref Document.set "document.ml" 24 777 781 "document.ml" 24 777 784
+)
+"multimanager.ml" 84 3874 3892 "multimanager.ml" 84 3874 3898
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 84 3874 3892 "multimanager.ml" 84 3874 3905
+type(
+  string list Document.document
+)
+"multimanager.ml" 84 3874 3906 "multimanager.ml" 84 3874 3910
+type(
+  string list
+)
+ident(
+  int_ref newv "multimanager.ml" 83 3746 3755 "multimanager.ml" 83 3746 3759
+)
+"multimanager.ml" 84 3874 3879 "multimanager.ml" 84 3874 3910
+call(
+  tail
+)
+type(
+  unit
+)
+"multimanager.ml" 83 3746 3751 "multimanager.ml" 84 3874 3910
+type(
+  unit
+)
+"multimanager.ml" 85 3911 3915 "multimanager.ml" 85 3911 3923
+type(
+  string
+)
+"multimanager.ml" 86 3927 3936 "multimanager.ml" 86 3927 3940
+type(
+  string list
+)
+ident(
+  def newv "multimanager.ml" 87 4055 4060 "multimanager.ml" 87 4055 4091
+)
+"multimanager.ml" 86 3927 3943 "multimanager.ml" 86 3927 3960
+type(
+  string list -> string -> string list
+)
+ident(
+  int_ref Sortedlist.remove "sortedlist.ml" 11 492 500 "sortedlist.ml" 11 492 506
+)
+"multimanager.ml" 86 3927 3961 "multimanager.ml" 86 3927 3967
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 86 3927 3961 "multimanager.ml" 86 3927 3974
+type(
+  string list Document.document
+)
+"multimanager.ml" 86 3927 3961 "multimanager.ml" 86 3927 3982
+type(
+  string list
+)
+"multimanager.ml" 86 3927 3983 "multimanager.ml" 86 3927 3989
+type(
+  string array
+)
+ident(
+  int_ref tokens "multimanager.ml" 66 3304 3328 "multimanager.ml" 66 3304 3334
+)
+"multimanager.ml" 86 3927 3991 "multimanager.ml" 86 3927 3992
+type(
+  int
+)
+"multimanager.ml" 86 3927 3983 "multimanager.ml" 86 3927 3993
+type(
+  string
+)
+"multimanager.ml" 86 3927 3943 "multimanager.ml" 86 3927 3993
+call(
+  stack
+)
+type(
+  string list
+)
+"multimanager.ml" 87 4055 4060 "multimanager.ml" 87 4055 4072
+type(
+  string list Document.document -> string list -> unit
+)
+ident(
+  int_ref Document.set "document.ml" 24 777 781 "document.ml" 24 777 784
+)
+"multimanager.ml" 87 4055 4073 "multimanager.ml" 87 4055 4079
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 87 4055 4073 "multimanager.ml" 87 4055 4086
+type(
+  string list Document.document
+)
+"multimanager.ml" 87 4055 4087 "multimanager.ml" 87 4055 4091
+type(
+  string list
+)
+ident(
+  int_ref newv "multimanager.ml" 86 3927 3936 "multimanager.ml" 86 3927 3940
+)
+"multimanager.ml" 87 4055 4060 "multimanager.ml" 87 4055 4091
+call(
+  tail
+)
+type(
+  unit
+)
+"multimanager.ml" 86 3927 3932 "multimanager.ml" 87 4055 4091
+type(
+  unit
+)
+"multimanager.ml" 88 4092 4096 "multimanager.ml" 88 4092 4102
+type(
+  string
+)
+"multimanager.ml" 89 4106 4111 "multimanager.ml" 89 4106 4131
+type(
+  string list -> string -> unit
+)
+ident(
+  int_ref Util.strlist_to_file "util.ml" 22 594 598 "util.ml" 22 594 613
+)
+"multimanager.ml" 89 4106 4132 "multimanager.ml" 89 4106 4138
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 89 4106 4132 "multimanager.ml" 89 4106 4145
+type(
+  string list Document.document
+)
+"multimanager.ml" 89 4106 4132 "multimanager.ml" 89 4106 4153
+type(
+  string list
+)
+"multimanager.ml" 89 4106 4154 "multimanager.ml" 89 4106 4160
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 89 4106 4154 "multimanager.ml" 89 4106 4168
+type(
+  string
+)
+"multimanager.ml" 89 4106 4111 "multimanager.ml" 89 4106 4168
+call(
+  tail
+)
+type(
+  unit
+)
+"multimanager.ml" 90 4169 4173 "multimanager.ml" 90 4169 4181
+type(
+  string
+)
+"multimanager.ml" 91 4185 4190 "multimanager.ml" 91 4185 4210
+type(
+  string list -> string -> unit
+)
+ident(
+  int_ref Util.strlist_to_file "util.ml" 22 594 598 "util.ml" 22 594 613
+)
+"multimanager.ml" 91 4185 4211 "multimanager.ml" 91 4185 4217
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 91 4185 4211 "multimanager.ml" 91 4185 4224
+type(
+  string list Document.document
+)
+"multimanager.ml" 91 4185 4211 "multimanager.ml" 91 4185 4232
+type(
+  string list
+)
+"multimanager.ml" 91 4185 4233 "multimanager.ml" 91 4185 4239
+type(
+  string array
+)
+ident(
+  int_ref tokens "multimanager.ml" 66 3304 3328 "multimanager.ml" 66 3304 3334
+)
+"multimanager.ml" 91 4185 4241 "multimanager.ml" 91 4185 4242
+type(
+  int
+)
+"multimanager.ml" 91 4185 4233 "multimanager.ml" 91 4185 4243
+type(
+  string
+)
+"multimanager.ml" 91 4185 4190 "multimanager.ml" 91 4185 4243
+call(
+  tail
+)
+type(
+  unit
+)
+"multimanager.ml" 92 4244 4248 "multimanager.ml" 92 4244 4254
+type(
+  string
+)
+"multimanager.ml" 93 4258 4267 "multimanager.ml" 93 4258 4271
+type(
+  string list
+)
+ident(
+  def newv "multimanager.ml" 94 4395 4400 "multimanager.ml" 94 4395 4431
+)
+"multimanager.ml" 93 4258 4274 "multimanager.ml" 93 4258 4296
+type(
+  string -> string list
+)
+ident(
+  int_ref Util.strlist_from_file "util.ml" 6 244 248 "util.ml" 6 244 265
+)
+"multimanager.ml" 93 4258 4297 "multimanager.ml" 93 4258 4303
+type(
+  string array
+)
+ident(
+  int_ref tokens "multimanager.ml" 66 3304 3328 "multimanager.ml" 66 3304 3334
+)
+"multimanager.ml" 93 4258 4305 "multimanager.ml" 93 4258 4306
+type(
+  int
+)
+"multimanager.ml" 93 4258 4297 "multimanager.ml" 93 4258 4307
+type(
+  string
+)
+"multimanager.ml" 93 4258 4274 "multimanager.ml" 93 4258 4307
+call(
+  stack
+)
+type(
+  string list
+)
+"multimanager.ml" 94 4395 4400 "multimanager.ml" 94 4395 4412
+type(
+  string list Document.document -> string list -> unit
+)
+ident(
+  int_ref Document.set "document.ml" 24 777 781 "document.ml" 24 777 784
+)
+"multimanager.ml" 94 4395 4413 "multimanager.ml" 94 4395 4419
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 94 4395 4413 "multimanager.ml" 94 4395 4426
+type(
+  string list Document.document
+)
+"multimanager.ml" 94 4395 4427 "multimanager.ml" 94 4395 4431
+type(
+  string list
+)
+ident(
+  int_ref newv "multimanager.ml" 93 4258 4267 "multimanager.ml" 93 4258 4271
+)
+"multimanager.ml" 94 4395 4400 "multimanager.ml" 94 4395 4431
+call(
+  tail
+)
+type(
+  unit
+)
+"multimanager.ml" 93 4258 4263 "multimanager.ml" 94 4395 4431
+type(
+  unit
+)
+"multimanager.ml" 95 4432 4436 "multimanager.ml" 95 4432 4445
+type(
+  string
+)
+"multimanager.ml" 96 4449 4458 "multimanager.ml" 96 4449 4462
+type(
+  string list
+)
+ident(
+  def load "multimanager.ml" 97 4603 4608 "multimanager.ml" 98 4666 4702
+)
+"multimanager.ml" 96 4449 4465 "multimanager.ml" 96 4449 4487
+type(
+  string -> string list
+)
+ident(
+  int_ref Util.strlist_from_file "util.ml" 6 244 248 "util.ml" 6 244 265
+)
+"multimanager.ml" 96 4449 4488 "multimanager.ml" 96 4449 4494
+type(
+  string array
+)
+ident(
+  int_ref tokens "multimanager.ml" 66 3304 3328 "multimanager.ml" 66 3304 3334
+)
+"multimanager.ml" 96 4449 4496 "multimanager.ml" 96 4449 4497
+type(
+  int
+)
+"multimanager.ml" 96 4449 4488 "multimanager.ml" 96 4449 4498
+type(
+  string
+)
+"multimanager.ml" 96 4449 4465 "multimanager.ml" 96 4449 4498
+call(
+  stack
+)
+type(
+  string list
+)
+"multimanager.ml" 97 4603 4612 "multimanager.ml" 97 4603 4616
+type(
+  string list
+)
+ident(
+  def newv "multimanager.ml" 98 4666 4671 "multimanager.ml" 98 4666 4702
+)
+"multimanager.ml" 97 4603 4619 "multimanager.ml" 97 4603 4635
+type(
+  string list -> string list -> string list
+)
+ident(
+  int_ref Sortedlist.merge "sortedlist.ml" 25 855 863 "sortedlist.ml" 25 855 868
+)
+"multimanager.ml" 97 4603 4636 "multimanager.ml" 97 4603 4640
+type(
+  string list
+)
+ident(
+  int_ref load "multimanager.ml" 96 4449 4458 "multimanager.ml" 96 4449 4462
+)
+"multimanager.ml" 97 4603 4641 "multimanager.ml" 97 4603 4647
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 97 4603 4641 "multimanager.ml" 97 4603 4654
+type(
+  string list Document.document
+)
+"multimanager.ml" 97 4603 4641 "multimanager.ml" 97 4603 4662
+type(
+  string list
+)
+"multimanager.ml" 97 4603 4619 "multimanager.ml" 97 4603 4662
+call(
+  stack
+)
+type(
+  string list
+)
+"multimanager.ml" 98 4666 4671 "multimanager.ml" 98 4666 4683
+type(
+  string list Document.document -> string list -> unit
+)
+ident(
+  int_ref Document.set "document.ml" 24 777 781 "document.ml" 24 777 784
+)
+"multimanager.ml" 98 4666 4684 "multimanager.ml" 98 4666 4690
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 98 4666 4684 "multimanager.ml" 98 4666 4697
+type(
+  string list Document.document
+)
+"multimanager.ml" 98 4666 4698 "multimanager.ml" 98 4666 4702
+type(
+  string list
+)
+ident(
+  int_ref newv "multimanager.ml" 97 4603 4612 "multimanager.ml" 97 4603 4616
+)
+"multimanager.ml" 98 4666 4671 "multimanager.ml" 98 4666 4702
+call(
+  tail
+)
+type(
+  unit
+)
+"multimanager.ml" 97 4603 4608 "multimanager.ml" 98 4666 4702
+type(
+  unit
+)
+"multimanager.ml" 96 4449 4454 "multimanager.ml" 98 4666 4702
+type(
+  unit
+)
+"multimanager.ml" 99 4703 4707 "multimanager.ml" 99 4703 4713
+type(
+  string
+)
+"multimanager.ml" 100 4717 4725 "multimanager.ml" 100 4717 4738
+type(
+  string list Document.document -> bool
+)
+ident(
+  int_ref Document.undo "document.ml" 34 1115 1119 "document.ml" 34 1115 1123
+)
+"multimanager.ml" 100 4717 4739 "multimanager.ml" 100 4717 4745
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 100 4717 4739 "multimanager.ml" 100 4717 4752
+type(
+  string list Document.document
+)
+"multimanager.ml" 100 4717 4725 "multimanager.ml" 100 4717 4752
+call(
+  stack
+)
+type(
+  bool
+)
+"multimanager.ml" 100 4717 4758 "multimanager.ml" 100 4717 4760
+type(
+  unit
+)
+"multimanager.ml" 101 4871 4881 "multimanager.ml" 101 4871 4887
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"multimanager.ml" 101 4871 4888 "multimanager.ml" 101 4871 4894
+type(
+  (string -> unit, out_channel, unit) format
+)
+"multimanager.ml" 101 4871 4895 "multimanager.ml" 101 4871 4938
+type(
+  string
+)
+"multimanager.ml" 101 4871 4881 "multimanager.ml" 101 4871 4938
+call(
+  tail
+)
+type(
+  unit
+)
+"multimanager.ml" 100 4717 4722 "multimanager.ml" 101 4871 4938
+type(
+  unit
+)
+"multimanager.ml" 102 4939 4943 "multimanager.ml" 102 4939 4949
+type(
+  string
+)
+"multimanager.ml" 103 4953 4961 "multimanager.ml" 103 4953 4974
+type(
+  string list Document.document -> bool
+)
+ident(
+  int_ref Document.redo "document.ml" 49 1874 1878 "document.ml" 49 1874 1882
+)
+"multimanager.ml" 103 4953 4975 "multimanager.ml" 103 4953 4981
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 103 4953 4975 "multimanager.ml" 103 4953 4988
+type(
+  string list Document.document
+)
+"multimanager.ml" 103 4953 4961 "multimanager.ml" 103 4953 4988
+call(
+  stack
+)
+type(
+  bool
+)
+"multimanager.ml" 103 4953 4994 "multimanager.ml" 103 4953 4996
+type(
+  unit
+)
+"multimanager.ml" 104 5107 5117 "multimanager.ml" 104 5107 5123
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"multimanager.ml" 104 5107 5124 "multimanager.ml" 104 5107 5130
+type(
+  (string -> unit, out_channel, unit) format
+)
+"multimanager.ml" 104 5107 5131 "multimanager.ml" 104 5107 5174
+type(
+  string
+)
+"multimanager.ml" 104 5107 5117 "multimanager.ml" 104 5107 5174
+call(
+  tail
+)
+type(
+  unit
+)
+"multimanager.ml" 103 4953 4958 "multimanager.ml" 104 5107 5174
+type(
+  unit
+)
+"multimanager.ml" 107 5213 5217 "multimanager.ml" 107 5213 5224
+type(
+  string
+)
+"multimanager.ml" 108 5228 5237 "multimanager.ml" 108 5228 5241
+type(
+  string
+)
+ident(
+  def newv "multimanager.ml" 109 5371 5376 "multimanager.ml" 109 5371 5394
+)
+"multimanager.ml" 108 5228 5244 "multimanager.ml" 108 5228 5267
+type(
+  string list Doccol.doccol -> string
+)
+ident(
+  int_ref Doccol.string_of_doccol "doccol.ml" 91 3610 3614 "doccol.ml" 91 3610 3630
+)
+"multimanager.ml" 108 5228 5268 "multimanager.ml" 108 5228 5274
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 108 5228 5244 "multimanager.ml" 108 5228 5274
+call(
+  stack
+)
+type(
+  string
+)
+"multimanager.ml" 109 5371 5376 "multimanager.ml" 109 5371 5382
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"multimanager.ml" 109 5371 5383 "multimanager.ml" 109 5371 5389
+type(
+  (string -> unit, out_channel, unit) format
+)
+"multimanager.ml" 109 5371 5390 "multimanager.ml" 109 5371 5394
+type(
+  string
+)
+ident(
+  int_ref newv "multimanager.ml" 108 5228 5237 "multimanager.ml" 108 5228 5241
+)
+"multimanager.ml" 109 5371 5376 "multimanager.ml" 109 5371 5394
+call(
+  tail
+)
+type(
+  unit
+)
+"multimanager.ml" 108 5228 5233 "multimanager.ml" 109 5371 5394
+type(
+  unit
+)
+"multimanager.ml" 110 5395 5399 "multimanager.ml" 110 5395 5405
+type(
+  string
+)
+"multimanager.ml" 111 5409 5417 "multimanager.ml" 111 5409 5430
+type(
+  string list Doccol.doccol -> string -> bool
+)
+ident(
+  int_ref Doccol.switch "doccol.ml" 78 3150 3154 "doccol.ml" 78 3150 3160
+)
+"multimanager.ml" 111 5409 5431 "multimanager.ml" 111 5409 5437
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 111 5409 5438 "multimanager.ml" 111 5409 5444
+type(
+  string array
+)
+ident(
+  int_ref tokens "multimanager.ml" 66 3304 3328 "multimanager.ml" 66 3304 3334
+)
+"multimanager.ml" 111 5409 5446 "multimanager.ml" 111 5409 5447
+type(
+  int
+)
+"multimanager.ml" 111 5409 5438 "multimanager.ml" 111 5409 5448
+type(
+  string
+)
+"multimanager.ml" 111 5409 5417 "multimanager.ml" 111 5409 5448
+call(
+  stack
+)
+type(
+  bool
+)
+"multimanager.ml" 111 5409 5454 "multimanager.ml" 111 5409 5456
+type(
+  unit
+)
+"multimanager.ml" 112 5570 5580 "multimanager.ml" 112 5570 5586
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"multimanager.ml" 112 5570 5587 "multimanager.ml" 112 5570 5622
+type(
+  (string -> unit, out_channel, unit) format
+)
+"multimanager.ml" 112 5570 5623 "multimanager.ml" 112 5570 5629
+type(
+  string array
+)
+ident(
+  int_ref tokens "multimanager.ml" 66 3304 3328 "multimanager.ml" 66 3304 3334
+)
+"multimanager.ml" 112 5570 5631 "multimanager.ml" 112 5570 5632
+type(
+  int
+)
+"multimanager.ml" 112 5570 5623 "multimanager.ml" 112 5570 5633
+type(
+  string
+)
+"multimanager.ml" 112 5570 5580 "multimanager.ml" 112 5570 5633
+call(
+  tail
+)
+type(
+  unit
+)
+"multimanager.ml" 111 5409 5414 "multimanager.ml" 112 5570 5633
+type(
+  unit
+)
+"multimanager.ml" 113 5643 5647 "multimanager.ml" 113 5643 5652
+type(
+  string
+)
+"multimanager.ml" 114 5656 5665 "multimanager.ml" 114 5656 5671
+type(
+  string list Document.document
+)
+ident(
+  def newdoc "multimanager.ml" 115 5810 5815 "multimanager.ml" 121 5961 6021
+)
+"multimanager.ml" 114 5656 5674 "multimanager.ml" 114 5656 5687
+type(
+  string list -> string list Document.document
+)
+ident(
+  int_ref Document.make "document.ml" 13 519 523 "document.ml" 13 519 527
+)
+"multimanager.ml" 114 5656 5688 "multimanager.ml" 114 5656 5690
+type(
+  string list
+)
+"multimanager.ml" 114 5656 5674 "multimanager.ml" 114 5656 5690
+call(
+  stack
+)
+type(
+  string list Document.document
+)
+"multimanager.ml" 115 5810 5818 "multimanager.ml" 115 5810 5828
+type(
+  string list Doccol.doccol ->
+  string -> string list Document.document -> bool
+)
+ident(
+  int_ref Doccol.add "doccol.ml" 29 1144 1148 "doccol.ml" 29 1144 1151
+)
+"multimanager.ml" 115 5810 5829 "multimanager.ml" 115 5810 5835
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 115 5810 5836 "multimanager.ml" 115 5810 5842
+type(
+  string array
+)
+ident(
+  int_ref tokens "multimanager.ml" 66 3304 3328 "multimanager.ml" 66 3304 3334
+)
+"multimanager.ml" 115 5810 5844 "multimanager.ml" 115 5810 5845
+type(
+  int
+)
+"multimanager.ml" 115 5810 5836 "multimanager.ml" 115 5810 5846
+type(
+  string
+)
+"multimanager.ml" 115 5810 5847 "multimanager.ml" 115 5810 5853
+type(
+  string list Document.document
+)
+ident(
+  int_ref newdoc "multimanager.ml" 114 5656 5665 "multimanager.ml" 114 5656 5671
+)
+"multimanager.ml" 115 5810 5818 "multimanager.ml" 115 5810 5853
+call(
+  stack
+)
+type(
+  bool
+)
+"multimanager.ml" 117 5866 5876 "multimanager.ml" 117 5866 5889
+type(
+  string list Doccol.doccol -> string -> bool
+)
+ident(
+  int_ref Doccol.switch "doccol.ml" 78 3150 3154 "doccol.ml" 78 3150 3160
+)
+"multimanager.ml" 117 5866 5890 "multimanager.ml" 117 5866 5896
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 117 5866 5897 "multimanager.ml" 117 5866 5903
+type(
+  string array
+)
+ident(
+  int_ref tokens "multimanager.ml" 66 3304 3328 "multimanager.ml" 66 3304 3334
+)
+"multimanager.ml" 117 5866 5905 "multimanager.ml" 117 5866 5906
+type(
+  int
+)
+"multimanager.ml" 117 5866 5897 "multimanager.ml" 117 5866 5907
+type(
+  string
+)
+"multimanager.ml" 117 5866 5876 "multimanager.ml" 117 5866 5907
+call(
+  stack
+)
+type(
+  bool
+)
+"multimanager.ml" 117 5866 5913 "multimanager.ml" 117 5866 5915
+type(
+  unit
+)
+"multimanager.ml" 118 5929 5941 "multimanager.ml" 118 5929 5943
+type(
+  unit
+)
+"multimanager.ml" 116 5859 5864 "multimanager.ml" 119 5944 5950
+type(
+  unit
+)
+"multimanager.ml" 121 5961 5968 "multimanager.ml" 121 5961 5974
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"multimanager.ml" 121 5961 5975 "multimanager.ml" 121 5961 6010
+type(
+  (string -> unit, out_channel, unit) format
+)
+"multimanager.ml" 121 5961 6011 "multimanager.ml" 121 5961 6017
+type(
+  string array
+)
+ident(
+  int_ref tokens "multimanager.ml" 66 3304 3328 "multimanager.ml" 66 3304 3334
+)
+"multimanager.ml" 121 5961 6019 "multimanager.ml" 121 5961 6020
+type(
+  int
+)
+"multimanager.ml" 121 5961 6011 "multimanager.ml" 121 5961 6021
+type(
+  string
+)
+"multimanager.ml" 121 5961 5968 "multimanager.ml" 121 5961 6021
+call(
+  tail
+)
+type(
+  unit
+)
+"multimanager.ml" 115 5810 5815 "multimanager.ml" 121 5961 6021
+type(
+  unit
+)
+"multimanager.ml" 114 5656 5661 "multimanager.ml" 121 5961 6021
+type(
+  unit
+)
+"multimanager.ml" 122 6077 6081 "multimanager.ml" 122 6077 6087
+type(
+  string
+)
+"multimanager.ml" 123 6091 6100 "multimanager.ml" 123 6091 6106
+type(
+  string list Document.document
+)
+ident(
+  def newdoc "multimanager.ml" 124 6239 6244 "multimanager.ml" 130 6607 6613
+)
+"multimanager.ml" 123 6091 6109 "multimanager.ml" 123 6091 6122
+type(
+  string list -> string list Document.document
+)
+ident(
+  int_ref Document.make "document.ml" 13 519 523 "document.ml" 13 519 527
+)
+"multimanager.ml" 123 6091 6124 "multimanager.ml" 123 6091 6146
+type(
+  string -> string list
+)
+ident(
+  int_ref Util.strlist_from_file "util.ml" 6 244 248 "util.ml" 6 244 265
+)
+"multimanager.ml" 123 6091 6147 "multimanager.ml" 123 6091 6153
+type(
+  string array
+)
+ident(
+  int_ref tokens "multimanager.ml" 66 3304 3328 "multimanager.ml" 66 3304 3334
+)
+"multimanager.ml" 123 6091 6155 "multimanager.ml" 123 6091 6156
+type(
+  int
+)
+"multimanager.ml" 123 6091 6147 "multimanager.ml" 123 6091 6157
+type(
+  string
+)
+"multimanager.ml" 123 6091 6123 "multimanager.ml" 123 6091 6158
+call(
+  stack
+)
+type(
+  string list
+)
+"multimanager.ml" 123 6091 6109 "multimanager.ml" 123 6091 6158
+call(
+  stack
+)
+type(
+  string list Document.document
+)
+"multimanager.ml" 124 6239 6247 "multimanager.ml" 124 6239 6257
+type(
+  string list Doccol.doccol ->
+  string -> string list Document.document -> bool
+)
+ident(
+  int_ref Doccol.add "doccol.ml" 29 1144 1148 "doccol.ml" 29 1144 1151
+)
+"multimanager.ml" 124 6239 6258 "multimanager.ml" 124 6239 6264
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 124 6239 6265 "multimanager.ml" 124 6239 6271
+type(
+  string array
+)
+ident(
+  int_ref tokens "multimanager.ml" 66 3304 3328 "multimanager.ml" 66 3304 3334
+)
+"multimanager.ml" 124 6239 6273 "multimanager.ml" 124 6239 6274
+type(
+  int
+)
+"multimanager.ml" 124 6239 6265 "multimanager.ml" 124 6239 6275
+type(
+  string
+)
+"multimanager.ml" 124 6239 6276 "multimanager.ml" 124 6239 6282
+type(
+  string list Document.document
+)
+ident(
+  int_ref newdoc "multimanager.ml" 123 6091 6100 "multimanager.ml" 123 6091 6106
+)
+"multimanager.ml" 124 6239 6247 "multimanager.ml" 124 6239 6282
+call(
+  stack
+)
+type(
+  bool
+)
+"multimanager.ml" 125 6380 6391 "multimanager.ml" 125 6380 6404
+type(
+  string list Doccol.doccol -> string -> bool
+)
+ident(
+  int_ref Doccol.switch "doccol.ml" 78 3150 3154 "doccol.ml" 78 3150 3160
+)
+"multimanager.ml" 125 6380 6405 "multimanager.ml" 125 6380 6411
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 125 6380 6412 "multimanager.ml" 125 6380 6418
+type(
+  string array
+)
+ident(
+  int_ref tokens "multimanager.ml" 66 3304 3328 "multimanager.ml" 66 3304 3334
+)
+"multimanager.ml" 125 6380 6420 "multimanager.ml" 125 6380 6421
+type(
+  int
+)
+"multimanager.ml" 125 6380 6412 "multimanager.ml" 125 6380 6422
+type(
+  string
+)
+"multimanager.ml" 125 6380 6391 "multimanager.ml" 125 6380 6422
+call(
+  stack
+)
+type(
+  bool
+)
+"multimanager.ml" 125 6380 6428 "multimanager.ml" 125 6380 6430
+type(
+  unit
+)
+"multimanager.ml" 126 6511 6524 "multimanager.ml" 126 6511 6526
+type(
+  unit
+)
+"multimanager.ml" 124 6239 6287 "multimanager.ml" 127 6527 6533
+type(
+  unit
+)
+"multimanager.ml" 129 6545 6553 "multimanager.ml" 129 6545 6559
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"multimanager.ml" 129 6545 6560 "multimanager.ml" 129 6545 6595
+type(
+  (string -> unit, out_channel, unit) format
+)
+"multimanager.ml" 129 6545 6596 "multimanager.ml" 129 6545 6602
+type(
+  string array
+)
+ident(
+  int_ref tokens "multimanager.ml" 66 3304 3328 "multimanager.ml" 66 3304 3334
+)
+"multimanager.ml" 129 6545 6604 "multimanager.ml" 129 6545 6605
+type(
+  int
+)
+"multimanager.ml" 129 6545 6596 "multimanager.ml" 129 6545 6606
+type(
+  string
+)
+"multimanager.ml" 128 6534 6543 "multimanager.ml" 130 6607 6613
+call(
+  tail
+)
+type(
+  unit
+)
+"multimanager.ml" 124 6239 6244 "multimanager.ml" 130 6607 6613
+type(
+  unit
+)
+"multimanager.ml" 123 6091 6096 "multimanager.ml" 130 6607 6613
+type(
+  unit
+)
+"multimanager.ml" 133 6627 6631 "multimanager.ml" 133 6627 6638
+type(
+  string
+)
+"multimanager.ml" 134 6642 6650 "multimanager.ml" 134 6642 6663
+type(
+  string list Doccol.doccol -> string -> bool
+)
+ident(
+  int_ref Doccol.remove "doccol.ml" 47 1896 1900 "doccol.ml" 47 1896 1906
+)
+"multimanager.ml" 134 6642 6664 "multimanager.ml" 134 6642 6670
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 134 6642 6671 "multimanager.ml" 134 6642 6677
+type(
+  string array
+)
+ident(
+  int_ref tokens "multimanager.ml" 66 3304 3328 "multimanager.ml" 66 3304 3334
+)
+"multimanager.ml" 134 6642 6679 "multimanager.ml" 134 6642 6680
+type(
+  int
+)
+"multimanager.ml" 134 6642 6671 "multimanager.ml" 134 6642 6681
+type(
+  string
+)
+"multimanager.ml" 134 6642 6650 "multimanager.ml" 134 6642 6681
+call(
+  stack
+)
+type(
+  bool
+)
+"multimanager.ml" 134 6642 6687 "multimanager.ml" 134 6642 6689
+type(
+  unit
+)
+"multimanager.ml" 136 6745 6754 "multimanager.ml" 136 6745 6760
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 136 6745 6754 "multimanager.ml" 136 6745 6768
+type(
+  string
+)
+"multimanager.ml" 136 6745 6769 "multimanager.ml" 136 6745 6770
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"multimanager.ml" 136 6745 6771 "multimanager.ml" 136 6745 6777
+type(
+  string array
+)
+ident(
+  int_ref tokens "multimanager.ml" 66 3304 3328 "multimanager.ml" 66 3304 3334
+)
+"multimanager.ml" 136 6745 6779 "multimanager.ml" 136 6745 6780
+type(
+  int
+)
+"multimanager.ml" 136 6745 6771 "multimanager.ml" 136 6745 6781
+type(
+  string
+)
+"multimanager.ml" 136 6745 6754 "multimanager.ml" 136 6745 6781
+type(
+  bool
+)
+"multimanager.ml" 137 6885 6893 "multimanager.ml" 137 6885 6899
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"multimanager.ml" 137 6885 6900 "multimanager.ml" 137 6885 6940
+type(
+  (unit, out_channel, unit) format
+)
+"multimanager.ml" 137 6885 6893 "multimanager.ml" 137 6885 6940
+call(
+  tail
+)
+type(
+  unit
+)
+"multimanager.ml" 139 6952 6960 "multimanager.ml" 139 6952 6966
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"multimanager.ml" 139 6952 6967 "multimanager.ml" 139 6952 7002
+type(
+  (string -> unit, out_channel, unit) format
+)
+"multimanager.ml" 139 6952 7003 "multimanager.ml" 139 6952 7009
+type(
+  string array
+)
+ident(
+  int_ref tokens "multimanager.ml" 66 3304 3328 "multimanager.ml" 66 3304 3334
+)
+"multimanager.ml" 139 6952 7011 "multimanager.ml" 139 6952 7012
+type(
+  int
+)
+"multimanager.ml" 139 6952 7003 "multimanager.ml" 139 6952 7013
+type(
+  string
+)
+"multimanager.ml" 139 6952 6960 "multimanager.ml" 139 6952 7013
+call(
+  tail
+)
+type(
+  unit
+)
+"multimanager.ml" 136 6745 6751 "multimanager.ml" 139 6952 7013
+type(
+  unit
+)
+"multimanager.ml" 134 6642 6647 "multimanager.ml" 139 6952 7013
+type(
+  unit
+)
+"multimanager.ml" 141 7020 7024 "multimanager.ml" 141 7020 7031
+type(
+  string
+)
+"multimanager.ml" 142 7036 7045 "multimanager.ml" 142 7036 7052
+type(
+  string list
+)
+ident(
+  def newlist "multimanager.ml" 143 7228 7233 "multimanager.ml" 143 7228 7267
+)
+"multimanager.ml" 142 7036 7055 "multimanager.ml" 142 7036 7071
+type(
+  string list -> string list -> string list
+)
+ident(
+  int_ref Sortedlist.merge "sortedlist.ml" 25 855 863 "sortedlist.ml" 25 855 868
+)
+"multimanager.ml" 142 7036 7073 "multimanager.ml" 142 7036 7079
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 142 7036 7073 "multimanager.ml" 142 7036 7086
+type(
+  string list Document.document
+)
+"multimanager.ml" 142 7036 7072 "multimanager.ml" 142 7036 7095
+type(
+  string list
+)
+"multimanager.ml" 142 7036 7098 "multimanager.ml" 142 7036 7108
+type(
+  string ->
+  (string * string list Document.document) list ->
+  string list Document.document
+)
+ident(
+  int_ref Stdlib.List.assoc "list.mli" 242 9129 9129 "list.mli" 242 9129 9167
+)
+"multimanager.ml" 142 7036 7109 "multimanager.ml" 142 7036 7115
+type(
+  string array
+)
+ident(
+  int_ref tokens "multimanager.ml" 66 3304 3328 "multimanager.ml" 66 3304 3334
+)
+"multimanager.ml" 142 7036 7117 "multimanager.ml" 142 7036 7118
+type(
+  int
+)
+"multimanager.ml" 142 7036 7109 "multimanager.ml" 142 7036 7119
+type(
+  string
+)
+"multimanager.ml" 142 7036 7120 "multimanager.ml" 142 7036 7126
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 142 7036 7120 "multimanager.ml" 142 7036 7131
+type(
+  (string * string list Document.document) list
+)
+"multimanager.ml" 142 7036 7097 "multimanager.ml" 142 7036 7132
+call(
+  stack
+)
+type(
+  string list Document.document
+)
+"multimanager.ml" 142 7036 7096 "multimanager.ml" 142 7036 7141
+type(
+  string list
+)
+"multimanager.ml" 142 7036 7055 "multimanager.ml" 142 7036 7141
+call(
+  stack
+)
+type(
+  string list
+)
+"multimanager.ml" 143 7228 7233 "multimanager.ml" 143 7228 7245
+type(
+  string list Document.document -> string list -> unit
+)
+ident(
+  int_ref Document.set "document.ml" 24 777 781 "document.ml" 24 777 784
+)
+"multimanager.ml" 143 7228 7246 "multimanager.ml" 143 7228 7252
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 143 7228 7246 "multimanager.ml" 143 7228 7259
+type(
+  string list Document.document
+)
+"multimanager.ml" 143 7228 7260 "multimanager.ml" 143 7228 7267
+type(
+  string list
+)
+ident(
+  int_ref newlist "multimanager.ml" 142 7036 7045 "multimanager.ml" 142 7036 7052
+)
+"multimanager.ml" 143 7228 7233 "multimanager.ml" 143 7228 7267
+call(
+  tail
+)
+type(
+  unit
+)
+"multimanager.ml" 142 7036 7041 "multimanager.ml" 143 7228 7267
+type(
+  unit
+)
+"multimanager.ml" 147 7392 7396 "multimanager.ml" 147 7392 7405
+type(
+  string
+)
+"multimanager.ml" 148 7409 7414 "multimanager.ml" 148 7409 7429
+type(
+  string list Doccol.doccol -> unit
+)
+ident(
+  int_ref Bulkops.showall "bulkops.ml" 14 358 362 "bulkops.ml" 14 358 369
+)
+"multimanager.ml" 148 7409 7430 "multimanager.ml" 148 7409 7436
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 148 7409 7414 "multimanager.ml" 148 7409 7436
+call(
+  tail
+)
+type(
+  unit
+)
+"multimanager.ml" 149 7437 7441 "multimanager.ml" 149 7437 7450
+type(
+  string
+)
+"multimanager.ml" 150 7454 7459 "multimanager.ml" 150 7454 7474
+type(
+  string list Doccol.doccol -> unit
+)
+ident(
+  int_ref Bulkops.saveall "bulkops.ml" 51 1206 1210 "bulkops.ml" 51 1206 1217
+)
+"multimanager.ml" 150 7454 7475 "multimanager.ml" 150 7454 7481
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 150 7454 7459 "multimanager.ml" 150 7454 7481
+call(
+  tail
+)
+type(
+  unit
+)
+"multimanager.ml" 151 7482 7486 "multimanager.ml" 151 7482 7494
+type(
+  string
+)
+"multimanager.ml" 152 7498 7503 "multimanager.ml" 152 7498 7517
+type(
+  string list Doccol.doccol -> string -> unit
+)
+ident(
+  int_ref Bulkops.addall "bulkops.ml" 60 1595 1599 "bulkops.ml" 60 1595 1605
+)
+"multimanager.ml" 152 7498 7518 "multimanager.ml" 152 7498 7524
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 152 7498 7525 "multimanager.ml" 152 7498 7531
+type(
+  string array
+)
+ident(
+  int_ref tokens "multimanager.ml" 66 3304 3328 "multimanager.ml" 66 3304 3334
+)
+"multimanager.ml" 152 7498 7533 "multimanager.ml" 152 7498 7534
+type(
+  int
+)
+"multimanager.ml" 152 7498 7525 "multimanager.ml" 152 7498 7535
+type(
+  string
+)
+"multimanager.ml" 152 7498 7503 "multimanager.ml" 152 7498 7535
+call(
+  tail
+)
+type(
+  unit
+)
+"multimanager.ml" 153 7536 7540 "multimanager.ml" 153 7536 7550
+type(
+  string
+)
+"multimanager.ml" 154 7554 7563 "multimanager.ml" 154 7554 7570
+type(
+  string list
+)
+ident(
+  def newlist "multimanager.ml" 155 7709 7714 "multimanager.ml" 155 7709 7748
+)
+"multimanager.ml" 154 7554 7573 "multimanager.ml" 154 7554 7589
+type(
+  string list Doccol.doccol -> string list
+)
+ident(
+  int_ref Bulkops.mergeall "bulkops.ml" 70 2140 2144 "bulkops.ml" 70 2140 2152
+)
+"multimanager.ml" 154 7554 7590 "multimanager.ml" 154 7554 7596
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 154 7554 7573 "multimanager.ml" 154 7554 7596
+call(
+  stack
+)
+type(
+  string list
+)
+"multimanager.ml" 155 7709 7714 "multimanager.ml" 155 7709 7726
+type(
+  string list Document.document -> string list -> unit
+)
+ident(
+  int_ref Document.set "document.ml" 24 777 781 "document.ml" 24 777 784
+)
+"multimanager.ml" 155 7709 7727 "multimanager.ml" 155 7709 7733
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 155 7709 7727 "multimanager.ml" 155 7709 7740
+type(
+  string list Document.document
+)
+"multimanager.ml" 155 7709 7741 "multimanager.ml" 155 7709 7748
+type(
+  string list
+)
+ident(
+  int_ref newlist "multimanager.ml" 154 7554 7563 "multimanager.ml" 154 7554 7570
+)
+"multimanager.ml" 155 7709 7714 "multimanager.ml" 155 7709 7748
+call(
+  tail
+)
+type(
+  unit
+)
+"multimanager.ml" 154 7554 7559 "multimanager.ml" 155 7709 7748
+type(
+  unit
+)
+"multimanager.ml" 157 7767 7771 "multimanager.ml" 157 7767 7772
+type(
+  string
+)
+"multimanager.ml" 158 7776 7781 "multimanager.ml" 158 7776 7787
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"multimanager.ml" 158 7776 7788 "multimanager.ml" 158 7776 7812
+type(
+  (string -> unit, out_channel, unit) format
+)
+"multimanager.ml" 158 7776 7813 "multimanager.ml" 158 7776 7819
+type(
+  string array
+)
+ident(
+  int_ref tokens "multimanager.ml" 66 3304 3328 "multimanager.ml" 66 3304 3334
+)
+"multimanager.ml" 158 7776 7821 "multimanager.ml" 158 7776 7822
+type(
+  int
+)
+"multimanager.ml" 158 7776 7813 "multimanager.ml" 158 7776 7823
+type(
+  string
+)
+"multimanager.ml" 158 7776 7781 "multimanager.ml" 158 7776 7823
+call(
+  tail
+)
+type(
+  unit
+)
+"multimanager.ml" 68 3398 3400 "multimanager.ml" 158 7776 7823
+type(
+  unit
+)
+"multimanager.ml" 67 3337 3339 "multimanager.ml" 158 7776 7823
+type(
+  unit
+)
+"multimanager.ml" 165 8017 8021 "multimanager.ml" 165 8017 8025
+type(
+  bool ref
+)
+ident(
+  def echo "multimanager.ml" 166 8079 8079 "multimanager.ml" 1 0 -1
+)
+"multimanager.ml" 165 8017 8029 "multimanager.ml" 165 8017 8032
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1067 41215 41215 "stdlib.mli" 1067 41215 41259
+)
+"multimanager.ml" 165 8017 8033 "multimanager.ml" 165 8017 8038
+type(
+  bool
+)
+"multimanager.ml" 165 8017 8029 "multimanager.ml" 165 8017 8038
+type(
+  bool ref
+)
+"multimanager.ml" 166 8079 8083 "multimanager.ml" 166 8079 8088
+type(
+  bool ref
+)
+ident(
+  def debug "multimanager.ml" 169 8183 8183 "multimanager.ml" 1 0 -1
+)
+"multimanager.ml" 166 8079 8091 "multimanager.ml" 166 8079 8094
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1067 41215 41215 "stdlib.mli" 1067 41215 41259
+)
+"multimanager.ml" 166 8079 8095 "multimanager.ml" 166 8079 8100
+type(
+  bool
+)
+"multimanager.ml" 166 8079 8091 "multimanager.ml" 166 8079 8100
+type(
+  bool ref
+)
+"multimanager.ml" 169 8183 8187 "multimanager.ml" 169 8183 8194
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  def options "multimanager.ml" 175 8403 8403 "multimanager.ml" 1 0 -1
+)
+"multimanager.ml" 170 8204 8207 "multimanager.ml" 170 8204 8214
+type(
+  string
+)
+"multimanager.ml" 170 8204 8220 "multimanager.ml" 170 8204 8226
+type(
+  bool ref
+)
+ident(
+  int_ref echo "multimanager.ml" 165 8017 8021 "multimanager.ml" 165 8017 8025
+)
+"multimanager.ml" 170 8204 8217 "multimanager.ml" 170 8204 8226
+type(
+  Arg.spec
+)
+"multimanager.ml" 170 8204 8229 "multimanager.ml" 170 8204 8269
+type(
+  string
+)
+"multimanager.ml" 170 8204 8206 "multimanager.ml" 170 8204 8270
+type(
+  string * Arg.spec * string
+)
+"multimanager.ml" 171 8275 8278 "multimanager.ml" 171 8275 8286
+type(
+  string
+)
+"multimanager.ml" 171 8275 8291 "multimanager.ml" 171 8275 8298
+type(
+  bool ref
+)
+ident(
+  int_ref debug "multimanager.ml" 166 8079 8083 "multimanager.ml" 166 8079 8088
+)
+"multimanager.ml" 171 8275 8288 "multimanager.ml" 171 8275 8298
+type(
+  Arg.spec
+)
+"multimanager.ml" 171 8275 8300 "multimanager.ml" 171 8275 8340
+type(
+  string
+)
+"multimanager.ml" 171 8275 8277 "multimanager.ml" 171 8275 8341
+type(
+  string * Arg.spec * string
+)
+"multimanager.ml" 169 8183 8202 "multimanager.ml" 172 8346 8347
+type(
+  (string * Arg.spec * string) list
+)
+"multimanager.ml" 175 8403 8407 "multimanager.ml" 175 8403 8424
+type(
+  'a -> unit
+)
+ident(
+  def handle_extra_args "multimanager.ml" 178 8478 8478 "multimanager.ml" 1 0 -1
+)
+"multimanager.ml" 175 8403 8425 "multimanager.ml" 175 8403 8428
+type(
+  'a
+)
+ident(
+  def arg "multimanager.ml" 175 8403 8431 "multimanager.ml" 175 8403 8433
+)
+"multimanager.ml" 175 8403 8431 "multimanager.ml" 175 8403 8433
+type(
+  unit
+)
+"multimanager.ml" 178 8478 8482 "multimanager.ml" 178 8478 8487
+type(
+  string
+)
+ident(
+  def usage "multimanager.ml" 181 8555 8555 "multimanager.ml" 1 0 -1
+)
+"multimanager.ml" 178 8478 8490 "multimanager.ml" 178 8478 8497
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"multimanager.ml" 178 8478 8498 "multimanager.ml" 178 8478 8519
+type(
+  (string -> string, unit, string) format
+)
+"multimanager.ml" 178 8478 8520 "multimanager.ml" 178 8478 8528
+type(
+  string array
+)
+ident(
+  int_ref Stdlib.Sys.argv "sys.mli" 23 1238 1238 "sys.mli" 23 1238 1261
+)
+"multimanager.ml" 178 8478 8530 "multimanager.ml" 178 8478 8531
+type(
+  int
+)
+"multimanager.ml" 178 8478 8520 "multimanager.ml" 178 8478 8532
+type(
+  string
+)
+"multimanager.ml" 178 8478 8490 "multimanager.ml" 178 8478 8532
+call(
+  stack
+)
+type(
+  string
+)
+"multimanager.ml" 181 8555 8559 "multimanager.ml" 181 8555 8560
+type(
+  unit
+)
+"multimanager.ml" 182 8563 8565 "multimanager.ml" 182 8563 8574
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  int_ref Stdlib.Arg.parse "arg.mli" 77 4335 4335 "arg.mli" 78 4347 4405
+)
+"multimanager.ml" 182 8563 8575 "multimanager.ml" 182 8563 8582
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref options "multimanager.ml" 169 8183 8187 "multimanager.ml" 169 8183 8194
+)
+"multimanager.ml" 182 8563 8583 "multimanager.ml" 182 8563 8600
+type(
+  Arg.anon_fun
+)
+ident(
+  int_ref handle_extra_args "multimanager.ml" 175 8403 8407 "multimanager.ml" 175 8403 8424
+)
+"multimanager.ml" 182 8563 8601 "multimanager.ml" 182 8563 8606
+type(
+  Arg.usage_msg
+)
+ident(
+  int_ref usage "multimanager.ml" 178 8478 8482 "multimanager.ml" 178 8478 8487
+)
+"multimanager.ml" 182 8563 8565 "multimanager.ml" 182 8563 8606
+call(
+  stack
+)
+type(
+  unit
+)
+"multimanager.ml" 184 8656 8668 "multimanager.ml" 184 8656 8669
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1070 41321 41321 "stdlib.mli" 1070 41321 41362
+)
+"multimanager.ml" 184 8656 8669 "multimanager.ml" 184 8656 8677
+type(
+  bool ref
+)
+ident(
+  int_ref quit_now "multimanager.ml" 58 2942 2946 "multimanager.ml" 58 2942 2954
+)
+"multimanager.ml" 184 8656 8668 "multimanager.ml" 184 8656 8677
+type(
+  bool
+)
+"multimanager.ml" 184 8656 8678 "multimanager.ml" 184 8656 8679
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"multimanager.ml" 184 8656 8680 "multimanager.ml" 184 8656 8685
+type(
+  bool
+)
+"multimanager.ml" 184 8656 8668 "multimanager.ml" 184 8656 8685
+type(
+  bool
+)
+"multimanager.ml" 185 8744 8752 "multimanager.ml" 185 8744 8758
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"multimanager.ml" 185 8744 8759 "multimanager.ml" 185 8744 8767
+type(
+  (string -> unit, out_channel, unit) format
+)
+"multimanager.ml" 185 8744 8768 "multimanager.ml" 185 8744 8774
+type(
+  string list Doccol.doccol
+)
+ident(
+  int_ref global "multimanager.ml" 51 2730 2734 "multimanager.ml" 51 2730 2740
+)
+"multimanager.ml" 185 8744 8768 "multimanager.ml" 185 8744 8782
+type(
+  string
+)
+"multimanager.ml" 185 8744 8752 "multimanager.ml" 185 8744 8782
+call(
+  stack
+)
+type(
+  unit
+)
+"multimanager.ml" 186 8811 8823 "multimanager.ml" 186 8811 8827
+type(
+  string
+)
+ident(
+  def line "multimanager.ml" 187 8897 8905 "multimanager.ml" 203 9744 9802
+)
+"multimanager.ml" 186 8811 8830 "multimanager.ml" 186 8811 8839
+type(
+  unit -> string
+)
+ident(
+  int_ref Stdlib.read_line "stdlib.mli" 773 28286 28286 "stdlib.mli" 773 28286 28316
+)
+"multimanager.ml" 186 8811 8840 "multimanager.ml" 186 8811 8842
+type(
+  unit
+)
+"multimanager.ml" 186 8811 8830 "multimanager.ml" 186 8811 8842
+call(
+  stack
+)
+type(
+  string
+)
+"multimanager.ml" 187 8897 8908 "multimanager.ml" 187 8897 8909
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1070 41321 41321 "stdlib.mli" 1070 41321 41362
+)
+"multimanager.ml" 187 8897 8909 "multimanager.ml" 187 8897 8913
+type(
+  bool ref
+)
+ident(
+  int_ref echo "multimanager.ml" 165 8017 8021 "multimanager.ml" 165 8017 8025
+)
+"multimanager.ml" 187 8897 8908 "multimanager.ml" 187 8897 8913
+type(
+  bool
+)
+"multimanager.ml" 188 8984 8994 "multimanager.ml" 188 8984 9000
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"multimanager.ml" 188 8984 9001 "multimanager.ml" 188 8984 9007
+type(
+  (string -> unit, out_channel, unit) format
+)
+"multimanager.ml" 188 8984 9008 "multimanager.ml" 188 8984 9012
+type(
+  string
+)
+ident(
+  int_ref line "multimanager.ml" 186 8811 8823 "multimanager.ml" 186 8811 8827
+)
+"multimanager.ml" 188 8984 8994 "multimanager.ml" 188 8984 9012
+call(
+  stack
+)
+type(
+  unit
+)
+"multimanager.ml" 187 8897 8905 "multimanager.ml" 188 8984 9012
+type(
+  unit
+)
+"multimanager.ml" 189 9014 9026 "multimanager.ml" 189 9014 9032
+type(
+  string array
+)
+ident(
+  def tokens "multimanager.ml" 191 9163 9171 "multimanager.ml" 203 9744 9802
+)
+"multimanager.ml" 190 9101 9111 "multimanager.ml" 190 9101 9124
+type(
+  string list -> string array
+)
+ident(
+  int_ref Stdlib.Array.of_list "array.mli" 132 6010 6010 "array.mli" 132 6010 6043
+)
+"multimanager.ml" 190 9101 9126 "multimanager.ml" 190 9101 9135
+type(
+  Str.regexp -> string -> string list
+)
+ident(
+  int_ref Str.split "str.mli" 230 10340 10340 "str.mli" 230 10340 10383
+)
+"multimanager.ml" 190 9101 9137 "multimanager.ml" 190 9101 9147
+type(
+  string -> Str.regexp
+)
+ident(
+  int_ref Str.regexp "str.mli" 26 1237 1237 "str.mli" 26 1237 1266
+)
+"multimanager.ml" 190 9101 9148 "multimanager.ml" 190 9101 9152
+type(
+  string
+)
+"multimanager.ml" 190 9101 9136 "multimanager.ml" 190 9101 9153
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"multimanager.ml" 190 9101 9154 "multimanager.ml" 190 9101 9158
+type(
+  string
+)
+ident(
+  int_ref line "multimanager.ml" 186 8811 8823 "multimanager.ml" 186 8811 8827
+)
+"multimanager.ml" 190 9101 9125 "multimanager.ml" 190 9101 9159
+call(
+  stack
+)
+type(
+  string list
+)
+"multimanager.ml" 190 9101 9111 "multimanager.ml" 190 9101 9159
+call(
+  stack
+)
+type(
+  string array
+)
+"multimanager.ml" 191 9163 9175 "multimanager.ml" 191 9163 9179
+type(
+  int
+)
+ident(
+  def ntok "multimanager.ml" 192 9205 9213 "multimanager.ml" 203 9744 9802
+)
+"multimanager.ml" 191 9163 9182 "multimanager.ml" 191 9163 9194
+type(
+  string array -> int
+)
+ident(
+  int_ref Stdlib.Array.length "array.mli" 18 1105 1105 "array.mli" 18 1105 1156
+)
+"multimanager.ml" 191 9163 9195 "multimanager.ml" 191 9163 9201
+type(
+  string array
+)
+ident(
+  int_ref tokens "multimanager.ml" 189 9014 9026 "multimanager.ml" 189 9014 9032
+)
+"multimanager.ml" 191 9163 9182 "multimanager.ml" 191 9163 9201
+type(
+  int
+)
+"multimanager.ml" 192 9205 9216 "multimanager.ml" 192 9205 9217
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1070 41321 41321 "stdlib.mli" 1070 41321 41362
+)
+"multimanager.ml" 192 9205 9217 "multimanager.ml" 192 9205 9222
+type(
+  bool ref
+)
+ident(
+  int_ref debug "multimanager.ml" 166 8079 8083 "multimanager.ml" 166 8079 8088
+)
+"multimanager.ml" 192 9205 9216 "multimanager.ml" 192 9205 9222
+type(
+  bool
+)
+"multimanager.ml" 194 9314 9326 "multimanager.ml" 194 9314 9332
+type(
+  (string -> int -> unit, out_channel, unit) format -> string -> int -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"multimanager.ml" 194 9314 9333 "multimanager.ml" 194 9314 9355
+type(
+  (string -> int -> unit, out_channel, unit) format
+)
+"multimanager.ml" 194 9314 9356 "multimanager.ml" 194 9314 9360
+type(
+  string
+)
+ident(
+  int_ref line "multimanager.ml" 186 8811 8823 "multimanager.ml" 186 8811 8827
+)
+"multimanager.ml" 194 9314 9361 "multimanager.ml" 194 9314 9365
+type(
+  int
+)
+ident(
+  int_ref ntok "multimanager.ml" 191 9163 9175 "multimanager.ml" 191 9163 9179
+)
+"multimanager.ml" 194 9314 9326 "multimanager.ml" 194 9314 9365
+call(
+  stack
+)
+type(
+  unit
+)
+"multimanager.ml" 195 9367 9385 "multimanager.ml" 195 9367 9386
+type(
+  int
+)
+"multimanager.ml" 195 9367 9390 "multimanager.ml" 195 9367 9394
+type(
+  int
+)
+ident(
+  int_ref ntok "multimanager.ml" 191 9163 9175 "multimanager.ml" 191 9163 9179
+)
+"multimanager.ml" 195 9367 9394 "multimanager.ml" 195 9367 9395
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 271 10513 10513 "stdlib.mli" 271 10513 10559
+)
+"multimanager.ml" 195 9367 9395 "multimanager.ml" 195 9367 9396
+type(
+  int
+)
+"multimanager.ml" 195 9367 9390 "multimanager.ml" 195 9367 9396
+type(
+  int
+)
+"multimanager.ml" 196 9400 9414 "multimanager.ml" 196 9400 9420
+type(
+  (int -> string -> unit, out_channel, unit) format -> int -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"multimanager.ml" 196 9400 9421 "multimanager.ml" 196 9400 9432
+type(
+  (int -> string -> unit, out_channel, unit) format
+)
+"multimanager.ml" 196 9400 9433 "multimanager.ml" 196 9400 9434
+type(
+  int
+)
+ident(
+  int_ref i "multimanager.ml" 195 9367 9379 "multimanager.ml" 197 9447 9463
+)
+"multimanager.ml" 196 9400 9435 "multimanager.ml" 196 9400 9441
+type(
+  string array
+)
+ident(
+  int_ref tokens "multimanager.ml" 189 9014 9026 "multimanager.ml" 189 9014 9032
+)
+"multimanager.ml" 196 9400 9443 "multimanager.ml" 196 9400 9444
+type(
+  int
+)
+ident(
+  int_ref i "multimanager.ml" 195 9367 9379 "multimanager.ml" 197 9447 9463
+)
+"multimanager.ml" 196 9400 9435 "multimanager.ml" 196 9400 9445
+type(
+  string
+)
+"multimanager.ml" 196 9400 9414 "multimanager.ml" 196 9400 9445
+call(
+  stack
+)
+type(
+  unit
+)
+"multimanager.ml" 195 9367 9379 "multimanager.ml" 197 9447 9463
+type(
+  unit
+)
+"multimanager.ml" 193 9298 9308 "multimanager.ml" 198 9464 9477
+type(
+  unit
+)
+"multimanager.ml" 192 9205 9213 "multimanager.ml" 198 9464 9477
+type(
+  unit
+)
+"multimanager.ml" 199 9479 9490 "multimanager.ml" 199 9479 9494
+type(
+  int
+)
+ident(
+  int_ref ntok "multimanager.ml" 191 9163 9175 "multimanager.ml" 191 9163 9179
+)
+"multimanager.ml" 199 9479 9494 "multimanager.ml" 199 9479 9495
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 74 2992 2992 "stdlib.mli" 74 2992 3042
+)
+"multimanager.ml" 199 9479 9495 "multimanager.ml" 199 9479 9496
+type(
+  int
+)
+"multimanager.ml" 199 9479 9490 "multimanager.ml" 199 9479 9496
+type(
+  bool
+)
+"multimanager.ml" 200 9502 9516 "multimanager.ml" 200 9502 9531
+type(
+  string array -> unit
+)
+ident(
+  int_ref execute_command "multimanager.ml" 66 3304 3312 "multimanager.ml" 66 3304 3327
+)
+"multimanager.ml" 200 9502 9532 "multimanager.ml" 200 9502 9538
+type(
+  string array
+)
+ident(
+  int_ref tokens "multimanager.ml" 189 9014 9026 "multimanager.ml" 189 9014 9032
+)
+"multimanager.ml" 200 9502 9516 "multimanager.ml" 200 9502 9538
+call(
+  stack
+)
+type(
+  unit
+)
+"multimanager.ml" 201 9574 9589 "multimanager.ml" 201 9574 9590
+type(
+  exn
+)
+ident(
+  def e "multimanager.ml" 202 9692 9704 "multimanager.ml" 203 9744 9802
+)
+"multimanager.ml" 202 9692 9708 "multimanager.ml" 202 9692 9717
+type(
+  string
+)
+ident(
+  def excstring "multimanager.ml" 203 9744 9756 "multimanager.ml" 203 9744 9801
+)
+"multimanager.ml" 202 9692 9720 "multimanager.ml" 202 9692 9738
+type(
+  exn -> string
+)
+ident(
+  int_ref Stdlib.Printexc.to_string "printexc.mli" 18 1157 1157 "printexc.mli" 18 1157 1185
+)
+"multimanager.ml" 202 9692 9739 "multimanager.ml" 202 9692 9740
+type(
+  exn
+)
+ident(
+  int_ref e "multimanager.ml" 201 9574 9589 "multimanager.ml" 201 9574 9590
+)
+"multimanager.ml" 202 9692 9720 "multimanager.ml" 202 9692 9740
+call(
+  stack
+)
+type(
+  string
+)
+"multimanager.ml" 203 9744 9756 "multimanager.ml" 203 9744 9762
+type(
+  (string -> string -> unit, out_channel, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"multimanager.ml" 203 9744 9763 "multimanager.ml" 203 9744 9786
+type(
+  (string -> string -> unit, out_channel, unit) format
+)
+"multimanager.ml" 203 9744 9787 "multimanager.ml" 203 9744 9791
+type(
+  string
+)
+ident(
+  int_ref line "multimanager.ml" 186 8811 8823 "multimanager.ml" 186 8811 8827
+)
+"multimanager.ml" 203 9744 9792 "multimanager.ml" 203 9744 9801
+type(
+  string
+)
+ident(
+  int_ref excstring "multimanager.ml" 202 9692 9708 "multimanager.ml" 202 9692 9717
+)
+"multimanager.ml" 203 9744 9756 "multimanager.ml" 203 9744 9801
+call(
+  stack
+)
+type(
+  unit
+)
+"multimanager.ml" 202 9692 9704 "multimanager.ml" 203 9744 9802
+type(
+  unit
+)
+"multimanager.ml" 200 9502 9512 "multimanager.ml" 203 9744 9802
+type(
+  unit
+)
+"multimanager.ml" 199 9479 9487 "multimanager.ml" 203 9744 9802
+type(
+  unit
+)
+"multimanager.ml" 192 9205 9213 "multimanager.ml" 203 9744 9802
+type(
+  unit
+)
+"multimanager.ml" 191 9163 9171 "multimanager.ml" 203 9744 9802
+type(
+  unit
+)
+"multimanager.ml" 189 9014 9022 "multimanager.ml" 203 9744 9802
+type(
+  unit
+)
+"multimanager.ml" 187 8897 8905 "multimanager.ml" 203 9744 9802
+type(
+  unit
+)
+"multimanager.ml" 186 8811 8819 "multimanager.ml" 203 9744 9802
+type(
+  unit
+)
+"multimanager.ml" 185 8744 8752 "multimanager.ml" 203 9744 9802
+type(
+  unit
+)
+"multimanager.ml" 184 8656 8662 "multimanager.ml" 204 9803 9813
+type(
+  unit
+)
+"multimanager.ml" 206 9824 9830 "multimanager.ml" 206 9824 9841
+type(
+  exn
+)
+"multimanager.ml" 206 9824 9845 "multimanager.ml" 206 9824 9847
+type(
+  unit
+)
+"multimanager.ml" 183 8644 8646 "multimanager.ml" 207 9899 9904
+type(
+  unit
+)
+"multimanager.ml" 208 9906 9908 "multimanager.ml" 208 9906 9914
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"multimanager.ml" 208 9906 9915 "multimanager.ml" 208 9906 9941
+type(
+  (unit, out_channel, unit) format
+)
+"multimanager.ml" 208 9906 9908 "multimanager.ml" 208 9906 9941
+call(
+  stack
+)
+type(
+  unit
+)
+"multimanager.ml" 183 8644 8646 "multimanager.ml" 208 9906 9942
+type(
+  unit
+)
+"multimanager.ml" 182 8563 8565 "multimanager.ml" 208 9906 9942
+type(
+  unit
+)

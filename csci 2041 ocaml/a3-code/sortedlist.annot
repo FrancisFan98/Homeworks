@@ -1,0 +1,813 @@
+"sortedlist.ml" 1 0 8 "sortedlist.ml" 1 0 14
+type(
+  'a list -> 'a -> 'a list
+)
+ident(
+  def insert "sortedlist.ml" 1 0 0 "sortedlist.ml" 1 0 -1
+)
+"sortedlist.ml" 1 0 15 "sortedlist.ml" 1 0 19
+type(
+  'a list
+)
+ident(
+  def list "sortedlist.ml" 1 0 20 "sortedlist.ml" 8 472 487
+)
+"sortedlist.ml" 1 0 20 "sortedlist.ml" 1 0 24
+type(
+  'a
+)
+ident(
+  def elem "sortedlist.ml" 2 28 30 "sortedlist.ml" 8 472 487
+)
+"sortedlist.ml" 2 28 36 "sortedlist.ml" 2 28 40
+type(
+  'a list
+)
+ident(
+  int_ref list "sortedlist.ml" 1 0 15 "sortedlist.ml" 1 0 19
+)
+"sortedlist.ml" 3 46 50 "sortedlist.ml" 3 46 52
+type(
+  'a list
+)
+"sortedlist.ml" 3 46 57 "sortedlist.ml" 3 46 61
+type(
+  'a
+)
+ident(
+  int_ref elem "sortedlist.ml" 1 0 20 "sortedlist.ml" 1 0 24
+)
+"sortedlist.ml" 3 46 56 "sortedlist.ml" 3 46 62
+type(
+  'a list
+)
+"sortedlist.ml" 4 63 67 "sortedlist.ml" 4 63 68
+type(
+  'a
+)
+ident(
+  def h "sortedlist.ml" 4 63 77 "sortedlist.ml" 8 472 487
+)
+"sortedlist.ml" 4 63 72 "sortedlist.ml" 4 63 73
+type(
+  'a list
+)
+ident(
+  def t "sortedlist.ml" 4 63 77 "sortedlist.ml" 8 472 487
+)
+"sortedlist.ml" 4 63 67 "sortedlist.ml" 4 63 73
+type(
+  'a list
+)
+"sortedlist.ml" 4 63 81 "sortedlist.ml" 4 63 85
+type(
+  'a
+)
+ident(
+  int_ref elem "sortedlist.ml" 1 0 20 "sortedlist.ml" 1 0 24
+)
+"sortedlist.ml" 4 63 86 "sortedlist.ml" 4 63 87
+type(
+  'a -> 'a -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"sortedlist.ml" 4 63 88 "sortedlist.ml" 4 63 89
+type(
+  'a
+)
+ident(
+  int_ref h "sortedlist.ml" 4 63 67 "sortedlist.ml" 4 63 68
+)
+"sortedlist.ml" 4 63 80 "sortedlist.ml" 4 63 90
+type(
+  bool
+)
+"sortedlist.ml" 4 63 96 "sortedlist.ml" 4 63 97
+type(
+  'a
+)
+ident(
+  int_ref h "sortedlist.ml" 4 63 67 "sortedlist.ml" 4 63 68
+)
+"sortedlist.ml" 4 63 99 "sortedlist.ml" 4 63 100
+type(
+  'a list
+)
+ident(
+  int_ref t "sortedlist.ml" 4 63 72 "sortedlist.ml" 4 63 73
+)
+"sortedlist.ml" 4 63 96 "sortedlist.ml" 4 63 100
+type(
+  'a list
+)
+"sortedlist.ml" 6 223 242 "sortedlist.ml" 6 223 246
+type(
+  'a
+)
+ident(
+  int_ref elem "sortedlist.ml" 1 0 20 "sortedlist.ml" 1 0 24
+)
+"sortedlist.ml" 6 223 247 "sortedlist.ml" 6 223 248
+type(
+  'a -> 'a -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 70 2854 2854 "stdlib.mli" 70 2854 2901
+)
+"sortedlist.ml" 6 223 249 "sortedlist.ml" 6 223 250
+type(
+  'a
+)
+ident(
+  int_ref h "sortedlist.ml" 4 63 67 "sortedlist.ml" 4 63 68
+)
+"sortedlist.ml" 6 223 242 "sortedlist.ml" 6 223 250
+type(
+  bool
+)
+"sortedlist.ml" 6 223 256 "sortedlist.ml" 6 223 260
+type(
+  'a
+)
+ident(
+  int_ref elem "sortedlist.ml" 1 0 20 "sortedlist.ml" 1 0 24
+)
+"sortedlist.ml" 6 223 264 "sortedlist.ml" 6 223 265
+type(
+  'a
+)
+ident(
+  int_ref h "sortedlist.ml" 4 63 67 "sortedlist.ml" 4 63 68
+)
+"sortedlist.ml" 6 223 269 "sortedlist.ml" 6 223 270
+type(
+  'a list
+)
+ident(
+  int_ref t "sortedlist.ml" 4 63 72 "sortedlist.ml" 4 63 73
+)
+"sortedlist.ml" 6 223 264 "sortedlist.ml" 6 223 270
+type(
+  'a list
+)
+"sortedlist.ml" 6 223 256 "sortedlist.ml" 6 223 270
+type(
+  'a list
+)
+"sortedlist.ml" 7 371 392 "sortedlist.ml" 7 371 393
+type(
+  'a
+)
+ident(
+  int_ref h "sortedlist.ml" 4 63 67 "sortedlist.ml" 4 63 68
+)
+"sortedlist.ml" 7 371 398 "sortedlist.ml" 7 371 404
+type(
+  'a list -> 'a -> 'a list
+)
+ident(
+  int_ref insert "sortedlist.ml" 1 0 8 "sortedlist.ml" 1 0 14
+)
+"sortedlist.ml" 7 371 405 "sortedlist.ml" 7 371 406
+type(
+  'a list
+)
+ident(
+  int_ref t "sortedlist.ml" 4 63 72 "sortedlist.ml" 4 63 73
+)
+"sortedlist.ml" 7 371 407 "sortedlist.ml" 7 371 411
+type(
+  'a
+)
+ident(
+  int_ref elem "sortedlist.ml" 1 0 20 "sortedlist.ml" 1 0 24
+)
+"sortedlist.ml" 7 371 397 "sortedlist.ml" 7 371 412
+call(
+  stack
+)
+type(
+  'a list
+)
+"sortedlist.ml" 7 371 392 "sortedlist.ml" 7 371 412
+type(
+  'a list
+)
+"sortedlist.ml" 5 203 221 "sortedlist.ml" 8 472 487
+type(
+  'a list
+)
+"sortedlist.ml" 4 63 77 "sortedlist.ml" 8 472 487
+type(
+  'a list
+)
+"sortedlist.ml" 2 28 30 "sortedlist.ml" 8 472 487
+type(
+  'a list
+)
+"sortedlist.ml" 11 492 500 "sortedlist.ml" 11 492 506
+type(
+  'a list -> 'a -> 'a list
+)
+ident(
+  def remove "sortedlist.ml" 11 492 492 "sortedlist.ml" 1 0 -1
+)
+"sortedlist.ml" 11 492 507 "sortedlist.ml" 11 492 511
+type(
+  'a list
+)
+ident(
+  def list "sortedlist.ml" 11 492 512 "sortedlist.ml" 15 671 691
+)
+"sortedlist.ml" 11 492 512 "sortedlist.ml" 11 492 516
+type(
+  'a
+)
+ident(
+  def elem "sortedlist.ml" 12 520 522 "sortedlist.ml" 15 671 691
+)
+"sortedlist.ml" 12 520 528 "sortedlist.ml" 12 520 532
+type(
+  'a list
+)
+ident(
+  int_ref list "sortedlist.ml" 11 492 507 "sortedlist.ml" 11 492 511
+)
+"sortedlist.ml" 13 538 542 "sortedlist.ml" 13 538 544
+type(
+  'a list
+)
+"sortedlist.ml" 13 538 548 "sortedlist.ml" 13 538 550
+type(
+  'a list
+)
+"sortedlist.ml" 14 551 555 "sortedlist.ml" 14 551 556
+type(
+  'a
+)
+ident(
+  def h "sortedlist.ml" 14 551 565 "sortedlist.ml" 15 671 691
+)
+"sortedlist.ml" 14 551 560 "sortedlist.ml" 14 551 561
+type(
+  'a list
+)
+ident(
+  def t "sortedlist.ml" 14 551 565 "sortedlist.ml" 15 671 691
+)
+"sortedlist.ml" 14 551 555 "sortedlist.ml" 14 551 561
+type(
+  'a list
+)
+"sortedlist.ml" 14 551 568 "sortedlist.ml" 14 551 569
+type(
+  'a
+)
+ident(
+  int_ref h "sortedlist.ml" 14 551 555 "sortedlist.ml" 14 551 556
+)
+"sortedlist.ml" 14 551 570 "sortedlist.ml" 14 551 572
+type(
+  'a -> 'a -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 66 2708 2708 "stdlib.mli" 66 2708 2756
+)
+"sortedlist.ml" 14 551 573 "sortedlist.ml" 14 551 577
+type(
+  'a
+)
+ident(
+  int_ref elem "sortedlist.ml" 11 492 512 "sortedlist.ml" 11 492 516
+)
+"sortedlist.ml" 14 551 568 "sortedlist.ml" 14 551 577
+type(
+  bool
+)
+"sortedlist.ml" 14 551 583 "sortedlist.ml" 14 551 584
+type(
+  'a
+)
+ident(
+  int_ref h "sortedlist.ml" 14 551 555 "sortedlist.ml" 14 551 556
+)
+"sortedlist.ml" 14 551 588 "sortedlist.ml" 14 551 594
+type(
+  'a list -> 'a -> 'a list
+)
+ident(
+  int_ref remove "sortedlist.ml" 11 492 500 "sortedlist.ml" 11 492 506
+)
+"sortedlist.ml" 14 551 595 "sortedlist.ml" 14 551 596
+type(
+  'a list
+)
+ident(
+  int_ref t "sortedlist.ml" 14 551 560 "sortedlist.ml" 14 551 561
+)
+"sortedlist.ml" 14 551 597 "sortedlist.ml" 14 551 601
+type(
+  'a
+)
+ident(
+  int_ref elem "sortedlist.ml" 11 492 512 "sortedlist.ml" 11 492 516
+)
+"sortedlist.ml" 14 551 588 "sortedlist.ml" 14 551 601
+call(
+  stack
+)
+type(
+  'a list
+)
+"sortedlist.ml" 14 551 583 "sortedlist.ml" 14 551 601
+type(
+  'a list
+)
+"sortedlist.ml" 15 671 690 "sortedlist.ml" 15 671 691
+type(
+  'a list
+)
+ident(
+  int_ref t "sortedlist.ml" 14 551 560 "sortedlist.ml" 14 551 561
+)
+"sortedlist.ml" 14 551 565 "sortedlist.ml" 15 671 691
+type(
+  'a list
+)
+"sortedlist.ml" 12 520 522 "sortedlist.ml" 15 671 691
+type(
+  'a list
+)
+"sortedlist.ml" 18 696 704 "sortedlist.ml" 18 696 709
+type(
+  string list -> unit
+)
+ident(
+  def print "sortedlist.ml" 18 696 696 "sortedlist.ml" 1 0 -1
+)
+"sortedlist.ml" 18 696 710 "sortedlist.ml" 18 696 714
+type(
+  string list
+)
+ident(
+  def list "sortedlist.ml" 19 718 720 "sortedlist.ml" 21 748 807
+)
+"sortedlist.ml" 19 718 726 "sortedlist.ml" 19 718 730
+type(
+  string list
+)
+ident(
+  int_ref list "sortedlist.ml" 18 696 710 "sortedlist.ml" 18 696 714
+)
+"sortedlist.ml" 20 736 739 "sortedlist.ml" 20 736 741
+type(
+  string list
+)
+"sortedlist.ml" 20 736 745 "sortedlist.ml" 20 736 747
+type(
+  unit
+)
+"sortedlist.ml" 21 748 751 "sortedlist.ml" 21 748 752
+type(
+  string
+)
+ident(
+  def h "sortedlist.ml" 21 748 761 "sortedlist.ml" 21 748 807
+)
+"sortedlist.ml" 21 748 756 "sortedlist.ml" 21 748 757
+type(
+  string list
+)
+ident(
+  def t "sortedlist.ml" 21 748 761 "sortedlist.ml" 21 748 807
+)
+"sortedlist.ml" 21 748 751 "sortedlist.ml" 21 748 757
+type(
+  string list
+)
+"sortedlist.ml" 21 748 764 "sortedlist.ml" 21 748 768
+type(
+  bool
+)
+"sortedlist.ml" 21 748 775 "sortedlist.ml" 21 748 788
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6463 6463 "printf.mli" 123 6463 6512
+)
+"sortedlist.ml" 21 748 789 "sortedlist.ml" 21 748 795
+type(
+  (string -> unit, out_channel, unit) format
+)
+"sortedlist.ml" 21 748 796 "sortedlist.ml" 21 748 797
+type(
+  string
+)
+ident(
+  int_ref h "sortedlist.ml" 21 748 751 "sortedlist.ml" 21 748 752
+)
+"sortedlist.ml" 21 748 775 "sortedlist.ml" 21 748 797
+call(
+  stack
+)
+type(
+  unit
+)
+"sortedlist.ml" 21 748 799 "sortedlist.ml" 21 748 804
+type(
+  string list -> unit
+)
+ident(
+  int_ref print "sortedlist.ml" 18 696 704 "sortedlist.ml" 18 696 709
+)
+"sortedlist.ml" 21 748 805 "sortedlist.ml" 21 748 806
+type(
+  string list
+)
+ident(
+  int_ref t "sortedlist.ml" 21 748 756 "sortedlist.ml" 21 748 757
+)
+"sortedlist.ml" 21 748 799 "sortedlist.ml" 21 748 806
+call(
+  tail
+)
+type(
+  unit
+)
+"sortedlist.ml" 21 748 774 "sortedlist.ml" 21 748 807
+type(
+  unit
+)
+"sortedlist.ml" 21 748 761 "sortedlist.ml" 21 748 807
+type(
+  unit
+)
+"sortedlist.ml" 19 718 720 "sortedlist.ml" 21 748 807
+type(
+  unit
+)
+"sortedlist.ml" 25 855 863 "sortedlist.ml" 25 855 868
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  def merge "sortedlist.ml" 25 855 855 "sortedlist.ml" 1 0 -1
+)
+"sortedlist.ml" 25 855 869 "sortedlist.ml" 25 855 874
+type(
+  'a list
+)
+ident(
+  def lista "sortedlist.ml" 25 855 875 "sortedlist.ml" 33 1594 1631
+)
+"sortedlist.ml" 25 855 875 "sortedlist.ml" 25 855 880
+type(
+  'a list
+)
+ident(
+  def listb "sortedlist.ml" 26 884 886 "sortedlist.ml" 33 1594 1631
+)
+"sortedlist.ml" 26 884 892 "sortedlist.ml" 26 884 897
+type(
+  'a list
+)
+ident(
+  int_ref lista "sortedlist.ml" 25 855 869 "sortedlist.ml" 25 855 874
+)
+"sortedlist.ml" 26 884 899 "sortedlist.ml" 26 884 904
+type(
+  'a list
+)
+ident(
+  int_ref listb "sortedlist.ml" 25 855 875 "sortedlist.ml" 25 855 880
+)
+"sortedlist.ml" 26 884 892 "sortedlist.ml" 26 884 904
+type(
+  'a list * 'a list
+)
+"sortedlist.ml" 27 911 915 "sortedlist.ml" 27 911 917
+type(
+  'a list
+)
+"sortedlist.ml" 27 911 919 "sortedlist.ml" 27 911 921
+type(
+  'a list
+)
+"sortedlist.ml" 27 911 915 "sortedlist.ml" 27 911 921
+type(
+  'a list * 'a list
+)
+"sortedlist.ml" 27 911 925 "sortedlist.ml" 27 911 927
+type(
+  'a list
+)
+"sortedlist.ml" 28 934 938 "sortedlist.ml" 28 934 940
+type(
+  'a list
+)
+"sortedlist.ml" 28 934 943 "sortedlist.ml" 28 934 949
+type(
+  'a
+)
+ident(
+  def listbh "sortedlist.ml" 28 934 964 "sortedlist.ml" 28 934 980
+)
+"sortedlist.ml" 28 934 953 "sortedlist.ml" 28 934 959
+type(
+  'a list
+)
+ident(
+  def listbt "sortedlist.ml" 28 934 964 "sortedlist.ml" 28 934 980
+)
+"sortedlist.ml" 28 934 942 "sortedlist.ml" 28 934 960
+type(
+  'a list
+)
+"sortedlist.ml" 28 934 938 "sortedlist.ml" 28 934 960
+type(
+  'a list * 'a list
+)
+"sortedlist.ml" 28 934 964 "sortedlist.ml" 28 934 970
+type(
+  'a
+)
+ident(
+  int_ref listbh "sortedlist.ml" 28 934 943 "sortedlist.ml" 28 934 949
+)
+"sortedlist.ml" 28 934 974 "sortedlist.ml" 28 934 980
+type(
+  'a list
+)
+ident(
+  int_ref listbt "sortedlist.ml" 28 934 953 "sortedlist.ml" 28 934 959
+)
+"sortedlist.ml" 28 934 964 "sortedlist.ml" 28 934 980
+type(
+  'a list
+)
+"sortedlist.ml" 29 1050 1055 "sortedlist.ml" 29 1050 1061
+type(
+  'a
+)
+ident(
+  def listah "sortedlist.ml" 29 1050 1080 "sortedlist.ml" 29 1050 1096
+)
+"sortedlist.ml" 29 1050 1065 "sortedlist.ml" 29 1050 1071
+type(
+  'a list
+)
+ident(
+  def listat "sortedlist.ml" 29 1050 1080 "sortedlist.ml" 29 1050 1096
+)
+"sortedlist.ml" 29 1050 1054 "sortedlist.ml" 29 1050 1072
+type(
+  'a list
+)
+"sortedlist.ml" 29 1050 1074 "sortedlist.ml" 29 1050 1076
+type(
+  'a list
+)
+"sortedlist.ml" 29 1050 1054 "sortedlist.ml" 29 1050 1076
+type(
+  'a list * 'a list
+)
+"sortedlist.ml" 29 1050 1080 "sortedlist.ml" 29 1050 1086
+type(
+  'a
+)
+ident(
+  int_ref listah "sortedlist.ml" 29 1050 1055 "sortedlist.ml" 29 1050 1061
+)
+"sortedlist.ml" 29 1050 1090 "sortedlist.ml" 29 1050 1096
+type(
+  'a list
+)
+ident(
+  int_ref listat "sortedlist.ml" 29 1050 1065 "sortedlist.ml" 29 1050 1071
+)
+"sortedlist.ml" 29 1050 1080 "sortedlist.ml" 29 1050 1096
+type(
+  'a list
+)
+"sortedlist.ml" 30 1166 1171 "sortedlist.ml" 30 1166 1177
+type(
+  'a
+)
+ident(
+  def listah "sortedlist.ml" 31 1268 1272 "sortedlist.ml" 33 1594 1631
+)
+"sortedlist.ml" 30 1166 1181 "sortedlist.ml" 30 1166 1187
+type(
+  'a list
+)
+ident(
+  def listat "sortedlist.ml" 31 1268 1272 "sortedlist.ml" 33 1594 1631
+)
+"sortedlist.ml" 30 1166 1170 "sortedlist.ml" 30 1166 1188
+type(
+  'a list
+)
+"sortedlist.ml" 30 1166 1191 "sortedlist.ml" 30 1166 1197
+type(
+  'a
+)
+ident(
+  def listbh "sortedlist.ml" 31 1268 1272 "sortedlist.ml" 33 1594 1631
+)
+"sortedlist.ml" 30 1166 1201 "sortedlist.ml" 30 1166 1207
+type(
+  'a list
+)
+ident(
+  def listbt "sortedlist.ml" 31 1268 1272 "sortedlist.ml" 33 1594 1631
+)
+"sortedlist.ml" 30 1166 1190 "sortedlist.ml" 30 1166 1208
+type(
+  'a list
+)
+"sortedlist.ml" 30 1166 1170 "sortedlist.ml" 30 1166 1208
+type(
+  'a list * 'a list
+)
+"sortedlist.ml" 31 1268 1275 "sortedlist.ml" 31 1268 1281
+type(
+  'a
+)
+ident(
+  int_ref listah "sortedlist.ml" 30 1166 1171 "sortedlist.ml" 30 1166 1177
+)
+"sortedlist.ml" 31 1268 1282 "sortedlist.ml" 31 1268 1283
+type(
+  'a -> 'a -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"sortedlist.ml" 31 1268 1284 "sortedlist.ml" 31 1268 1290
+type(
+  'a
+)
+ident(
+  int_ref listbh "sortedlist.ml" 30 1166 1191 "sortedlist.ml" 30 1166 1197
+)
+"sortedlist.ml" 31 1268 1275 "sortedlist.ml" 31 1268 1290
+type(
+  bool
+)
+"sortedlist.ml" 31 1268 1296 "sortedlist.ml" 31 1268 1302
+type(
+  'a
+)
+ident(
+  int_ref listah "sortedlist.ml" 30 1166 1171 "sortedlist.ml" 30 1166 1177
+)
+"sortedlist.ml" 31 1268 1306 "sortedlist.ml" 31 1268 1311
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref merge "sortedlist.ml" 25 855 863 "sortedlist.ml" 25 855 868
+)
+"sortedlist.ml" 31 1268 1312 "sortedlist.ml" 31 1268 1318
+type(
+  'a list
+)
+ident(
+  int_ref listat "sortedlist.ml" 30 1166 1181 "sortedlist.ml" 30 1166 1187
+)
+"sortedlist.ml" 31 1268 1319 "sortedlist.ml" 31 1268 1325
+type(
+  'a list
+)
+ident(
+  int_ref listbt "sortedlist.ml" 30 1166 1201 "sortedlist.ml" 30 1166 1207
+)
+"sortedlist.ml" 31 1268 1306 "sortedlist.ml" 31 1268 1325
+call(
+  stack
+)
+type(
+  'a list
+)
+"sortedlist.ml" 31 1268 1296 "sortedlist.ml" 31 1268 1325
+type(
+  'a list
+)
+"sortedlist.ml" 32 1438 1450 "sortedlist.ml" 32 1438 1456
+type(
+  'a
+)
+ident(
+  int_ref listah "sortedlist.ml" 30 1166 1171 "sortedlist.ml" 30 1166 1177
+)
+"sortedlist.ml" 32 1438 1457 "sortedlist.ml" 32 1438 1458
+type(
+  'a -> 'a -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 70 2854 2854 "stdlib.mli" 70 2854 2901
+)
+"sortedlist.ml" 32 1438 1459 "sortedlist.ml" 32 1438 1465
+type(
+  'a
+)
+ident(
+  int_ref listbh "sortedlist.ml" 30 1166 1191 "sortedlist.ml" 30 1166 1197
+)
+"sortedlist.ml" 32 1438 1450 "sortedlist.ml" 32 1438 1465
+type(
+  bool
+)
+"sortedlist.ml" 32 1438 1471 "sortedlist.ml" 32 1438 1477
+type(
+  'a
+)
+ident(
+  int_ref listah "sortedlist.ml" 30 1166 1171 "sortedlist.ml" 30 1166 1177
+)
+"sortedlist.ml" 32 1438 1481 "sortedlist.ml" 32 1438 1486
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref merge "sortedlist.ml" 25 855 863 "sortedlist.ml" 25 855 868
+)
+"sortedlist.ml" 32 1438 1487 "sortedlist.ml" 32 1438 1493
+type(
+  'a list
+)
+ident(
+  int_ref listat "sortedlist.ml" 30 1166 1181 "sortedlist.ml" 30 1166 1187
+)
+"sortedlist.ml" 32 1438 1494 "sortedlist.ml" 32 1438 1499
+type(
+  'a list
+)
+ident(
+  int_ref listb "sortedlist.ml" 25 855 875 "sortedlist.ml" 25 855 880
+)
+"sortedlist.ml" 32 1438 1481 "sortedlist.ml" 32 1438 1499
+call(
+  stack
+)
+type(
+  'a list
+)
+"sortedlist.ml" 32 1438 1471 "sortedlist.ml" 32 1438 1499
+type(
+  'a list
+)
+"sortedlist.ml" 33 1594 1603 "sortedlist.ml" 33 1594 1609
+type(
+  'a
+)
+ident(
+  int_ref listbh "sortedlist.ml" 30 1166 1191 "sortedlist.ml" 30 1166 1197
+)
+"sortedlist.ml" 33 1594 1613 "sortedlist.ml" 33 1594 1618
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref merge "sortedlist.ml" 25 855 863 "sortedlist.ml" 25 855 868
+)
+"sortedlist.ml" 33 1594 1619 "sortedlist.ml" 33 1594 1624
+type(
+  'a list
+)
+ident(
+  int_ref lista "sortedlist.ml" 25 855 869 "sortedlist.ml" 25 855 874
+)
+"sortedlist.ml" 33 1594 1625 "sortedlist.ml" 33 1594 1631
+type(
+  'a list
+)
+ident(
+  int_ref listbt "sortedlist.ml" 30 1166 1201 "sortedlist.ml" 30 1166 1207
+)
+"sortedlist.ml" 33 1594 1613 "sortedlist.ml" 33 1594 1631
+call(
+  stack
+)
+type(
+  'a list
+)
+"sortedlist.ml" 33 1594 1603 "sortedlist.ml" 33 1594 1631
+type(
+  'a list
+)
+"sortedlist.ml" 32 1438 1447 "sortedlist.ml" 33 1594 1631
+type(
+  'a list
+)
+"sortedlist.ml" 31 1268 1272 "sortedlist.ml" 33 1594 1631
+type(
+  'a list
+)
+"sortedlist.ml" 26 884 886 "sortedlist.ml" 33 1594 1631
+type(
+  'a list
+)

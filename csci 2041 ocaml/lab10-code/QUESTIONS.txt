@@ -1,0 +1,171 @@
+                           __________________
+
+                            LAB 10 QUESTIONS
+                           __________________
+
+
+- Name: (Zhenyu Fan)
+- NetID: (fanxx495)
+
+Answer the questions below according to the lab specification. Write
+your answers directly in this text file and submit it to complete the
+lab.
+
+
+PROBLEM 1: lexer.ml
+===================
+
+(A)
+~~~
+
+  Examine `lexer.ml'. The central function of interest is `lex_string'
+  which is intended to process a string with an arithmetic expression in
+  it and produce a list of tokens of the `token' type defined at the top
+  of the file.
+
+  Study the given code carefully and answer the following questions on
+  how it works.
+
+  1. The code makes use of recursion. Describe how recursion is used to
+     process the entire string and to produce a list of the tokens that
+     are found.
+	I have a recursive function within lex_string which will check the operations one by one and integer number by number
+
+  2. There is a loop associated with digits. Why is this needed while no
+     loop is needed for the other cases of tokens?
+	It is intended to parse numbers with more than one digits
+
+  3. Demonstrate some uses of `lex_string' in a REPL to show that it
+     works.
+	File "lexer.ml", line 15, characters 20-25:
+	Error: This variant expression is expected to have type token
+       The constructor Ident does not belong to type token
+	It doesn’t work
+
+(B)
+~~~
+
+  Extend the code in `lexer.ml' to account for the following new kinds
+  of tokens.
+  1. Subtraction with the Minus (-) sign - like Addition
+  2. Division with the Slash (/) - like multiplication
+  3. Identifiers of strings (abbreviated Ident) - like Int of integers.
+
+  To complete the extension, make the following three modifications.
+  1. Add in a variant to the `token' type for each of Minus, Slash,
+     Ident.
+  2. In `lex_string', extend the `match/with' single character cases to
+     include one for - and / associated with Minus and Slash. These will
+     behave similarly to their Plus and Times counterparts.
+  3. Add in a case for character data which will become Ident cases and
+     be similar to Int. Make use of the provided `is_letter' function to
+     help identify letters.
+
+  Once you have completed the modifications, uncomment the provided
+  examples at the end of the file to ensure the modifications compile
+  and work.  Try out the `lex_string' in a REPL.
+
+# lex_string "50/10 + 3+zhenyufan"
+  ;;
+- : token list =
+[Int 50; Slash; Int 10; Plus; Int 3; Plus; Ident "zhenyufan"]
+
+
+PROBLEM 2: `parser.ml'
+======================
+
+(A)
+~~~
+
+  Examine `parser.ml'. This file contains a solution for Problem 1's
+  lexer as it is required for the parser (this is also useful if you get
+  stuck).
+
+  The central function of interest is `parse_tokens' which converts a
+  list of `tokens' into a tree structure which will be referred to as a
+  Parse Tree or Abstract Syntax Tree (AST). This tree is comprised of
+  variants of the `expr' type defined midway through the file.
+
+  Describe the kinds of elements in the `expr' type and what kinds of
+  data they carry. Note how this creates a tree structure.
+	Add contains 2 expressions like integer
+	Times contains 2 expressions like integer
+	Const contains one integer
+
+(B)
+~~~
+
+  The code for `parse_tokens' uses recursion to perform the
+  parsing. Notice its structure of dividing the task into 4 mutually
+  recursive functions:
+  1. prec0 which handles Int and OParen/CParen tokens.
+  2. prec1 which handles Times tokens
+  3. prec2 which handles Plus tokens
+  4. parse which serves as an entry point for the beginning of parsing.
+
+  Answer the following questions about how each of these work.
+
+  1. Functions `prec2' starts by calling `prec1' and prec1 starts by
+     calling prec0.  In both situations, a pair of `(lexpr, rest)' are
+     returned.  What types are the `lexpr' and `rest' and how are they
+     used?
+	lexpr is the first token of the string and rest is used to check for the operation and second expression. and then later used to repeat this process
+
+  2. `prec0' matches in one case the `OParen' token which corresponds to
+     `(' in the input.  This is handled by calling the `parse'
+     function. Describe what effect this has in parsing. What happens if
+     there is no `CParen' (closing paraenthesis `)' ) in the input?
+	It will rase a error with unclosed parenthesis
+	this will first check the validity of the string and then multiplication, addition and at last termination. 
+
+  3. Try running `parse_tokens' on the following inputs as follows and
+     report your results. Each of these will raise an error. How the
+     code reaches this error.
+	
+	
+  ,----
+  | # parse_tokens (lex_string "5+10+");; 	need one more expression, line 84
+  | # parse_tokens (lex_string "5+10+11 )");;   lacks one parenthesis, line 93
+  | # parse_tokens (lex_string "5*10+11 9");;   need one more operator, line 130
+  | # parse_tokens (lex_string "5+10+11 + +");; two consecutive operators, line 96
+  | # parse_tokens (lex_string "5*(10+11");;    lack one parenthesis “, line 93
+  `----
+
+
+(C)
+~~~
+
+  Modify the parser to accommodate the new tokens - and / and string
+  identifiers.  Add in the following variants type to the `expr' type.
+  - `Sub' which corresponds to the `Minus' token and is similar to `Add'
+  - `Div' which corresponds to the `Slash' token and is similar to `Mul'
+  - `Varname' which corresponds to the `Ident' token and is similar to
+    `Const'
+
+  Note that each of these has analogues already in the parser.
+
+  CORRECTED INSTRUCTIONS
+  - Handle `Ident' tokens in the `prec0' function. It should create a
+    `Varname' expression similar to `Int'. It is at the same precedence
+    level as `Int' so can be in the same function.
+  - Handle `Slash' tokens in a new `prec1_div' function. It should
+    create a `Div' expression similar to `Mul' but be at a higher
+    precedence than `prec1'.
+  - Handle `Minus' tokens in a new `prec2_sub' function. It should
+    create a `Sub' expression similar to `Add' but be at a higher
+    precedence than `prec2'.
+
+  ORIGINAL INCORRECT INSTRUCTIONS
+  - Handle `Minus' tokens in the `prec2' function. It should create a
+    `Sub' expression similar to `Add'
+  - Handle `Slash' tokens in the `prec1' function. It should create a
+    `Div' expression similar to `Mul'.
+  - Handle `Ident' tokens in the `prec0' function. It should create a
+    `Varname' expression similar to `Int'.
+
+  When you complete the parser extensions, uncomment the code at the end
+  of the file which allows you to test it in a REPL.
+
+# parse_tokens (lex_string "1/weight + hello");;
+- : expr = Div (Const 1, Add (Varname "weight", Varname "hello"))
+
